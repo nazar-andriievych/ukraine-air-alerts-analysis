@@ -1,19 +1,25 @@
-"""Run pipeline steps in order: python -m pipeline [download|silver|gold|features|baselines|models|all] [--force]"""
+"""Run pipeline steps in order: python -m pipeline [download|silver|gold|features|baselines|models|weather|all] [--force] [--weather oracle|forecast]"""
 import argparse
 from functools import partial
 
-from pipeline import baselines, download, features, gold, models, silver
+from pipeline import baselines, download, features, gold, models, silver, weather
 
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument("step", choices=["download", "silver", "gold", "features", "baselines", "models", "all"], nargs="?", default="all")
+parser.add_argument("step", choices=["download", "silver", "gold", "features", "baselines", "models", "weather", "all"], nargs="?", default="all")
 parser.add_argument("--force", action="store_true", help="re-download the dataset even if it is present")
+parser.add_argument("--weather", choices=["oracle", "forecast"], default=None,
+                    help="models step: run the weather experiment instead (oracle is leaky, an upper bound)")
 args = parser.parse_args()
 
 # Only the download is skipped when already done; the other steps always rebuild.
 # Baselines are scored on validation here; `python -m pipeline.baselines test` scores the test split.
 STEPS = {"download": partial(download.download, args.force), "silver": silver.build, "gold": gold.build,
-         "features": features.build, "baselines": baselines.run, "models": models.run}
+         "features": features.build, "baselines": baselines.run, "models": partial(models.run, weather=args.weather)}
 
 for name, run in STEPS.items():
     if args.step in (name, "all"):
         run()
+
+# Weather needs the network and is only used by the weather experiment, so it is not part of "all".
+if args.step == "weather":
+    weather.build(args.force)
