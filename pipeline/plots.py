@@ -2,7 +2,7 @@
 
 - skill_by_horizon.png  how much lower the error is than the 28-day rate, per horizon
 - reliability.png       predicted probability vs how often alerts happened (calibration)
-- examples.png          probability vs actual alerts for three raions over the last validation week
+- examples.png          probability vs actual alerts for three raions over the last week
 - importance.png        LightGBM feature importance (share of total gain)
 """
 from pathlib import Path
@@ -21,6 +21,8 @@ COLORS = {"persistence": "#2a78d6", "rate_28d": "#eb6834", "hour_of_day": "#1baf
           "logreg": "#eda100", "lightgbm": "#e87ba4"}
 LABELS = {"persistence": "Persistence", "rate_28d": "28-day rate", "hour_of_day": "Hour-of-day rate",
           "logreg": "Logistic regression", "lightgbm": "LightGBM"}
+DARKER = {"logreg": "#9a6800", "lightgbm": "#b8577a"}  # same hue, darker: the 12 h ahead line in examples
+PERIODS = {"validation": "validation (2026-05-18 to 07-12)", "test": "test (2026-07-13 to 09-06)"}
 ALERT_FILL = "#cde2fb"
 
 plt.rcParams.update({
@@ -44,9 +46,9 @@ def _dodge(values: list[float], gap: float) -> list[float]:
     return list(out)
 
 
-def skill_by_horizon(by_horizon: pd.DataFrame, reference: str, path: Path) -> None:
+def skill_by_horizon(by_horizon: pd.DataFrame, reference: str, path: Path, split: str = "validation") -> None:
     """Skill against the reference per horizon; persistence is left out (its skill falls below -0.5)."""
-    skill = 1 - by_horizon.drop(columns="persistence").div(by_horizon[reference], axis=0)
+    skill = 1 - by_horizon.drop(columns="persistence", errors="ignore").div(by_horizon[reference], axis=0)
     fig, ax = plt.subplots(figsize=(9, 5))
     ax.axhline(0, color=AXIS, linewidth=1)
     for name in skill.columns:
@@ -59,13 +61,14 @@ def skill_by_horizon(by_horizon: pd.DataFrame, reference: str, path: Path) -> No
     ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1, decimals=0))
     ax.set(xlabel="Hours ahead", ylabel=f"Lower error than the {LABELS[reference].lower()}",
            xlim=(1, 24), xticks=[1, 3, 6, 12, 18, 24])
-    ax.set_title("Skill against the 28-day rate by horizon, validation (2026-05-18 to 07-12)")
+    ax.set_title(f"Skill against the 28-day rate by horizon, {PERIODS[split]}")
     ax.legend(loc="upper left", bbox_to_anchor=(0, -0.13), ncol=4)
     fig.savefig(path, dpi=150, bbox_inches="tight")
     plt.close(fig)
 
 
-def reliability(scored: pd.DataFrame, forecasts: list[str], path: Path, bins: int = 10) -> None:
+def reliability(scored: pd.DataFrame, forecasts: list[str], path: Path, split: str = "validation",
+                bins: int = 10) -> None:
     fig, ax = plt.subplots(figsize=(6, 6))
     ax.plot([0, 1], [0, 1], color=MUTED, linewidth=1, linestyle="--", label="Perfect calibration")
     edges = np.linspace(0, 1, bins + 1)
@@ -75,14 +78,14 @@ def reliability(scored: pd.DataFrame, forecasts: list[str], path: Path, bins: in
         ax.plot(table["predicted"], table["observed"], color=COLORS[name], marker="o", markersize=6,
                 markeredgecolor=SURFACE, markeredgewidth=1.5, label=LABELS[name])
     ax.set(xlabel="Predicted probability", ylabel="Share of hours with an alert", xlim=(0, 1), ylim=(0, 1))
-    ax.set_title("Calibration, validation")
+    ax.set_title(f"Calibration, {split}")
     ax.legend(loc="upper left")
     fig.savefig(path, dpi=150, bbox_inches="tight")
     plt.close(fig)
 
 
 def examples(scored: pd.DataFrame, names: pd.Series, path: Path, forecast: str = "lightgbm",
-             horizons: tuple[int, ...] = (1, 12), days: int = 7) -> None:
+             split: str = "validation", horizons: tuple[int, ...] = (1, 12), days: int = 7) -> None:
     """For each target hour: the forecast made h hours ahead, with actual alert hours shaded."""
     target = scored["origin"] + (scored["horizon"] - 1) * pd.Timedelta(hours=1)
     end = target.max().floor("D")
@@ -91,7 +94,7 @@ def examples(scored: pd.DataFrame, names: pd.Series, path: Path, forecast: str =
     picks = [(rate - level).abs().idxmin() for level in (0.1, 0.35, 0.7)]
 
     fig, axes = plt.subplots(len(picks), 1, figsize=(11, 2.4 * len(picks)), sharex=True)
-    shades = {1: COLORS["lightgbm"], 12: "#b8577a"}  # same hue: lighter = 1 h ahead, darker = 12 h ahead
+    shades = {1: COLORS[forecast], 12: DARKER[forecast]}
     for ax, uid in zip(axes, picks):
         rows = window[window["raion_uid"] == uid]
         actual = rows[rows["horizon"] == 1].set_index("target")["alert"].sort_index()
@@ -100,9 +103,9 @@ def examples(scored: pd.DataFrame, names: pd.Series, path: Path, forecast: str =
             line = rows[rows["horizon"] == h].set_index("target")[forecast].sort_index()
             ax.plot(line.index, line, color=shades.get(h, INK_2), linewidth=1.5, label=f"Forecast {h} h ahead")
         ax.set(ylim=(0, 1), yticks=[0, 0.5, 1], ylabel="Probability")
-        ax.set_title(f"{names.get(uid, uid)} (alert {rate[uid]:.0%} of validation hours)", fontsize=10)
+        ax.set_title(f"{names.get(uid, uid)} (alert {rate[uid]:.0%} of {split} hours)", fontsize=10)
     axes[0].legend(loc="upper left", bbox_to_anchor=(0, 1.45), ncol=3)
-    fig.suptitle("LightGBM forecasts vs actual alerts, last validation week (UTC)", x=0.125, ha="left",
+    fig.suptitle(f"{LABELS[forecast]} forecasts vs actual alerts, last {split} week (UTC)", x=0.125, ha="left",
                  fontweight="bold", color=INK, y=1.04)
     fig.savefig(path, dpi=150, bbox_inches="tight")
     plt.close(fig)
