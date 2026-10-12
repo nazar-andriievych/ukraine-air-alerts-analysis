@@ -13,10 +13,14 @@ DATASET_COMMIT = "d10c80fa696bab42822b9f05b423fc8a30e79d20"
 DATASET_FILES = ["datasets/official_data_en.csv"]
 
 SILVER = DATA / "silver"
+GOLD = DATA / "gold"
 REGIONS = REFERENCE / "regions.json"
 
 # Permanent alerts there, so they are not forecast.
 EXCLUDED_OBLASTS = {"Luhanska oblast", "Avtonomna Respublika Krym"}
 
-# All times are UTC. The last complete day is 2026-09-06; alerts starting at or after this are dropped.
+# All times are UTC. The dataset starts at 2022-03-15 16:10, so the first complete day is 2022-03-16.
+DATA_START = "2022-03-16T00:00:00Z"
+# The last complete day is 2026-09-06. Alerts starting at or after this are dropped,
+# and alerts still running at this moment are cut off here.
 DATA_END = "2026-09-07T00:00:00Z"

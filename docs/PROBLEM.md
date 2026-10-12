@@ -1,10 +1,10 @@
 # Problem statement
 
 ## Target (working definition, may change)
-Forecast **daily air raid alert hours per region (oblast) for the next 7 days**.
+Forecast **daily air raid alert hours per raion for the next 7 days**.
 
-- **Unit:** region × calendar day.
-- **Value:** hours in that day during which the region was under an air raid alert (0–24).
+- **Unit:** raion × calendar day (UTC). Data: `data/gold/raion_daily.parquet`.
+- **Value:** hours in that day during which the raion was under an air raid alert (0–24). An oblast alert puts all of its raions under alert; a hromada alert puts its whole raion under alert.
 - **Horizon:** days t+1 … t+7 from the forecast origin t.
 - **Forecast origin:** the end of day t (UTC). Only data available by then may be used, for features as well as training.
 
@@ -13,16 +13,17 @@ Forecast **daily air raid alert hours per region (oblast) for the next 7 days**.
 
 ## Decisions
 - **Horizon: 7 days.**
-- **Forecast unit: oblast** (24 units: 23 oblasts plus Kyiv City). Luhansk and Crimea are excluded.
+- **Forecast unit: raion** (119 units: the raions of 23 oblasts plus Kyiv City, which has no raions and is a single unit). Luhansk and Crimea are excluded. The model is trained and evaluated on raion series, not on oblast aggregates.
 - **Everything is in UTC, including day boundaries** (a day is 00:00–24:00 UTC, i.e. 02:00/03:00 Kyiv time). Every day is 24 h, so DST plays no role.
 - **Reference hierarchy:** `data/reference/regions.json`, with English names transliterated from `regions_uk.json` by `scripts/translate_regions.py`.
 - **A hromada alert counts as the whole raion being under alert.** This is accepted even though it puts Kharkivskyi and Chuhuivskyi raions at 24 h/day from mid-2024 to mid-2025.
 - **No duration-based filtering of alerts.** See the findings below.
-- **Data end: 2026-09-06** (the last complete day).
+- **Data end: 2026-09-06** (the last complete day). Alerts still running at 2026-09-07 00:00 UTC are cut off there.
+- **Data start: 2022-03-16** (the first complete day). The dataset starts at 2022-03-15 16:10 UTC.
 - **Alert type (drones vs missiles) is not used.** Neither public dataset records it. Both store only the alert start and end.
 - **The private 48h UkraineAlarm log is not used.**
 - **Source: official dataset only** (`official_data_en.csv`). No other sources. It ends on 2026-09-07, so "the latest period" for evaluation means the weeks just before that date.
-- **Regions: 24.** Luhansk has no rows in 2026 because its alert is permanent, so it is excluded. Crimea is not in the dataset.
+- **Oblasts: 24** (23 oblasts plus Kyiv City). Luhansk has no rows in 2026 because its alert is permanent, so it is excluded. Crimea is not in the dataset.
 
 ## Data findings that affect the target (2026-10-12)
 - Official and volunteer data agree well in 2022 (daily hours corr 0.94, MAE 0.17 h) but drift apart from 2024 on.
