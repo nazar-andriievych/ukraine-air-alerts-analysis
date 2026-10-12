@@ -1,0 +1,6720 @@
+{
+ "generated_at": "2026-10-09",
+ "source": "regions_uk.json",
+ "oblasts": [
+  {
+   "uid": "29",
+   "name": "Avtonomna Respublika Krym",
+   "raions": []
+  },
+  {
+   "uid": "4",
+   "name": "Vinnytska oblast",
+   "raions": [
+    {
+     "uid": "36",
+     "name": "Vinnytskyi raion",
+     "hromadas": [
+      {
+       "uid": "154",
+       "name": "Ahronomichna terytorialna hromada"
+      },
+      {
+       "uid": "156",
+       "name": "Voronovytska terytorialna hromada"
+      },
+      {
+       "uid": "157",
+       "name": "Hnivanska terytorialna hromada"
+      },
+      {
+       "uid": "158",
+       "name": "Illinetska terytorialna hromada"
+      },
+      {
+       "uid": "159",
+       "name": "Lypovetska terytorialna hromada"
+      },
+      {
+       "uid": "160",
+       "name": "Litynska terytorialna hromada"
+      },
+      {
+       "uid": "161",
+       "name": "Luka-Meleshkivska terytorialna hromada"
+      },
+      {
+       "uid": "155",
+       "name": "m. Vinnytsia ta Vinnytska terytorialna hromada"
+      },
+      {
+       "uid": "162",
+       "name": "Nemyrivska terytorialna hromada"
+      },
+      {
+       "uid": "163",
+       "name": "Orativska terytorialna hromada"
+      },
+      {
+       "uid": "164",
+       "name": "Pohrebyshchenska terytorialna hromada"
+      },
+      {
+       "uid": "165",
+       "name": "Stryzhavska terytorialna hromada"
+      },
+      {
+       "uid": "166",
+       "name": "Sutyskivska terytorialna hromada"
+      },
+      {
+       "uid": "167",
+       "name": "Tyvrivska terytorialna hromada"
+      },
+      {
+       "uid": "168",
+       "name": "Turbivska terytorialna hromada"
+      },
+      {
+       "uid": "169",
+       "name": "Yakushynetska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "37",
+     "name": "Haisynskyi raion",
+     "hromadas": [
+      {
+       "uid": "185",
+       "name": "Bershadska terytorialna hromada"
+      },
+      {
+       "uid": "186",
+       "name": "Haisynska terytorialna hromada"
+      },
+      {
+       "uid": "187",
+       "name": "Dashivska terytorialna hromada"
+      },
+      {
+       "uid": "188",
+       "name": "Dzhulynska terytorialna hromada"
+      },
+      {
+       "uid": "189",
+       "name": "Krasnopilska terytorialna hromada"
+      },
+      {
+       "uid": "190",
+       "name": "Kunkivska terytorialna hromada"
+      },
+      {
+       "uid": "191",
+       "name": "m. Ladyzhyn ta Ladyzhynska terytorialna hromada"
+      },
+      {
+       "uid": "192",
+       "name": "Obodivska terytorialna hromada"
+      },
+      {
+       "uid": "193",
+       "name": "Olhopilska terytorialna hromada"
+      },
+      {
+       "uid": "194",
+       "name": "Raihorodska terytorialna hromada"
+      },
+      {
+       "uid": "195",
+       "name": "Sobolivska terytorialna hromada"
+      },
+      {
+       "uid": "196",
+       "name": "Teplytska terytorialna hromada"
+      },
+      {
+       "uid": "197",
+       "name": "Trostianetska terytorialna hromada"
+      },
+      {
+       "uid": "198",
+       "name": "Chechelnytska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "35",
+     "name": "Zhmerynskyi raion",
+     "hromadas": [
+      {
+       "uid": "177",
+       "name": "Barska terytorialna hromada"
+      },
+      {
+       "uid": "178",
+       "name": "Dzhurynska terytorialna hromada"
+      },
+      {
+       "uid": "180",
+       "name": "Kopaihorodska terytorialna hromada"
+      },
+      {
+       "uid": "179",
+       "name": "m. Zhmerynka ta Zhmerynska terytorialna hromada"
+      },
+      {
+       "uid": "181",
+       "name": "Murafska terytorialna hromada"
+      },
+      {
+       "uid": "182",
+       "name": "Severynivska terytorialna hromada"
+      },
+      {
+       "uid": "183",
+       "name": "Stanislavchytska terytorialna hromada"
+      },
+      {
+       "uid": "184",
+       "name": "Sharhorodska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "33",
+     "name": "Mohyliv-Podilskyi raion",
+     "hromadas": [
+      {
+       "uid": "170",
+       "name": "Babchynetska terytorialna hromada"
+      },
+      {
+       "uid": "171",
+       "name": "Vendychanska terytorialna hromada"
+      },
+      {
+       "uid": "172",
+       "name": "m. Mohyliv-Podilskyi ta Mohyliv-Podilska terytorialna hromada"
+      },
+      {
+       "uid": "173",
+       "name": "Murovanokurylovetska terytorialna hromada"
+      },
+      {
+       "uid": "174",
+       "name": "Chernivetska terytorialna hromada"
+      },
+      {
+       "uid": "175",
+       "name": "Yampilska terytorialna hromada"
+      },
+      {
+       "uid": "176",
+       "name": "Yaryshivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "32",
+     "name": "Tulchynskyi raion",
+     "hromadas": [
+      {
+       "uid": "199",
+       "name": "Bratslavska terytorialna hromada"
+      },
+      {
+       "uid": "200",
+       "name": "Vapniarska terytorialna hromada"
+      },
+      {
+       "uid": "201",
+       "name": "Horodkivska terytorialna hromada"
+      },
+      {
+       "uid": "202",
+       "name": "Kryzhopilska terytorialna hromada"
+      },
+      {
+       "uid": "203",
+       "name": "Pishchanska terytorialna hromada"
+      },
+      {
+       "uid": "204",
+       "name": "Studenianska terytorialna hromada"
+      },
+      {
+       "uid": "205",
+       "name": "Tomashpilska terytorialna hromada"
+      },
+      {
+       "uid": "206",
+       "name": "Tulchynska terytorialna hromada"
+      },
+      {
+       "uid": "207",
+       "name": "Shpykivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "34",
+     "name": "Khmilnytskyi raion",
+     "hromadas": [
+      {
+       "uid": "208",
+       "name": "Hlukhovetska terytorialna hromada"
+      },
+      {
+       "uid": "209",
+       "name": "Zhdanivska terytorialna hromada"
+      },
+      {
+       "uid": "210",
+       "name": "Ivanivska terytorialna hromada"
+      },
+      {
+       "uid": "211",
+       "name": "Kalynivska terytorialna hromada"
+      },
+      {
+       "uid": "212",
+       "name": "m. Koziatyn ta Koziatynska terytorialna hromada"
+      },
+      {
+       "uid": "216",
+       "name": "m. Khmilnyk ta Khmilnytska terytorialna hromada"
+      },
+      {
+       "uid": "213",
+       "name": "Makhnivska terytorialna hromada"
+      },
+      {
+       "uid": "214",
+       "name": "Samhorodotska terytorialna hromada"
+      },
+      {
+       "uid": "215",
+       "name": "Ulanivska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "8",
+   "name": "Volynska oblast",
+   "raions": [
+    {
+     "uid": "38",
+     "name": "Volodymyr-Volynskyi raion",
+     "hromadas": [
+      {
+       "uid": "256",
+       "name": "Zaturtsivska terytorialna hromada"
+      },
+      {
+       "uid": "257",
+       "name": "Zymnivska terytorialna hromada"
+      },
+      {
+       "uid": "258",
+       "name": "Ivanychivska terytorialna hromada"
+      },
+      {
+       "uid": "259",
+       "name": "Lytovezka terytorialna hromada"
+      },
+      {
+       "uid": "260",
+       "name": "Lokachynska terytorialna hromada"
+      },
+      {
+       "uid": "255",
+       "name": "m. Volodymyr ta Volodymyrska terytorialna hromada"
+      },
+      {
+       "uid": "261",
+       "name": "m. Novovolynsk ta Novovolynska terytorialna hromada"
+      },
+      {
+       "uid": "262",
+       "name": "Ovadnivska terytorialna hromada"
+      },
+      {
+       "uid": "263",
+       "name": "Pavlivska terytorialna hromada"
+      },
+      {
+       "uid": "264",
+       "name": "Poromivska terytorialna hromada"
+      },
+      {
+       "uid": "265",
+       "name": "Ustyluzka terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "41",
+     "name": "Kamin-Kashyrskyi raion",
+     "hromadas": [
+      {
+       "uid": "266",
+       "name": "Kamin-Kashyrska terytorialna hromada"
+      },
+      {
+       "uid": "267",
+       "name": "Liubeshivska terytorialna hromada"
+      },
+      {
+       "uid": "268",
+       "name": "Manevytska terytorialna hromada"
+      },
+      {
+       "uid": "269",
+       "name": "Prylisnenska terytorialna hromada"
+      },
+      {
+       "uid": "270",
+       "name": "Soshychnenska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "40",
+     "name": "Kovelskyi raion",
+     "hromadas": [
+      {
+       "uid": "232",
+       "name": "Velymchenska terytorialna hromada"
+      },
+      {
+       "uid": "233",
+       "name": "Velytska terytorialna hromada"
+      },
+      {
+       "uid": "234",
+       "name": "Vyshnivska terytorialna hromada"
+      },
+      {
+       "uid": "235",
+       "name": "Holobska terytorialna hromada"
+      },
+      {
+       "uid": "236",
+       "name": "Holovnenska terytorialna hromada"
+      },
+      {
+       "uid": "237",
+       "name": "Dubechnenska terytorialna hromada"
+      },
+      {
+       "uid": "238",
+       "name": "Dubivska terytorialna hromada"
+      },
+      {
+       "uid": "239",
+       "name": "Zabolottivska terytorialna hromada"
+      },
+      {
+       "uid": "240",
+       "name": "Zabrodivska terytorialna hromada"
+      },
+      {
+       "uid": "242",
+       "name": "Kolodiazhnenska terytorialna hromada"
+      },
+      {
+       "uid": "243",
+       "name": "Lukivska terytorialna hromada"
+      },
+      {
+       "uid": "244",
+       "name": "Liublynetska terytorialna hromada"
+      },
+      {
+       "uid": "241",
+       "name": "m. Kovel ta Kovelska terytorialna hromada"
+      },
+      {
+       "uid": "245",
+       "name": "m. Liubomyl ta Liubomlska terytorialna hromada"
+      },
+      {
+       "uid": "254",
+       "name": "m. Shatsk ta Shatska terytorialna hromada"
+      },
+      {
+       "uid": "246",
+       "name": "Povorska terytorialna hromada"
+      },
+      {
+       "uid": "247",
+       "name": "Ratnivska terytorialna hromada"
+      },
+      {
+       "uid": "248",
+       "name": "Rivnenska terytorialna hromada"
+      },
+      {
+       "uid": "249",
+       "name": "Samarivska terytorialna hromada"
+      },
+      {
+       "uid": "250",
+       "name": "Serekhovychivska terytorialna hromada"
+      },
+      {
+       "uid": "251",
+       "name": "Smidynska terytorialna hromada"
+      },
+      {
+       "uid": "252",
+       "name": "Starovyzhivska terytorialna hromada"
+      },
+      {
+       "uid": "253",
+       "name": "Turiiska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "39",
+     "name": "Lutskyi raion",
+     "hromadas": [
+      {
+       "uid": "217",
+       "name": "Berestechkivska terytorialna hromada"
+      },
+      {
+       "uid": "218",
+       "name": "Boratynska terytorialna hromada"
+      },
+      {
+       "uid": "219",
+       "name": "Horodyshchenska terytorialna hromada"
+      },
+      {
+       "uid": "220",
+       "name": "Horokhivska terytorialna hromada"
+      },
+      {
+       "uid": "221",
+       "name": "Dorosynivska terytorialna hromada"
+      },
+      {
+       "uid": "222",
+       "name": "Kivertsivska terytorialna hromada"
+      },
+      {
+       "uid": "223",
+       "name": "Kolkivska terytorialna hromada"
+      },
+      {
+       "uid": "224",
+       "name": "Kopachivska terytorialna hromada"
+      },
+      {
+       "uid": "225",
+       "name": "m. Lutsk ta Lutska terytorialna hromada"
+      },
+      {
+       "uid": "226",
+       "name": "Marianivska terytorialna hromada"
+      },
+      {
+       "uid": "227",
+       "name": "Olytska terytorialna hromada"
+      },
+      {
+       "uid": "228",
+       "name": "Pidhaitsivska terytorialna hromada"
+      },
+      {
+       "uid": "229",
+       "name": "Rozhyshchenska terytorialna hromada"
+      },
+      {
+       "uid": "230",
+       "name": "Torchynska terytorialna hromada"
+      },
+      {
+       "uid": "231",
+       "name": "Tsumanska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "9",
+   "name": "Dnipropetrovska oblast",
+   "raions": [
+    {
+     "uid": "44",
+     "name": "Dniprovskyi raion",
+     "hromadas": [
+      {
+       "uid": "333",
+       "name": "Kytaihorodska terytorialna hromada"
+      },
+      {
+       "uid": "334",
+       "name": "Liubymivska terytorialna hromada"
+      },
+      {
+       "uid": "335",
+       "name": "Liashkivska terytorialna hromada"
+      },
+      {
+       "uid": "332",
+       "name": "m. Dnipro ta Dniprovska terytorialna hromada"
+      },
+      {
+       "uid": "336",
+       "name": "Mykolaivska terytorialna hromada"
+      },
+      {
+       "uid": "337",
+       "name": "Mohylivska terytorialna hromada"
+      },
+      {
+       "uid": "338",
+       "name": "Novooleksandrivska terytorialna hromada"
+      },
+      {
+       "uid": "339",
+       "name": "Novopokrovska terytorialna hromada"
+      },
+      {
+       "uid": "340",
+       "name": "Obukhivska terytorialna hromada"
+      },
+      {
+       "uid": "341",
+       "name": "Petrykivska terytorialna hromada"
+      },
+      {
+       "uid": "342",
+       "name": "Pidhorodnenska terytorialna hromada"
+      },
+      {
+       "uid": "343",
+       "name": "Sviatovasylivska terytorialna hromada"
+      },
+      {
+       "uid": "344",
+       "name": "Slobozhanska terytorialna hromada"
+      },
+      {
+       "uid": "345",
+       "name": "Solonianska terytorialna hromada"
+      },
+      {
+       "uid": "346",
+       "name": "Sursko-Lytovska terytorialna hromada"
+      },
+      {
+       "uid": "347",
+       "name": "Tsarychanska terytorialna hromada"
+      },
+      {
+       "uid": "348",
+       "name": "Chumakivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "42",
+     "name": "Kamianskyi raion",
+     "hromadas": [
+      {
+       "uid": "293",
+       "name": "Bozhedarivska terytorialna hromada"
+      },
+      {
+       "uid": "294",
+       "name": "Verkhivtsivska terytorialna hromada"
+      },
+      {
+       "uid": "295",
+       "name": "Verkhnodniprovska terytorialna hromada"
+      },
+      {
+       "uid": "296",
+       "name": "Vyshnivska terytorialna hromada"
+      },
+      {
+       "uid": "299",
+       "name": "Zatyshnianska terytorialna hromada"
+      },
+      {
+       "uid": "301",
+       "name": "Krynychanska terytorialna hromada"
+      },
+      {
+       "uid": "302",
+       "name": "Lykhivska terytorialna hromada"
+      },
+      {
+       "uid": "297",
+       "name": "m. Vilnohirsk ta Vilnohirska terytorialna hromada"
+      },
+      {
+       "uid": "298",
+       "name": "m. Zhovti Vody ta Zhovtovodska terytorialna hromada"
+      },
+      {
+       "uid": "300",
+       "name": "m. Kamianske ta Kamianska terytorialna hromada"
+      },
+      {
+       "uid": "303",
+       "name": "Piatykhatska terytorialna hromada"
+      },
+      {
+       "uid": "304",
+       "name": "Saksahanska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "46",
+     "name": "Kryvorizkyi raion",
+     "hromadas": [
+      {
+       "uid": "271",
+       "name": "Apostolivska terytorialna hromada"
+      },
+      {
+       "uid": "272",
+       "name": "Vakulivska terytorialna hromada"
+      },
+      {
+       "uid": "273",
+       "name": "Hleiuvatska terytorialna hromada"
+      },
+      {
+       "uid": "274",
+       "name": "Hrechanopodivska terytorialna hromada"
+      },
+      {
+       "uid": "275",
+       "name": "Hrushivska terytorialna hromada"
+      },
+      {
+       "uid": "276",
+       "name": "Devladivska terytorialna hromada"
+      },
+      {
+       "uid": "277",
+       "name": "Zelenodolska terytorialna hromada"
+      },
+      {
+       "uid": "278",
+       "name": "Karpivska terytorialna hromada"
+      },
+      {
+       "uid": "280",
+       "name": "Lozuvatska terytorialna hromada"
+      },
+      {
+       "uid": "279",
+       "name": "m. Kryvyi Rih ta Kryvorizka terytorialna hromada"
+      },
+      {
+       "uid": "281",
+       "name": "Nyvotrudivska terytorialna hromada"
+      },
+      {
+       "uid": "282",
+       "name": "Novolativska terytorialna hromada"
+      },
+      {
+       "uid": "283",
+       "name": "Novopilska terytorialna hromada"
+      },
+      {
+       "uid": "284",
+       "name": "Sofiivska terytorialna hromada"
+      },
+      {
+       "uid": "285",
+       "name": "Shyrokivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "47",
+     "name": "Nikopolskyi raion",
+     "hromadas": [
+      {
+       "uid": "349",
+       "name": "m. Marhanets ta Marhanetska terytorialna hromada"
+      },
+      {
+       "uid": "351",
+       "name": "m. Nikopol ta Nikopolska terytorialna hromada"
+      },
+      {
+       "uid": "354",
+       "name": "m. Pokrov ta Pokrovska terytorialna hromada"
+      },
+      {
+       "uid": "350",
+       "name": "Myrivska terytorialna hromada"
+      },
+      {
+       "uid": "352",
+       "name": "Pershotravnevska terytorialna hromada"
+      },
+      {
+       "uid": "353",
+       "name": "Pokrovska terytorialna hromada"
+      },
+      {
+       "uid": "355",
+       "name": "Tomakivska terytorialna hromada"
+      },
+      {
+       "uid": "356",
+       "name": "Chervonohryhorivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "45",
+     "name": "Pavlohradskyi raion",
+     "hromadas": [
+      {
+       "uid": "286",
+       "name": "Bohdanivska terytorialna hromada"
+      },
+      {
+       "uid": "287",
+       "name": "Verbkivska terytorialna hromada"
+      },
+      {
+       "uid": "289",
+       "name": "m. Pavlohrad ta Pavlohradska terytorialna hromada"
+      },
+      {
+       "uid": "290",
+       "name": "m. Ternivka ta Ternivska terytorialna hromada"
+      },
+      {
+       "uid": "288",
+       "name": "Mezhyritska terytorialna hromada"
+      },
+      {
+       "uid": "291",
+       "name": "Troitska terytorialna hromada"
+      },
+      {
+       "uid": "292",
+       "name": "Yurivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "43",
+     "name": "Samarivskyi raion",
+     "hromadas": [
+      {
+       "uid": "324",
+       "name": "Hubynyska terytorialna hromada"
+      },
+      {
+       "uid": "325",
+       "name": "Lychkivska terytorialna hromada"
+      },
+      {
+       "uid": "327",
+       "name": "m. Samar ta Samarivska terytorialna hromada"
+      },
+      {
+       "uid": "326",
+       "name": "Mahdalynivska terytorialna hromada"
+      },
+      {
+       "uid": "328",
+       "name": "Pereshchepynska terytorialna hromada"
+      },
+      {
+       "uid": "329",
+       "name": "Pishchanska terytorialna hromada"
+      },
+      {
+       "uid": "330",
+       "name": "Cherkaska terytorialna hromada"
+      },
+      {
+       "uid": "331",
+       "name": "Chernechchynska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "48",
+     "name": "Synelnykivskyi raion",
+     "hromadas": [
+      {
+       "uid": "305",
+       "name": "Brahynivska terytorialna hromada"
+      },
+      {
+       "uid": "306",
+       "name": "Vasylkivska terytorialna hromada"
+      },
+      {
+       "uid": "307",
+       "name": "Velykomykhailivska terytorialna hromada"
+      },
+      {
+       "uid": "308",
+       "name": "Dubovykivska terytorialna hromada"
+      },
+      {
+       "uid": "309",
+       "name": "Zaitsivska terytorialna hromada"
+      },
+      {
+       "uid": "310",
+       "name": "Ilarionivska terytorialna hromada"
+      },
+      {
+       "uid": "320",
+       "name": "m. Synelnykove ta Synelnykivska terytorialna hromada"
+      },
+      {
+       "uid": "315",
+       "name": "m. Pershotravensk ta Pershotravenska terytorialna hromada"
+      },
+      {
+       "uid": "311",
+       "name": "Malomykhailivska terytorialna hromada"
+      },
+      {
+       "uid": "312",
+       "name": "Mezhivska terytorialna hromada"
+      },
+      {
+       "uid": "313",
+       "name": "Mykolaivska terytorialna hromada"
+      },
+      {
+       "uid": "314",
+       "name": "Novopavlivska terytorialna hromada"
+      },
+      {
+       "uid": "316",
+       "name": "Petropavlivska terytorialna hromada"
+      },
+      {
+       "uid": "317",
+       "name": "Pokrovska terytorialna hromada"
+      },
+      {
+       "uid": "318",
+       "name": "Raivska terytorialna hromada"
+      },
+      {
+       "uid": "319",
+       "name": "Rozdorska terytorialna hromada"
+      },
+      {
+       "uid": "321",
+       "name": "Slavhorodska terytorialna hromada"
+      },
+      {
+       "uid": "322",
+       "name": "Slovianska terytorialna hromada"
+      },
+      {
+       "uid": "323",
+       "name": "Ukrainska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "28",
+   "name": "Donetska oblast",
+   "raions": [
+    {
+     "uid": "54",
+     "name": "Bakhmutskyi raion",
+     "hromadas": [
+      {
+       "uid": "383",
+       "name": "Bakhmutska terytorialna hromada"
+      },
+      {
+       "uid": "384",
+       "name": "Zvanivska terytorialna hromada"
+      },
+      {
+       "uid": "385",
+       "name": "Svitlodarska terytorialna hromada"
+      },
+      {
+       "uid": "386",
+       "name": "Siverska terytorialna hromada"
+      },
+      {
+       "uid": "387",
+       "name": "Soledarska terytorialna hromada"
+      },
+      {
+       "uid": "388",
+       "name": "Toretska terytorialna hromada"
+      },
+      {
+       "uid": "389",
+       "name": "Chasovoiarska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "55",
+     "name": "Volnovaskyi raion",
+     "hromadas": [
+      {
+       "uid": "390",
+       "name": "Velykonovosilkivska terytorialna hromada"
+      },
+      {
+       "uid": "391",
+       "name": "Volnovaska terytorialna hromada"
+      },
+      {
+       "uid": "392",
+       "name": "Vuhledarska terytorialna hromada"
+      },
+      {
+       "uid": "393",
+       "name": "Komarska terytorialna hromada"
+      },
+      {
+       "uid": "394",
+       "name": "Myrnenska terytorialna hromada"
+      },
+      {
+       "uid": "395",
+       "name": "Olhynska terytorialna hromada"
+      },
+      {
+       "uid": "396",
+       "name": "Staromlynivska terytorialna hromada"
+      },
+      {
+       "uid": "397",
+       "name": "Khlibodarivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "51",
+     "name": "Horlivskyi raion",
+     "hromadas": [
+      {
+       "uid": "414",
+       "name": "Vuhlehirska miska hromada"
+      },
+      {
+       "uid": "416",
+       "name": "Debaltsivska miska hromada"
+      },
+      {
+       "uid": "418",
+       "name": "Zhdanivska miska hromada"
+      },
+      {
+       "uid": "415",
+       "name": "m. Horlivka ta Horlivska miska hromada"
+      },
+      {
+       "uid": "417",
+       "name": "m. Yenakiieve ta Yenakiievska miska hromada"
+      },
+      {
+       "uid": "419",
+       "name": "Snizhnianska miska hromada"
+      },
+      {
+       "uid": "420",
+       "name": "Khrestivska miska hromada"
+      },
+      {
+       "uid": "421",
+       "name": "Chystiakivska miska hromada"
+      },
+      {
+       "uid": "422",
+       "name": "Shakhtarska miska hromada"
+      }
+     ]
+    },
+    {
+     "uid": "53",
+     "name": "Donetskyi raion",
+     "hromadas": [
+      {
+       "uid": "403",
+       "name": "Amvrosiivska miska hromada"
+      },
+      {
+       "uid": "404",
+       "name": "Donetska miska hromada"
+      },
+      {
+       "uid": "405",
+       "name": "Ilovaiska miska hromada"
+      },
+      {
+       "uid": "406",
+       "name": "m. Makiivka ta Makiivska miska hromada"
+      },
+      {
+       "uid": "407",
+       "name": "Khartsyzk miska hromada"
+      },
+      {
+       "uid": "408",
+       "name": "Yasynuvatska miska hromada"
+      }
+     ]
+    },
+    {
+     "uid": "49",
+     "name": "Kalmiuskyi raion",
+     "hromadas": [
+      {
+       "uid": "409",
+       "name": "Boikivska selyshchna hromada"
+      },
+      {
+       "uid": "410",
+       "name": "Dokuchaievska miska hromada"
+      },
+      {
+       "uid": "411",
+       "name": "Kalmiuska miska hromada"
+      },
+      {
+       "uid": "412",
+       "name": "Novoazovska miska hromada"
+      },
+      {
+       "uid": "413",
+       "name": "Starobeshivska selyshchna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "50",
+     "name": "Kramatorskyi raion",
+     "hromadas": [
+      {
+       "uid": "371",
+       "name": "Andriivska terytorialna hromada"
+      },
+      {
+       "uid": "372",
+       "name": "Druzhkivska terytorialna hromada"
+      },
+      {
+       "uid": "373",
+       "name": "Illinivska terytorialna hromada"
+      },
+      {
+       "uid": "374",
+       "name": "Kostiantynivska terytorialna hromada"
+      },
+      {
+       "uid": "376",
+       "name": "Lymanska terytorialna hromada"
+      },
+      {
+       "uid": "375",
+       "name": "m. Kramatorsk ta Kramatorska terytorialna hromada"
+      },
+      {
+       "uid": "381",
+       "name": "m. Sloviansk ta Slovianska terytorialna hromada"
+      },
+      {
+       "uid": "377",
+       "name": "Mykolaivska terytorialna hromada"
+      },
+      {
+       "uid": "378",
+       "name": "Novodonetska terytorialna hromada"
+      },
+      {
+       "uid": "379",
+       "name": "Oleksandrivska terytorialna hromada"
+      },
+      {
+       "uid": "380",
+       "name": "Sviatohirska terytorialna hromada"
+      },
+      {
+       "uid": "382",
+       "name": "Cherkaska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "52",
+     "name": "Mariupolskyi raion",
+     "hromadas": [
+      {
+       "uid": "398",
+       "name": "Kalchytska terytorialna hromada"
+      },
+      {
+       "uid": "400",
+       "name": "m. Mariupol ta Mariupolska terytorialna hromada"
+      },
+      {
+       "uid": "399",
+       "name": "Manhushska terytorialna hromada"
+      },
+      {
+       "uid": "401",
+       "name": "Nikolska terytorialna hromada"
+      },
+      {
+       "uid": "402",
+       "name": "Sartanska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "56",
+     "name": "Pokrovskyi raion",
+     "hromadas": [
+      {
+       "uid": "357",
+       "name": "Avdiivska terytorialna hromada"
+      },
+      {
+       "uid": "358",
+       "name": "Bilozerska terytorialna hromada"
+      },
+      {
+       "uid": "359",
+       "name": "Hrodivska terytorialna hromada"
+      },
+      {
+       "uid": "360",
+       "name": "Dobropilska terytorialna hromada"
+      },
+      {
+       "uid": "361",
+       "name": "Kryvorizka terytorialna hromada"
+      },
+      {
+       "uid": "362",
+       "name": "Kurakhivska terytorialna hromada"
+      },
+      {
+       "uid": "363",
+       "name": "Marinska terytorialna hromada"
+      },
+      {
+       "uid": "364",
+       "name": "Myrnohradska terytorialna hromada"
+      },
+      {
+       "uid": "365",
+       "name": "Novohrodivska terytorialna hromada"
+      },
+      {
+       "uid": "366",
+       "name": "Ocheretynska terytorialna hromada"
+      },
+      {
+       "uid": "367",
+       "name": "Pokrovska terytorialna hromada"
+      },
+      {
+       "uid": "368",
+       "name": "Selydivska terytorialna hromada"
+      },
+      {
+       "uid": "369",
+       "name": "Udachnenska terytorialna hromada"
+      },
+      {
+       "uid": "370",
+       "name": "Shakhivska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "10",
+   "name": "Zhytomyrska oblast",
+   "raions": [
+    {
+     "uid": "57",
+     "name": "Berdychivskyi raion",
+     "hromadas": [
+      {
+       "uid": "423",
+       "name": "Andrushivska terytorialna hromada"
+      },
+      {
+       "uid": "425",
+       "name": "Vchoraishenska terytorialna hromada"
+      },
+      {
+       "uid": "426",
+       "name": "Hryshkovetska terytorialna hromada"
+      },
+      {
+       "uid": "427",
+       "name": "Krasnopilska terytorialna hromada"
+      },
+      {
+       "uid": "424",
+       "name": "m. Berdychiv ta Berdychivska terytorialna hromada"
+      },
+      {
+       "uid": "428",
+       "name": "Raihorodska terytorialna hromada"
+      },
+      {
+       "uid": "429",
+       "name": "Ruzhynska terytorialna hromada"
+      },
+      {
+       "uid": "430",
+       "name": "Semenivska terytorialna hromada"
+      },
+      {
+       "uid": "431",
+       "name": "Chervonenska terytorialna hromada"
+      },
+      {
+       "uid": "432",
+       "name": "Shvaikivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "59",
+     "name": "Zhytomyrskyi raion",
+     "hromadas": [
+      {
+       "uid": "433",
+       "name": "Andrushkivska terytorialna hromada"
+      },
+      {
+       "uid": "434",
+       "name": "Berezivska terytorialna hromada"
+      },
+      {
+       "uid": "435",
+       "name": "Brusylivska terytorialna hromada"
+      },
+      {
+       "uid": "436",
+       "name": "Vysokivska terytorialna hromada"
+      },
+      {
+       "uid": "437",
+       "name": "Vyshevytska terytorialna hromada"
+      },
+      {
+       "uid": "438",
+       "name": "Vilshanska terytorialna hromada"
+      },
+      {
+       "uid": "439",
+       "name": "Volytska terytorialna hromada"
+      },
+      {
+       "uid": "440",
+       "name": "Hlybochytska terytorialna hromada"
+      },
+      {
+       "uid": "441",
+       "name": "Horodotska terytorialna hromada"
+      },
+      {
+       "uid": "443",
+       "name": "Kvitneva terytorialna hromada"
+      },
+      {
+       "uid": "444",
+       "name": "Kornynska terytorialna hromada"
+      },
+      {
+       "uid": "445",
+       "name": "Korostyshivska terytorialna hromada"
+      },
+      {
+       "uid": "446",
+       "name": "Kurnenska terytorialna hromada"
+      },
+      {
+       "uid": "447",
+       "name": "Liubarska terytorialna hromada"
+      },
+      {
+       "uid": "442",
+       "name": "m. Zhytomyr ta Zhytomyrska terytorialna hromada"
+      },
+      {
+       "uid": "448",
+       "name": "Myropilska terytorialna hromada"
+      },
+      {
+       "uid": "449",
+       "name": "Novoborivska terytorialna hromada"
+      },
+      {
+       "uid": "450",
+       "name": "Novohuivynska terytorialna hromada"
+      },
+      {
+       "uid": "451",
+       "name": "Oliivska terytorialna hromada"
+      },
+      {
+       "uid": "452",
+       "name": "Popilnianska terytorialna hromada"
+      },
+      {
+       "uid": "453",
+       "name": "Potiivska terytorialna hromada"
+      },
+      {
+       "uid": "454",
+       "name": "Pulynska terytorialna hromada"
+      },
+      {
+       "uid": "455",
+       "name": "Radomyshlska terytorialna hromada"
+      },
+      {
+       "uid": "456",
+       "name": "Romanivska terytorialna hromada"
+      },
+      {
+       "uid": "457",
+       "name": "Stanyshivska terytorialna hromada"
+      },
+      {
+       "uid": "458",
+       "name": "Starosiletska terytorialna hromada"
+      },
+      {
+       "uid": "459",
+       "name": "Teterivska terytorialna hromada"
+      },
+      {
+       "uid": "460",
+       "name": "Kharytonivska terytorialna hromada"
+      },
+      {
+       "uid": "461",
+       "name": "Khoroshivska terytorialna hromada"
+      },
+      {
+       "uid": "462",
+       "name": "Cherniakhivska terytorialna hromada"
+      },
+      {
+       "uid": "463",
+       "name": "Chudnivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "60",
+     "name": "Zviahelskyi raion",
+     "hromadas": [
+      {
+       "uid": "464",
+       "name": "Baranivska terytorialna hromada"
+      },
+      {
+       "uid": "465",
+       "name": "Barashivska terytorialna hromada"
+      },
+      {
+       "uid": "466",
+       "name": "Bronykivska terytorialna hromada"
+      },
+      {
+       "uid": "467",
+       "name": "Horodnytska terytorialna hromada"
+      },
+      {
+       "uid": "468",
+       "name": "Dovbyska terytorialna hromada"
+      },
+      {
+       "uid": "469",
+       "name": "Dubrivska terytorialna hromada"
+      },
+      {
+       "uid": "470",
+       "name": "Yemilchynska terytorialna hromada"
+      },
+      {
+       "uid": "471",
+       "name": "m. Zviahel ta Zviahelska terytorialna hromada"
+      },
+      {
+       "uid": "472",
+       "name": "Pishchivska terytorialna hromada"
+      },
+      {
+       "uid": "473",
+       "name": "Stryivska terytorialna hromada"
+      },
+      {
+       "uid": "474",
+       "name": "Chyzhivska terytorialna hromada"
+      },
+      {
+       "uid": "475",
+       "name": "Yarunska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "58",
+     "name": "Korostenskyi raion",
+     "hromadas": [
+      {
+       "uid": "476",
+       "name": "Bilokorovytska terytorialna hromada"
+      },
+      {
+       "uid": "477",
+       "name": "Hladkovytska terytorialna hromada"
+      },
+      {
+       "uid": "478",
+       "name": "Horshchykivska terytorialna hromada"
+      },
+      {
+       "uid": "479",
+       "name": "Irshanska terytorialna hromada"
+      },
+      {
+       "uid": "481",
+       "name": "Luhynska terytorialna hromada"
+      },
+      {
+       "uid": "480",
+       "name": "m. Korosten ta Korostenska terytorialna hromada"
+      },
+      {
+       "uid": "482",
+       "name": "m. Malyn ta Malynska terytorialna hromada"
+      },
+      {
+       "uid": "483",
+       "name": "Narodytska terytorialna hromada"
+      },
+      {
+       "uid": "484",
+       "name": "Ovrutska terytorialna hromada"
+      },
+      {
+       "uid": "485",
+       "name": "Olevska terytorialna hromada"
+      },
+      {
+       "uid": "486",
+       "name": "Slovechanska terytorialna hromada"
+      },
+      {
+       "uid": "487",
+       "name": "Ushomyrska terytorialna hromada"
+      },
+      {
+       "uid": "488",
+       "name": "Chopovytska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "11",
+   "name": "Zakarpatska oblast",
+   "raions": [
+    {
+     "uid": "61",
+     "name": "Berehivskyi raion",
+     "hromadas": [
+      {
+       "uid": "503",
+       "name": "Bativska terytorialna hromada"
+      },
+      {
+       "uid": "505",
+       "name": "Velykoberezka terytorialna hromada"
+      },
+      {
+       "uid": "506",
+       "name": "Velykobyihanska terytorialna hromada"
+      },
+      {
+       "uid": "507",
+       "name": "Vylotska terytorialna hromada"
+      },
+      {
+       "uid": "509",
+       "name": "Kamianska terytorialna hromada"
+      },
+      {
+       "uid": "510",
+       "name": "Korolivska terytorialna hromada"
+      },
+      {
+       "uid": "511",
+       "name": "Kosonska terytorialna hromada"
+      },
+      {
+       "uid": "504",
+       "name": "m. Berehove ta Berehivska terytorialna hromada"
+      },
+      {
+       "uid": "508",
+       "name": "m. Vynohradiv ta Vynohradivska terytorialna hromada"
+      },
+      {
+       "uid": "512",
+       "name": "Pyiterfolvivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "65",
+     "name": "Mukachivskyi raion",
+     "hromadas": [
+      {
+       "uid": "540",
+       "name": "Velykoluchkivska terytorialna hromada"
+      },
+      {
+       "uid": "541",
+       "name": "Verkhnokoropetska terytorialna hromada"
+      },
+      {
+       "uid": "542",
+       "name": "Volovetska terytorialna hromada"
+      },
+      {
+       "uid": "543",
+       "name": "Horondivska terytorialna hromada"
+      },
+      {
+       "uid": "544",
+       "name": "Zhdeniivska terytorialna hromada"
+      },
+      {
+       "uid": "545",
+       "name": "Ivanovetska terytorialna hromada"
+      },
+      {
+       "uid": "546",
+       "name": "Kolchynska terytorialna hromada"
+      },
+      {
+       "uid": "547",
+       "name": "m. Mukachevo ta Mukachivska terytorialna hromada"
+      },
+      {
+       "uid": "548",
+       "name": "Nelipynska terytorialna hromada"
+      },
+      {
+       "uid": "549",
+       "name": "Nyzhnovoritska terytorialna hromada"
+      },
+      {
+       "uid": "550",
+       "name": "Polianska terytorialna hromada"
+      },
+      {
+       "uid": "551",
+       "name": "Svaliavska terytorialna hromada"
+      },
+      {
+       "uid": "552",
+       "name": "Chynadiivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "63",
+     "name": "Rakhivskyi raion",
+     "hromadas": [
+      {
+       "uid": "536",
+       "name": "Bohdanska terytorialna hromada"
+      },
+      {
+       "uid": "537",
+       "name": "Velykobychkivska terytorialna hromada"
+      },
+      {
+       "uid": "538",
+       "name": "m. Rakhiv ta Rakhivska terytorialna hromada"
+      },
+      {
+       "uid": "539",
+       "name": "Yasinianska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "64",
+     "name": "Tiachivskyi raion",
+     "hromadas": [
+      {
+       "uid": "513",
+       "name": "Bedevlianska terytorialna hromada"
+      },
+      {
+       "uid": "514",
+       "name": "Bushtynska terytorialna hromada"
+      },
+      {
+       "uid": "515",
+       "name": "Vilkhovetska terytorialna hromada"
+      },
+      {
+       "uid": "516",
+       "name": "Dubivska terytorialna hromada"
+      },
+      {
+       "uid": "520",
+       "name": "m. Tiachiv ta Tiachivska terytorialna hromada"
+      },
+      {
+       "uid": "517",
+       "name": "Neresnytska terytorialna hromada"
+      },
+      {
+       "uid": "518",
+       "name": "Solotvynska terytorialna hromada"
+      },
+      {
+       "uid": "519",
+       "name": "Teresvianska terytorialna hromada"
+      },
+      {
+       "uid": "521",
+       "name": "Uhlianska terytorialna hromada"
+      },
+      {
+       "uid": "522",
+       "name": "Ust-Chornianska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "66",
+     "name": "Uzhhorodskyi raion",
+     "hromadas": [
+      {
+       "uid": "489",
+       "name": "Baranynska terytorialna hromada"
+      },
+      {
+       "uid": "490",
+       "name": "Velykobereznianska terytorialna hromada"
+      },
+      {
+       "uid": "491",
+       "name": "Velykodobronska terytorialna hromada"
+      },
+      {
+       "uid": "492",
+       "name": "Dubrynytsko-Malobereznia terytorialna hromada"
+      },
+      {
+       "uid": "493",
+       "name": "Kostrynska terytorialna hromada"
+      },
+      {
+       "uid": "500",
+       "name": "m. Uzhhorod ta Uzhhorodska terytorialna hromada"
+      },
+      {
+       "uid": "502",
+       "name": "m. Chop ta Chopska terytorialna hromada"
+      },
+      {
+       "uid": "494",
+       "name": "Onokivska terytorialna hromada"
+      },
+      {
+       "uid": "495",
+       "name": "Perechynska terytorialna hromada"
+      },
+      {
+       "uid": "496",
+       "name": "Serednianska terytorialna hromada"
+      },
+      {
+       "uid": "497",
+       "name": "Stavnenska terytorialna hromada"
+      },
+      {
+       "uid": "498",
+       "name": "Siurtivska terytorialna hromada"
+      },
+      {
+       "uid": "499",
+       "name": "Turie-Remetivska terytorialna hromada"
+      },
+      {
+       "uid": "501",
+       "name": "Kholmkivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "62",
+     "name": "Khustskyi raion",
+     "hromadas": [
+      {
+       "uid": "523",
+       "name": "Bilkivska terytorialna hromada"
+      },
+      {
+       "uid": "524",
+       "name": "Vyshkivska terytorialna hromada"
+      },
+      {
+       "uid": "525",
+       "name": "Horinchivska terytorialna hromada"
+      },
+      {
+       "uid": "526",
+       "name": "Dovzhanska terytorialna hromada"
+      },
+      {
+       "uid": "527",
+       "name": "Drahivska terytorialna hromada"
+      },
+      {
+       "uid": "528",
+       "name": "Zarichanska terytorialna hromada"
+      },
+      {
+       "uid": "530",
+       "name": "Keretskivska terytorialna hromada"
+      },
+      {
+       "uid": "531",
+       "name": "Kolochavska terytorialna hromada"
+      },
+      {
+       "uid": "529",
+       "name": "m. Irshava ta Irshavska terytorialna hromada"
+      },
+      {
+       "uid": "532",
+       "name": "m. Mizhhiria ta Mizhhirska terytorialna hromada"
+      },
+      {
+       "uid": "535",
+       "name": "m. Khust ta Khustska terytorialna hromada"
+      },
+      {
+       "uid": "533",
+       "name": "Pylypetska terytorialna hromada"
+      },
+      {
+       "uid": "534",
+       "name": "Synevyrska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "12",
+   "name": "Zaporizka oblast",
+   "raions": [
+    {
+     "uid": "147",
+     "name": "Berdianskyi raion",
+     "hromadas": [
+      {
+       "uid": "553",
+       "name": "Andrivska terytorialna hromada"
+      },
+      {
+       "uid": "554",
+       "name": "Andriivska terytorialna hromada"
+      },
+      {
+       "uid": "556",
+       "name": "Berestivska terytorialna hromada"
+      },
+      {
+       "uid": "557",
+       "name": "Kolarivska terytorialna hromada"
+      },
+      {
+       "uid": "555",
+       "name": "m. Berdiansk ta Berdianska terytorialna hromada"
+      },
+      {
+       "uid": "558",
+       "name": "Osypenkivska terytorialna hromada"
+      },
+      {
+       "uid": "559",
+       "name": "Prymorska terytorialna hromada"
+      },
+      {
+       "uid": "560",
+       "name": "Chernihivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "146",
+     "name": "Vasylivskyi raion",
+     "hromadas": [
+      {
+       "uid": "593",
+       "name": "Blahovishchenska terytorialna hromada"
+      },
+      {
+       "uid": "594",
+       "name": "Vasylivska terytorialna hromada"
+      },
+      {
+       "uid": "595",
+       "name": "Velykobilozerska terytorialna hromada"
+      },
+      {
+       "uid": "596",
+       "name": "Vodianska terytorialna hromada"
+      },
+      {
+       "uid": "597",
+       "name": "Dniprorudnenska terytorialna hromada"
+      },
+      {
+       "uid": "599",
+       "name": "Kamiansko-Dniprovska terytorialna hromada"
+      },
+      {
+       "uid": "598",
+       "name": "m. Enerhodar ta Enerhodarska terytorialna hromada"
+      },
+      {
+       "uid": "600",
+       "name": "Malobilozerska terytorialna hromada"
+      },
+      {
+       "uid": "601",
+       "name": "Mykhailivska terytorialna hromada"
+      },
+      {
+       "uid": "602",
+       "name": "Rozdolska terytorialna hromada"
+      },
+      {
+       "uid": "603",
+       "name": "Stepnohirska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "149",
+     "name": "Zaporizkyi raion",
+     "hromadas": [
+      {
+       "uid": "561",
+       "name": "Bilenkivska terytorialna hromada"
+      },
+      {
+       "uid": "562",
+       "name": "Vilnianska terytorialna hromada"
+      },
+      {
+       "uid": "563",
+       "name": "Dolynska terytorialna hromada"
+      },
+      {
+       "uid": "565",
+       "name": "Komyshuvaska terytorialna hromada"
+      },
+      {
+       "uid": "566",
+       "name": "Kushuhumska terytorialna hromada"
+      },
+      {
+       "uid": "564",
+       "name": "m. Zaporizhzhia ta Zaporizka terytorialna hromada"
+      },
+      {
+       "uid": "567",
+       "name": "Matviivska terytorialna hromada"
+      },
+      {
+       "uid": "568",
+       "name": "Mykhailivska terytorialna hromada"
+      },
+      {
+       "uid": "569",
+       "name": "Mykhailo-Lukashivska terytorialna hromada"
+      },
+      {
+       "uid": "570",
+       "name": "Novomykolaivska terytorialna hromada"
+      },
+      {
+       "uid": "571",
+       "name": "Novooleksandrivska terytorialna hromada"
+      },
+      {
+       "uid": "572",
+       "name": "Pavlivska terytorialna hromada"
+      },
+      {
+       "uid": "573",
+       "name": "Petro-Mykhailivska terytorialna hromada"
+      },
+      {
+       "uid": "574",
+       "name": "Stepnenska terytorialna hromada"
+      },
+      {
+       "uid": "575",
+       "name": "Tavriiska terytorialna hromada"
+      },
+      {
+       "uid": "576",
+       "name": "Ternuvatska terytorialna hromada"
+      },
+      {
+       "uid": "577",
+       "name": "Shyrokivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "148",
+     "name": "Melitopolskyi raion",
+     "hromadas": [
+      {
+       "uid": "604",
+       "name": "Veselivska terytorialna hromada"
+      },
+      {
+       "uid": "605",
+       "name": "Kyrylivska terytorialna hromada"
+      },
+      {
+       "uid": "606",
+       "name": "Kostiantynivska terytorialna hromada"
+      },
+      {
+       "uid": "607",
+       "name": "m. Melitopol ta Melitopolska terytorialna hromada"
+      },
+      {
+       "uid": "608",
+       "name": "Myrnenska terytorialna hromada"
+      },
+      {
+       "uid": "609",
+       "name": "Novenska terytorialna hromada"
+      },
+      {
+       "uid": "610",
+       "name": "Novobohdanivska terytorialna hromada"
+      },
+      {
+       "uid": "611",
+       "name": "Novovasylivska terytorialna hromada"
+      },
+      {
+       "uid": "612",
+       "name": "Novouspenivska terytorialna hromada"
+      },
+      {
+       "uid": "613",
+       "name": "Oleksandrivska terytorialna hromada"
+      },
+      {
+       "uid": "614",
+       "name": "Plodorodnenska terytorialna hromada"
+      },
+      {
+       "uid": "615",
+       "name": "Pryazovska terytorialna hromada"
+      },
+      {
+       "uid": "616",
+       "name": "Semenivska terytorialna hromada"
+      },
+      {
+       "uid": "617",
+       "name": "Terpinnivska terytorialna hromada"
+      },
+      {
+       "uid": "618",
+       "name": "Chkalovska terytorialna hromada"
+      },
+      {
+       "uid": "619",
+       "name": "Yakymivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "145",
+     "name": "Polohivskyi raion",
+     "hromadas": [
+      {
+       "uid": "578",
+       "name": "Bilmatska terytorialna hromada"
+      },
+      {
+       "uid": "579",
+       "name": "Vozdvyzhivska terytorialna hromada"
+      },
+      {
+       "uid": "580",
+       "name": "Voskresenska terytorialna hromada"
+      },
+      {
+       "uid": "581",
+       "name": "Huliaipilska terytorialna hromada"
+      },
+      {
+       "uid": "582",
+       "name": "Komysh-Zorianska terytorialna hromada"
+      },
+      {
+       "uid": "591",
+       "name": "m. Tokmak ta Tokmatska terytorialna hromada"
+      },
+      {
+       "uid": "583",
+       "name": "Malynivska terytorialna hromada"
+      },
+      {
+       "uid": "584",
+       "name": "Malotokmachanska terytorialna hromada"
+      },
+      {
+       "uid": "585",
+       "name": "Molochanska terytorialna hromada"
+      },
+      {
+       "uid": "586",
+       "name": "Orikhivska terytorialna hromada"
+      },
+      {
+       "uid": "587",
+       "name": "Polohivska terytorialna hromada"
+      },
+      {
+       "uid": "588",
+       "name": "Preobrazhenska terytorialna hromada"
+      },
+      {
+       "uid": "589",
+       "name": "Rozivska terytorialna hromada"
+      },
+      {
+       "uid": "590",
+       "name": "Smyrnovska terytorialna hromada"
+      },
+      {
+       "uid": "592",
+       "name": "Fedorivska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "13",
+   "name": "Ivano-Frankivska oblast",
+   "raions": [
+    {
+     "uid": "67",
+     "name": "Verkhovynskyi raion",
+     "hromadas": [
+      {
+       "uid": "620",
+       "name": "Biloberizka terytorialna hromada"
+      },
+      {
+       "uid": "621",
+       "name": "Verkhovynska terytorialna hromada"
+      },
+      {
+       "uid": "622",
+       "name": "Zelenska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "68",
+     "name": "Ivano-Frankivskyi raion",
+     "hromadas": [
+      {
+       "uid": "623",
+       "name": "Bilshivtsivska terytorialna hromada"
+      },
+      {
+       "uid": "624",
+       "name": "Bohorodchanska terytorialna hromada"
+      },
+      {
+       "uid": "625",
+       "name": "Bukachivska terytorialna hromada"
+      },
+      {
+       "uid": "627",
+       "name": "Halytska terytorialna hromada"
+      },
+      {
+       "uid": "628",
+       "name": "Dzvyniatska terytorialna hromada"
+      },
+      {
+       "uid": "629",
+       "name": "Dubovetska terytorialna hromada"
+      },
+      {
+       "uid": "630",
+       "name": "Yezupilska terytorialna hromada"
+      },
+      {
+       "uid": "631",
+       "name": "Zahvizdianska terytorialna hromada"
+      },
+      {
+       "uid": "633",
+       "name": "Lysetska terytorialna hromada"
+      },
+      {
+       "uid": "626",
+       "name": "m. Burshtyn ta Burshtynska terytorialna hromada"
+      },
+      {
+       "uid": "632",
+       "name": "m. Ivano-Frankivsk ta Ivano-Frankivska terytorialna hromada"
+      },
+      {
+       "uid": "634",
+       "name": "Obertynska terytorialna hromada"
+      },
+      {
+       "uid": "635",
+       "name": "Oleshanska terytorialna hromada"
+      },
+      {
+       "uid": "636",
+       "name": "Rohatynska terytorialna hromada"
+      },
+      {
+       "uid": "637",
+       "name": "Solotvynska terytorialna hromada"
+      },
+      {
+       "uid": "638",
+       "name": "Starobohorodchanska terytorialna hromada"
+      },
+      {
+       "uid": "639",
+       "name": "Tysmenytska terytorialna hromada"
+      },
+      {
+       "uid": "640",
+       "name": "Tlumatska terytorialna hromada"
+      },
+      {
+       "uid": "641",
+       "name": "Uhrynivska terytorialna hromada"
+      },
+      {
+       "uid": "642",
+       "name": "Yamnytska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "71",
+     "name": "Kaluskyi raion",
+     "hromadas": [
+      {
+       "uid": "644",
+       "name": "Broshniv-Osadska terytorialna hromada"
+      },
+      {
+       "uid": "645",
+       "name": "Verkhnianska terytorialna hromada"
+      },
+      {
+       "uid": "646",
+       "name": "Vyhodska terytorialna hromada"
+      },
+      {
+       "uid": "647",
+       "name": "Vytvytska terytorialna hromada"
+      },
+      {
+       "uid": "648",
+       "name": "Voinylivska terytorialna hromada"
+      },
+      {
+       "uid": "650",
+       "name": "Dubivska terytorialna hromada"
+      },
+      {
+       "uid": "643",
+       "name": "m. Bolekhiv ta Bolekhivska terytorialna hromada"
+      },
+      {
+       "uid": "649",
+       "name": "m. Dolyna ta Dolynska terytorialna hromada"
+      },
+      {
+       "uid": "651",
+       "name": "m. Kalush ta Kaluska terytorialna hromada"
+      },
+      {
+       "uid": "652",
+       "name": "Novytska terytorialna hromada"
+      },
+      {
+       "uid": "653",
+       "name": "Perehinska terytorialna hromada"
+      },
+      {
+       "uid": "654",
+       "name": "Rozhniativska terytorialna hromada"
+      },
+      {
+       "uid": "655",
+       "name": "Spaska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "70",
+     "name": "Kolomyiskyi raion",
+     "hromadas": [
+      {
+       "uid": "664",
+       "name": "Hvizdetska terytorialna hromada"
+      },
+      {
+       "uid": "665",
+       "name": "Horodenkivska terytorialna hromada"
+      },
+      {
+       "uid": "666",
+       "name": "Zabolotivska terytorialna hromada"
+      },
+      {
+       "uid": "668",
+       "name": "Korshivska terytorialna hromada"
+      },
+      {
+       "uid": "667",
+       "name": "m. Kolomyia ta Kolomyiska terytorialna hromada"
+      },
+      {
+       "uid": "669",
+       "name": "Mateivetska terytorialna hromada"
+      },
+      {
+       "uid": "670",
+       "name": "Nyzhnoverbizka terytorialna hromada"
+      },
+      {
+       "uid": "671",
+       "name": "Otyniiska terytorialna hromada"
+      },
+      {
+       "uid": "674",
+       "name": "Piadytska terytorialna hromada"
+      },
+      {
+       "uid": "672",
+       "name": "Pechenizhynska terytorialna hromada"
+      },
+      {
+       "uid": "673",
+       "name": "Pidhaichykivska terytorialna hromada"
+      },
+      {
+       "uid": "675",
+       "name": "Sniatynska terytorialna hromada"
+      },
+      {
+       "uid": "676",
+       "name": "Chernelytska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "69",
+     "name": "Kosivskyi raion",
+     "hromadas": [
+      {
+       "uid": "677",
+       "name": "Kosivska terytorialna hromada"
+      },
+      {
+       "uid": "678",
+       "name": "Kosmatska terytorialna hromada"
+      },
+      {
+       "uid": "679",
+       "name": "Kutska terytorialna hromada"
+      },
+      {
+       "uid": "680",
+       "name": "Rozhnivska terytorialna hromada"
+      },
+      {
+       "uid": "681",
+       "name": "Yablunivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "72",
+     "name": "Nadvirnianskyi raion",
+     "hromadas": [
+      {
+       "uid": "656",
+       "name": "Vorokhtianska terytorialna hromada"
+      },
+      {
+       "uid": "657",
+       "name": "Deliatynska terytorialna hromada"
+      },
+      {
+       "uid": "658",
+       "name": "Lanchynska terytorialna hromada"
+      },
+      {
+       "uid": "659",
+       "name": "m. Nadvirna ta Nadvirnianska terytorialna hromada"
+      },
+      {
+       "uid": "663",
+       "name": "m. Yaremche ta Yaremchanska terytorialna hromada"
+      },
+      {
+       "uid": "660",
+       "name": "Pasichnianska terytorialna hromada"
+      },
+      {
+       "uid": "661",
+       "name": "Pererislianska terytorialna hromada"
+      },
+      {
+       "uid": "662",
+       "name": "Polianytska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "14",
+   "name": "Kyivska oblast",
+   "raions": [
+    {
+     "uid": "73",
+     "name": "Bilotserkivskyi raion",
+     "hromadas": [
+      {
+       "uid": "712",
+       "name": "Volodarska terytorialna hromada"
+      },
+      {
+       "uid": "713",
+       "name": "Hrebinkivska terytorialna hromada"
+      },
+      {
+       "uid": "714",
+       "name": "Kovalivska terytorialna hromada"
+      },
+      {
+       "uid": "711",
+       "name": "m. Bila Tserkva ta Bilotserkivska terytorialna hromada"
+      },
+      {
+       "uid": "715",
+       "name": "Malovilshanska terytorialna hromada"
+      },
+      {
+       "uid": "716",
+       "name": "Medvynska terytorialna hromada"
+      },
+      {
+       "uid": "717",
+       "name": "Rokytnianska terytorialna hromada"
+      },
+      {
+       "uid": "718",
+       "name": "Skvyrska terytorialna hromada"
+      },
+      {
+       "uid": "719",
+       "name": "Stavyshchenska terytorialna hromada"
+      },
+      {
+       "uid": "720",
+       "name": "Tarashchanska terytorialna hromada"
+      },
+      {
+       "uid": "721",
+       "name": "Tetiivska terytorialna hromada"
+      },
+      {
+       "uid": "722",
+       "name": "Uzynska terytorialna hromada"
+      },
+      {
+       "uid": "723",
+       "name": "Fursivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "78",
+     "name": "Boryspilskyi raion",
+     "hromadas": [
+      {
+       "uid": "734",
+       "name": "Voronkivska terytorialna hromada"
+      },
+      {
+       "uid": "735",
+       "name": "Hirska terytorialna hromada"
+      },
+      {
+       "uid": "736",
+       "name": "Divychkivska terytorialna hromada"
+      },
+      {
+       "uid": "737",
+       "name": "Zolochivska terytorialna hromada"
+      },
+      {
+       "uid": "733",
+       "name": "m. Boryspil ta Boryspilska terytorialna hromada"
+      },
+      {
+       "uid": "738",
+       "name": "m. Pereiaslav ta Pereiaslavska terytorialna hromada"
+      },
+      {
+       "uid": "739",
+       "name": "Prystolychna terytorialna hromada"
+      },
+      {
+       "uid": "740",
+       "name": "Studenykivska terytorialna hromada"
+      },
+      {
+       "uid": "741",
+       "name": "Tashanska terytorialna hromada"
+      },
+      {
+       "uid": "742",
+       "name": "Tsyblivska terytorialna hromada"
+      },
+      {
+       "uid": "743",
+       "name": "Yahotynska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "79",
+     "name": "Brovarskyi raion",
+     "hromadas": [
+      {
+       "uid": "682",
+       "name": "Baryshivska terytorialna hromada"
+      },
+      {
+       "uid": "685",
+       "name": "Velykodymerska terytorialna hromada"
+      },
+      {
+       "uid": "686",
+       "name": "Zazymska terytorialna hromada"
+      },
+      {
+       "uid": "687",
+       "name": "Zghurivska terytorialna hromada"
+      },
+      {
+       "uid": "688",
+       "name": "Kalynivska terytorialna hromada"
+      },
+      {
+       "uid": "689",
+       "name": "Kalytianska terytorialna hromada"
+      },
+      {
+       "uid": "683",
+       "name": "m. Berezan ta Berezanska terytorialna hromada"
+      },
+      {
+       "uid": "684",
+       "name": "m. Brovary ta Brovarska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "75",
+     "name": "Buchanskyi raion",
+     "hromadas": [
+      {
+       "uid": "699",
+       "name": "Bilohorodska terytorialna hromada"
+      },
+      {
+       "uid": "700",
+       "name": "Borodianska terytorialna hromada"
+      },
+      {
+       "uid": "701",
+       "name": "Borshchahivska terytorialna hromada"
+      },
+      {
+       "uid": "703",
+       "name": "Vyshneva terytorialna hromada"
+      },
+      {
+       "uid": "704",
+       "name": "Hostomelska terytorialna hromada"
+      },
+      {
+       "uid": "705",
+       "name": "Dmytrivska terytorialna hromada"
+      },
+      {
+       "uid": "707",
+       "name": "Kotsiubynska terytorialna hromada"
+      },
+      {
+       "uid": "702",
+       "name": "m. Bucha ta Buchanska terytorialna hromada"
+      },
+      {
+       "uid": "706",
+       "name": "m. Irpin ta Irpinska terytorialna hromada"
+      },
+      {
+       "uid": "708",
+       "name": "Makarivska terytorialna hromada"
+      },
+      {
+       "uid": "709",
+       "name": "Nemishaivska terytorialna hromada"
+      },
+      {
+       "uid": "710",
+       "name": "Piskivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "74",
+     "name": "Vyshhorodskyi raion",
+     "hromadas": [
+      {
+       "uid": "744",
+       "name": "Vyshhorodska terytorialna hromada"
+      },
+      {
+       "uid": "745",
+       "name": "Dymerska terytorialna hromada"
+      },
+      {
+       "uid": "746",
+       "name": "Ivankivska terytorialna hromada"
+      },
+      {
+       "uid": "750",
+       "name": "m. Slavutych ta Slavutytska terytorialna hromada"
+      },
+      {
+       "uid": "747",
+       "name": "Petrivska terytorialna hromada"
+      },
+      {
+       "uid": "748",
+       "name": "Pirnivska terytorialna hromada"
+      },
+      {
+       "uid": "749",
+       "name": "Poliska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "76",
+     "name": "Obukhivskyi raion",
+     "hromadas": [
+      {
+       "uid": "724",
+       "name": "Bohuslavska terytorialna hromada"
+      },
+      {
+       "uid": "726",
+       "name": "Kaharlytska terytorialna hromada"
+      },
+      {
+       "uid": "727",
+       "name": "Kozynska terytorialna hromada"
+      },
+      {
+       "uid": "725",
+       "name": "m. Vasylkiv ta Vasylkivska terytorialna hromada"
+      },
+      {
+       "uid": "729",
+       "name": "m. Obukhiv ta Obukhivska terytorialna hromada"
+      },
+      {
+       "uid": "730",
+       "name": "m. Rzhyshchiv ta Rzhyshchivska terytorialna hromada"
+      },
+      {
+       "uid": "728",
+       "name": "Myronivska terytorialna hromada"
+      },
+      {
+       "uid": "731",
+       "name": "Ukrainska terytorialna hromada"
+      },
+      {
+       "uid": "732",
+       "name": "Feodosiivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "77",
+     "name": "Fastivskyi raion",
+     "hromadas": [
+      {
+       "uid": "690",
+       "name": "Byshivska terytorialna hromada"
+      },
+      {
+       "uid": "691",
+       "name": "Boiarska terytorialna hromada"
+      },
+      {
+       "uid": "692",
+       "name": "Hatnenska terytorialna hromada"
+      },
+      {
+       "uid": "693",
+       "name": "Hlevakhivska terytorialna hromada"
+      },
+      {
+       "uid": "694",
+       "name": "Kalynivska terytorialna hromada"
+      },
+      {
+       "uid": "695",
+       "name": "Kozhanska terytorialna hromada"
+      },
+      {
+       "uid": "697",
+       "name": "m. Fastiv ta Fastivska terytorialna hromada"
+      },
+      {
+       "uid": "696",
+       "name": "Tomashivska terytorialna hromada"
+      },
+      {
+       "uid": "698",
+       "name": "Chabanivska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "15",
+   "name": "Kirovohradska oblast",
+   "raions": [
+    {
+     "uid": "82",
+     "name": "Holovanivskyi raion",
+     "hromadas": [
+      {
+       "uid": "768",
+       "name": "Blahovishchenska terytorialna hromada"
+      },
+      {
+       "uid": "769",
+       "name": "Vilshanska terytorialna hromada"
+      },
+      {
+       "uid": "770",
+       "name": "Haivoronska terytorialna hromada"
+      },
+      {
+       "uid": "771",
+       "name": "Holovanivska terytorialna hromada"
+      },
+      {
+       "uid": "772",
+       "name": "Zavallivska terytorialna hromada"
+      },
+      {
+       "uid": "773",
+       "name": "Nadlatska terytorialna hromada"
+      },
+      {
+       "uid": "774",
+       "name": "Novoarkhanhelska terytorialna hromada"
+      },
+      {
+       "uid": "775",
+       "name": "Perehonivska terytorialna hromada"
+      },
+      {
+       "uid": "776",
+       "name": "Pidvysotska terytorialna hromada"
+      },
+      {
+       "uid": "777",
+       "name": "Pobuzka terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "81",
+     "name": "Kropyvnytskyi raion",
+     "hromadas": [
+      {
+       "uid": "751",
+       "name": "Adzhamska terytorialna hromada"
+      },
+      {
+       "uid": "752",
+       "name": "Bobrynetska terytorialna hromada"
+      },
+      {
+       "uid": "753",
+       "name": "Velykoseverynivska terytorialna hromada"
+      },
+      {
+       "uid": "754",
+       "name": "Hurivska terytorialna hromada"
+      },
+      {
+       "uid": "755",
+       "name": "Dmytrivska terytorialna hromada"
+      },
+      {
+       "uid": "756",
+       "name": "Dolynska terytorialna hromada"
+      },
+      {
+       "uid": "758",
+       "name": "Katerynivska terytorialna hromada"
+      },
+      {
+       "uid": "759",
+       "name": "Ketrysanivska terytorialna hromada"
+      },
+      {
+       "uid": "760",
+       "name": "Kompaniivska terytorialna hromada"
+      },
+      {
+       "uid": "757",
+       "name": "m. Znamianka ta Znamianska terytorialna hromada"
+      },
+      {
+       "uid": "761",
+       "name": "m. Kropyvnytskyi ta Kropyvnytska terytorialna hromada"
+      },
+      {
+       "uid": "762",
+       "name": "Novhorodkivska terytorialna hromada"
+      },
+      {
+       "uid": "763",
+       "name": "Oleksandrivska terytorialna hromada"
+      },
+      {
+       "uid": "764",
+       "name": "Pervozvanivska terytorialna hromada"
+      },
+      {
+       "uid": "765",
+       "name": "Sokolivska terytorialna hromada"
+      },
+      {
+       "uid": "766",
+       "name": "Subottsivska terytorialna hromada"
+      },
+      {
+       "uid": "767",
+       "name": "Ustynivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "83",
+     "name": "Novoukrainskyi raion",
+     "hromadas": [
+      {
+       "uid": "787",
+       "name": "Hannivska terytorialna hromada"
+      },
+      {
+       "uid": "788",
+       "name": "Hlodoska terytorialna hromada"
+      },
+      {
+       "uid": "789",
+       "name": "Dobrovelychkivska terytorialna hromada"
+      },
+      {
+       "uid": "790",
+       "name": "Zlynska terytorialna hromada"
+      },
+      {
+       "uid": "791",
+       "name": "Malovyskivska terytorialna hromada"
+      },
+      {
+       "uid": "792",
+       "name": "Marianivska terytorialna hromada"
+      },
+      {
+       "uid": "793",
+       "name": "Novomyrhorodska terytorialna hromada"
+      },
+      {
+       "uid": "794",
+       "name": "Novoukrainska terytorialna hromada"
+      },
+      {
+       "uid": "795",
+       "name": "Pishchanobridska terytorialna hromada"
+      },
+      {
+       "uid": "796",
+       "name": "Pomichnianska terytorialna hromada"
+      },
+      {
+       "uid": "797",
+       "name": "Rivnianska terytorialna hromada"
+      },
+      {
+       "uid": "798",
+       "name": "Smolinska terytorialna hromada"
+      },
+      {
+       "uid": "799",
+       "name": "Tyshkivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "80",
+     "name": "Oleksandriiskyi raion",
+     "hromadas": [
+      {
+       "uid": "778",
+       "name": "Velykoandrusivska terytorialna hromada"
+      },
+      {
+       "uid": "780",
+       "name": "m. Oleksandriia ta Oleksandriiska terytorialna hromada"
+      },
+      {
+       "uid": "786",
+       "name": "m. Svitlovodsk ta Svitlovodska terytorialna hromada"
+      },
+      {
+       "uid": "779",
+       "name": "Novoprazka terytorialna hromada"
+      },
+      {
+       "uid": "781",
+       "name": "Onufriivska terytorialna hromada"
+      },
+      {
+       "uid": "782",
+       "name": "Pantaivska terytorialna hromada"
+      },
+      {
+       "uid": "783",
+       "name": "Petrivska terytorialna hromada"
+      },
+      {
+       "uid": "784",
+       "name": "Popelnastivska terytorialna hromada"
+      },
+      {
+       "uid": "785",
+       "name": "Pryiutivska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "16",
+   "name": "Luhanska oblast",
+   "raions": [
+    {
+     "uid": "85",
+     "name": "Svativskyi raion",
+     "hromadas": [
+      {
+       "uid": "808",
+       "name": "Bilokurakynska terytorialna hromada"
+      },
+      {
+       "uid": "809",
+       "name": "Kolomyichyska terytorialna hromada"
+      },
+      {
+       "uid": "810",
+       "name": "Krasnorichenska terytorialna hromada"
+      },
+      {
+       "uid": "811",
+       "name": "Lozno-Oleksandrivska terytorialna hromada"
+      },
+      {
+       "uid": "812",
+       "name": "Nyzhnoduvanska terytorialna hromada"
+      },
+      {
+       "uid": "813",
+       "name": "Svativska terytorialna hromada"
+      },
+      {
+       "uid": "814",
+       "name": "Troitska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "84",
+     "name": "Siverskodonetskyi raion",
+     "hromadas": [
+      {
+       "uid": "815",
+       "name": "Hirska terytorialna hromada"
+      },
+      {
+       "uid": "816",
+       "name": "m. Kreminna ta Kreminska terytorialna hromada"
+      },
+      {
+       "uid": "817",
+       "name": "m. Lysychansk ta Lysychanska terytorialna hromada"
+      },
+      {
+       "uid": "819",
+       "name": "m. Rubizhne ta Rubizhanska terytorialna hromada"
+      },
+      {
+       "uid": "820",
+       "name": "m. Siverskodonetsk ta Siverskodonetska terytorialna hromada"
+      },
+      {
+       "uid": "818",
+       "name": "Popasnianska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "86",
+     "name": "Starobilskyi raion",
+     "hromadas": [
+      {
+       "uid": "800",
+       "name": "Bilovodska terytorialna hromada"
+      },
+      {
+       "uid": "801",
+       "name": "Bilolutska terytorialna hromada"
+      },
+      {
+       "uid": "802",
+       "name": "Markivska terytorialna hromada"
+      },
+      {
+       "uid": "803",
+       "name": "Milovska terytorialna hromada"
+      },
+      {
+       "uid": "804",
+       "name": "Novopskovska terytorialna hromada"
+      },
+      {
+       "uid": "805",
+       "name": "Starobilska terytorialna hromada"
+      },
+      {
+       "uid": "806",
+       "name": "Chmyrivska terytorialna hromada"
+      },
+      {
+       "uid": "807",
+       "name": "Shulhynska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "87",
+     "name": "Shchastynskyi raion",
+     "hromadas": [
+      {
+       "uid": "821",
+       "name": "Nyzhnoteplivska terytorialna hromada"
+      },
+      {
+       "uid": "822",
+       "name": "Novoaidarska terytorialna hromada"
+      },
+      {
+       "uid": "823",
+       "name": "Stanychno-Luhanska terytorialna hromada"
+      },
+      {
+       "uid": "824",
+       "name": "Shyrokivska terytorialna hromada"
+      },
+      {
+       "uid": "825",
+       "name": "Shchastynska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "27",
+   "name": "Lvivska oblast",
+   "raions": [
+    {
+     "uid": "91",
+     "name": "Drohobytskyi raion",
+     "hromadas": [
+      {
+       "uid": "867",
+       "name": "m. Boryslav ta Boryslavska terytorialna hromada"
+      },
+      {
+       "uid": "868",
+       "name": "m. Drohobych ta Drohobytska terytorialna hromada"
+      },
+      {
+       "uid": "871",
+       "name": "m. Truskavets ta Truskavetska terytorialna hromada"
+      },
+      {
+       "uid": "869",
+       "name": "Medenytska terytorialna hromada"
+      },
+      {
+       "uid": "870",
+       "name": "Skhidnytska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "94",
+     "name": "Zolochivskyi raion",
+     "hromadas": [
+      {
+       "uid": "872",
+       "name": "Brodivska terytorialna hromada"
+      },
+      {
+       "uid": "873",
+       "name": "Buska terytorialna hromada"
+      },
+      {
+       "uid": "874",
+       "name": "Zabolottsivska terytorialna hromada"
+      },
+      {
+       "uid": "875",
+       "name": "Zolochivska terytorialna hromada"
+      },
+      {
+       "uid": "876",
+       "name": "Krasnenska terytorialna hromada"
+      },
+      {
+       "uid": "877",
+       "name": "Pidkaminska terytorialna hromada"
+      },
+      {
+       "uid": "878",
+       "name": "Pomorianska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "90",
+     "name": "Lvivskyi raion",
+     "hromadas": [
+      {
+       "uid": "833",
+       "name": "Bibrska terytorialna hromada"
+      },
+      {
+       "uid": "834",
+       "name": "Velykoliubinska terytorialna hromada"
+      },
+      {
+       "uid": "835",
+       "name": "Hlynianska terytorialna hromada"
+      },
+      {
+       "uid": "836",
+       "name": "Horodotska terytorialna hromada"
+      },
+      {
+       "uid": "837",
+       "name": "Davydivska terytorialna hromada"
+      },
+      {
+       "uid": "838",
+       "name": "Dobrosynsko-Maherivska terytorialna hromada"
+      },
+      {
+       "uid": "839",
+       "name": "Zhovkivska terytorialna hromada"
+      },
+      {
+       "uid": "840",
+       "name": "Zhovtanetska terytorialna hromada"
+      },
+      {
+       "uid": "841",
+       "name": "Zymnovodivska terytorialna hromada"
+      },
+      {
+       "uid": "842",
+       "name": "Kamianka-Buzka terytorialna hromada"
+      },
+      {
+       "uid": "843",
+       "name": "Komarnivska terytorialna hromada"
+      },
+      {
+       "uid": "844",
+       "name": "Kulykivska terytorialna hromada"
+      },
+      {
+       "uid": "845",
+       "name": "m. Lviv ta Lvivska terytorialna hromada"
+      },
+      {
+       "uid": "846",
+       "name": "Murovanska terytorialna hromada"
+      },
+      {
+       "uid": "847",
+       "name": "Novoiarychivska terytorialna hromada"
+      },
+      {
+       "uid": "848",
+       "name": "Obroshynska terytorialna hromada"
+      },
+      {
+       "uid": "849",
+       "name": "Peremyshlianska terytorialna hromada"
+      },
+      {
+       "uid": "850",
+       "name": "Pidberiztsivska terytorialna hromada"
+      },
+      {
+       "uid": "851",
+       "name": "Pustomytivska terytorialna hromada"
+      },
+      {
+       "uid": "852",
+       "name": "Rava-Ruska terytorialna hromada"
+      },
+      {
+       "uid": "853",
+       "name": "Sokilnytska terytorialna hromada"
+      },
+      {
+       "uid": "854",
+       "name": "Solonkivska terytorialna hromada"
+      },
+      {
+       "uid": "855",
+       "name": "Shchyretska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "88",
+     "name": "Sambirskyi raion",
+     "hromadas": [
+      {
+       "uid": "856",
+       "name": "Biskovytska terytorialna hromada"
+      },
+      {
+       "uid": "857",
+       "name": "Borynska terytorialna hromada"
+      },
+      {
+       "uid": "858",
+       "name": "Dobromylska terytorialna hromada"
+      },
+      {
+       "uid": "862",
+       "name": "m. Sambir ta Sambirska terytorialna hromada"
+      },
+      {
+       "uid": "859",
+       "name": "Novokalynivska terytorialna hromada"
+      },
+      {
+       "uid": "860",
+       "name": "Ralivska terytorialna hromada"
+      },
+      {
+       "uid": "861",
+       "name": "Rudkivska terytorialna hromada"
+      },
+      {
+       "uid": "863",
+       "name": "Starosambirska terytorialna hromada"
+      },
+      {
+       "uid": "864",
+       "name": "Strilkivska terytorialna hromada"
+      },
+      {
+       "uid": "865",
+       "name": "Turkivska terytorialna hromada"
+      },
+      {
+       "uid": "866",
+       "name": "Khyrivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "89",
+     "name": "Stryiskyi raion",
+     "hromadas": [
+      {
+       "uid": "879",
+       "name": "Hnizdychivska terytorialna hromada"
+      },
+      {
+       "uid": "880",
+       "name": "Hrabovetsko-Dulibivska terytorialna hromada"
+      },
+      {
+       "uid": "881",
+       "name": "Zhydachivska terytorialna hromada"
+      },
+      {
+       "uid": "882",
+       "name": "Zhuravnenska terytorialna hromada"
+      },
+      {
+       "uid": "883",
+       "name": "Kozivska terytorialna hromada"
+      },
+      {
+       "uid": "885",
+       "name": "m. Morshyn ta Morshynska terytorialna hromada"
+      },
+      {
+       "uid": "886",
+       "name": "m. Novyi Rozdil ta Novorozdilska terytorialna hromada"
+      },
+      {
+       "uid": "890",
+       "name": "m. Stryi ta Stryiska terytorialna hromada"
+      },
+      {
+       "uid": "884",
+       "name": "Mykolaivska terytorialna hromada"
+      },
+      {
+       "uid": "887",
+       "name": "Rozvadivska terytorialna hromada"
+      },
+      {
+       "uid": "888",
+       "name": "Skolivska terytorialna hromada"
+      },
+      {
+       "uid": "889",
+       "name": "Slavska terytorialna hromada"
+      },
+      {
+       "uid": "891",
+       "name": "Trostianetska terytorialna hromada"
+      },
+      {
+       "uid": "892",
+       "name": "Khodorivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "92",
+     "name": "Chervonohradskyi raion",
+     "hromadas": [
+      {
+       "uid": "826",
+       "name": "Belzka terytorialna hromada"
+      },
+      {
+       "uid": "827",
+       "name": "Velykomostivska terytorialna hromada"
+      },
+      {
+       "uid": "828",
+       "name": "Dobrotvirska terytorialna hromada"
+      },
+      {
+       "uid": "829",
+       "name": "Lopatynska terytorialna hromada"
+      },
+      {
+       "uid": "832",
+       "name": "m. Sheptytskyi ta Sheptytska terytorialna hromada"
+      },
+      {
+       "uid": "830",
+       "name": "Radekhivska terytorialna hromada"
+      },
+      {
+       "uid": "831",
+       "name": "Sokalska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "93",
+     "name": "Yavorivskyi raion",
+     "hromadas": [
+      {
+       "uid": "893",
+       "name": "Ivano-Frankivska terytorialna hromada"
+      },
+      {
+       "uid": "894",
+       "name": "Mostyska terytorialna hromada"
+      },
+      {
+       "uid": "895",
+       "name": "Novoiavorivsk terytorialna hromada"
+      },
+      {
+       "uid": "896",
+       "name": "Sudovovyshnianska terytorialna hromada"
+      },
+      {
+       "uid": "897",
+       "name": "Shehynivska terytorialna hromada"
+      },
+      {
+       "uid": "898",
+       "name": "Yavorivska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "31",
+   "name": "Kyiv City",
+   "raions": []
+  },
+  {
+   "uid": "17",
+   "name": "Mykolaivska oblast",
+   "raions": [
+    {
+     "uid": "96",
+     "name": "Bashtanskyi raion",
+     "hromadas": [
+      {
+       "uid": "908",
+       "name": "Bereznehuvatska terytorialna hromada"
+      },
+      {
+       "uid": "909",
+       "name": "Vilnozaporizka terytorialna hromada"
+      },
+      {
+       "uid": "910",
+       "name": "Volodymyrivska terytorialna hromada"
+      },
+      {
+       "uid": "911",
+       "name": "Horokhivska terytorialna hromada"
+      },
+      {
+       "uid": "912",
+       "name": "Inhulska terytorialna hromada"
+      },
+      {
+       "uid": "913",
+       "name": "Kazankivska terytorialna hromada"
+      },
+      {
+       "uid": "907",
+       "name": "m. Bashtanka ta Bashtanska terytorialna hromada"
+      },
+      {
+       "uid": "916",
+       "name": "m. Snihurivka ta Snihurivska terytorialna hromada"
+      },
+      {
+       "uid": "914",
+       "name": "Novobuzka terytorialna hromada"
+      },
+      {
+       "uid": "915",
+       "name": "Pryvilnenska terytorialna hromada"
+      },
+      {
+       "uid": "917",
+       "name": "Sofiivska terytorialna hromada"
+      },
+      {
+       "uid": "918",
+       "name": "Shyrokivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "95",
+     "name": "Voznesenskyi raion",
+     "hromadas": [
+      {
+       "uid": "938",
+       "name": "Bratska terytorialna hromada"
+      },
+      {
+       "uid": "939",
+       "name": "Buzka terytorialna hromada"
+      },
+      {
+       "uid": "940",
+       "name": "Veselynivska terytorialna hromada"
+      },
+      {
+       "uid": "942",
+       "name": "Domanivska terytorialna hromada"
+      },
+      {
+       "uid": "943",
+       "name": "Doroshivska terytorialna hromada"
+      },
+      {
+       "uid": "944",
+       "name": "Yelanetska terytorialna hromada"
+      },
+      {
+       "uid": "941",
+       "name": "m. Voznesensk ta Voznesenska terytorialna hromada"
+      },
+      {
+       "uid": "950",
+       "name": "m. Yuzhnoukrainsk ta Yuzhnoukrainska terytorialna hromada"
+      },
+      {
+       "uid": "945",
+       "name": "Mostivska terytorialna hromada"
+      },
+      {
+       "uid": "946",
+       "name": "Novomarivska terytorialna hromada"
+      },
+      {
+       "uid": "947",
+       "name": "Oleksandrivska terytorialna hromada"
+      },
+      {
+       "uid": "948",
+       "name": "Prybuzhanivska terytorialna hromada"
+      },
+      {
+       "uid": "949",
+       "name": "Prybuzka terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "98",
+     "name": "Mykolaivskyi raion",
+     "hromadas": [
+      {
+       "uid": "919",
+       "name": "Berezanska terytorialna hromada"
+      },
+      {
+       "uid": "920",
+       "name": "Vesnianska terytorialna hromada"
+      },
+      {
+       "uid": "921",
+       "name": "Voskresenska terytorialna hromada"
+      },
+      {
+       "uid": "922",
+       "name": "Halytsynivska terytorialna hromada"
+      },
+      {
+       "uid": "923",
+       "name": "Koblivska terytorialna hromada"
+      },
+      {
+       "uid": "924",
+       "name": "Kostiantynivska terytorialna hromada"
+      },
+      {
+       "uid": "925",
+       "name": "Kutsurubska terytorialna hromada"
+      },
+      {
+       "uid": "926",
+       "name": "m. Mykolaiv ta Mykolaivska terytorialna hromada"
+      },
+      {
+       "uid": "929",
+       "name": "m. Nova-Odesa ta Novoodeska terytorialna hromada"
+      },
+      {
+       "uid": "931",
+       "name": "m. Ochakiv ta Ochakivska terytorialna hromada"
+      },
+      {
+       "uid": "927",
+       "name": "Mishkovo-Pohorilivska terytorialna hromada"
+      },
+      {
+       "uid": "928",
+       "name": "Nechaianska terytorialna hromada"
+      },
+      {
+       "uid": "930",
+       "name": "Olshanska terytorialna hromada"
+      },
+      {
+       "uid": "932",
+       "name": "Pervomaiska terytorialna hromada"
+      },
+      {
+       "uid": "933",
+       "name": "Radsadivska terytorialna hromada"
+      },
+      {
+       "uid": "934",
+       "name": "Stepivska terytorialna hromada"
+      },
+      {
+       "uid": "935",
+       "name": "Sukhoielanetska terytorialna hromada"
+      },
+      {
+       "uid": "936",
+       "name": "Chornomorska terytorialna hromada"
+      },
+      {
+       "uid": "937",
+       "name": "Shevchenkivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "97",
+     "name": "Pervomaiskyi raion",
+     "hromadas": [
+      {
+       "uid": "899",
+       "name": "Arbuzynska terytorialna hromada"
+      },
+      {
+       "uid": "900",
+       "name": "Blahodatnenska terytorialna hromada"
+      },
+      {
+       "uid": "901",
+       "name": "Vradiivska terytorialna hromada"
+      },
+      {
+       "uid": "902",
+       "name": "Kamianomostivska terytorialna hromada"
+      },
+      {
+       "uid": "903",
+       "name": "Kryvoozerska terytorialna hromada"
+      },
+      {
+       "uid": "905",
+       "name": "m. Pervomaisk ta Pervomaiska terytorialna hromada"
+      },
+      {
+       "uid": "904",
+       "name": "Myhiivska terytorialna hromada"
+      },
+      {
+       "uid": "906",
+       "name": "Syniukhynobridska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "18",
+   "name": "Odeska oblast",
+   "raions": [
+    {
+     "uid": "100",
+     "name": "Berezivskyi raion",
+     "hromadas": [
+      {
+       "uid": "985",
+       "name": "Andriievo-Ivanivska terytorialna hromada"
+      },
+      {
+       "uid": "986",
+       "name": "Berezivska terytorialna hromada"
+      },
+      {
+       "uid": "987",
+       "name": "Velykobuialytska terytorialna hromada"
+      },
+      {
+       "uid": "988",
+       "name": "Znamianska terytorialna hromada"
+      },
+      {
+       "uid": "989",
+       "name": "Ivanivska terytorialna hromada"
+      },
+      {
+       "uid": "990",
+       "name": "Konoplianska terytorialna hromada"
+      },
+      {
+       "uid": "991",
+       "name": "Kurisovska terytorialna hromada"
+      },
+      {
+       "uid": "992",
+       "name": "Mykolaivska terytorialna hromada"
+      },
+      {
+       "uid": "993",
+       "name": "Novokalchevska terytorialna hromada"
+      },
+      {
+       "uid": "994",
+       "name": "Petrovirivska terytorialna hromada"
+      },
+      {
+       "uid": "995",
+       "name": "Raukhivska terytorialna hromada"
+      },
+      {
+       "uid": "996",
+       "name": "Rozkvitivska terytorialna hromada"
+      },
+      {
+       "uid": "997",
+       "name": "Staromaiakivska terytorialna hromada"
+      },
+      {
+       "uid": "998",
+       "name": "Striukivska terytorialna hromada"
+      },
+      {
+       "uid": "999",
+       "name": "Chohodarivska terytorialna hromada"
+      },
+      {
+       "uid": "1000",
+       "name": "Shyriaivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "102",
+     "name": "Bilhorod-Dnistrovskyi raion",
+     "hromadas": [
+      {
+       "uid": "1012",
+       "name": "Dyviziiska terytorialna hromada"
+      },
+      {
+       "uid": "1013",
+       "name": "Karolino-Buhazka terytorialna hromada"
+      },
+      {
+       "uid": "1014",
+       "name": "Kulevchanska terytorialna hromada"
+      },
+      {
+       "uid": "1015",
+       "name": "Lymanska terytorialna hromada"
+      },
+      {
+       "uid": "1011",
+       "name": "m. Bilhorod-Dnistrovskyi ta Bilhorod-Dnistrovska terytorialna hromada"
+      },
+      {
+       "uid": "1016",
+       "name": "Marazliivska terytorialna hromada"
+      },
+      {
+       "uid": "1017",
+       "name": "Molohivska terytorialna hromada"
+      },
+      {
+       "uid": "1018",
+       "name": "Petropavlivska terytorialna hromada"
+      },
+      {
+       "uid": "1019",
+       "name": "Plakhtiivska terytorialna hromada"
+      },
+      {
+       "uid": "1020",
+       "name": "Saratska terytorialna hromada"
+      },
+      {
+       "uid": "1021",
+       "name": "Serhiivska terytorialna hromada"
+      },
+      {
+       "uid": "1022",
+       "name": "Starokozatska terytorialna hromada"
+      },
+      {
+       "uid": "1023",
+       "name": "Tatarbunarska terytorialna hromada"
+      },
+      {
+       "uid": "1024",
+       "name": "Tuzlivska terytorialna hromada"
+      },
+      {
+       "uid": "1025",
+       "name": "Uspenivska terytorialna hromada"
+      },
+      {
+       "uid": "1026",
+       "name": "Shabivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "105",
+     "name": "Bolhradskyi raion",
+     "hromadas": [
+      {
+       "uid": "1001",
+       "name": "Artsyzka terytorialna hromada"
+      },
+      {
+       "uid": "1002",
+       "name": "Bolhradska terytorialna hromada"
+      },
+      {
+       "uid": "1003",
+       "name": "Borodinska terytorialna hromada"
+      },
+      {
+       "uid": "1004",
+       "name": "Vasylivska terytorialna hromada"
+      },
+      {
+       "uid": "1005",
+       "name": "Horodnenska terytorialna hromada"
+      },
+      {
+       "uid": "1006",
+       "name": "Krynychenska terytorialna hromada"
+      },
+      {
+       "uid": "1007",
+       "name": "Kubeiska terytorialna hromada"
+      },
+      {
+       "uid": "1008",
+       "name": "Pavlivska terytorialna hromada"
+      },
+      {
+       "uid": "1009",
+       "name": "Tarutynska terytorialna hromada"
+      },
+      {
+       "uid": "1010",
+       "name": "Teplytska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "101",
+     "name": "Izmailskyi raion",
+     "hromadas": [
+      {
+       "uid": "1036",
+       "name": "Vylkivska terytorialna hromada"
+      },
+      {
+       "uid": "1038",
+       "name": "Kiliiska terytorialna hromada"
+      },
+      {
+       "uid": "1037",
+       "name": "m. Izmail ta Izmailska terytorialna hromada"
+      },
+      {
+       "uid": "1039",
+       "name": "Reniiska terytorialna hromada"
+      },
+      {
+       "uid": "1040",
+       "name": "Safianivska terytorialna hromada"
+      },
+      {
+       "uid": "1041",
+       "name": "Suvorovska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "104",
+     "name": "Odeskyi raion",
+     "hromadas": [
+      {
+       "uid": "951",
+       "name": "Avanhardivska terytorialna hromada"
+      },
+      {
+       "uid": "952",
+       "name": "Biliaivska terytorialna hromada"
+      },
+      {
+       "uid": "953",
+       "name": "Velykodalnytska terytorialna hromada"
+      },
+      {
+       "uid": "954",
+       "name": "Velykodolynska terytorialna hromada"
+      },
+      {
+       "uid": "955",
+       "name": "Vyhodianska terytorialna hromada"
+      },
+      {
+       "uid": "956",
+       "name": "Vyzyrska terytorialna hromada"
+      },
+      {
+       "uid": "957",
+       "name": "Dalnytska terytorialna hromada"
+      },
+      {
+       "uid": "958",
+       "name": "Dachnenska terytorialna hromada"
+      },
+      {
+       "uid": "959",
+       "name": "Dobroslavska terytorialna hromada"
+      },
+      {
+       "uid": "960",
+       "name": "Krasnosilska terytorialna hromada"
+      },
+      {
+       "uid": "964",
+       "name": "m. Odesa ta Odeska terytorialna hromada"
+      },
+      {
+       "uid": "971",
+       "name": "m. Pivdenne ta Pivdenna terytorialna hromada"
+      },
+      {
+       "uid": "969",
+       "name": "m. Chornomorsk ta Chornomorska terytorialna hromada"
+      },
+      {
+       "uid": "961",
+       "name": "Maiakivska terytorialna hromada"
+      },
+      {
+       "uid": "962",
+       "name": "Nerubaiska terytorialna hromada"
+      },
+      {
+       "uid": "963",
+       "name": "Ovidiopolska terytorialna hromada"
+      },
+      {
+       "uid": "965",
+       "name": "Tairovska terytorialna hromada"
+      },
+      {
+       "uid": "966",
+       "name": "Teplodarska terytorialna hromada"
+      },
+      {
+       "uid": "967",
+       "name": "Usativska terytorialna hromada"
+      },
+      {
+       "uid": "968",
+       "name": "Fontanska terytorialna hromada"
+      },
+      {
+       "uid": "970",
+       "name": "Chornomorska terytorialna hromada"
+      },
+      {
+       "uid": "972",
+       "name": "Yaskivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "99",
+     "name": "Podilskyi raion",
+     "hromadas": [
+      {
+       "uid": "973",
+       "name": "Ananivska terytorialna hromada"
+      },
+      {
+       "uid": "974",
+       "name": "Baltska terytorialna hromada"
+      },
+      {
+       "uid": "975",
+       "name": "Dolynska terytorialna hromada"
+      },
+      {
+       "uid": "976",
+       "name": "Zelenohirska terytorialna hromada"
+      },
+      {
+       "uid": "977",
+       "name": "Kodymska terytorialna hromada"
+      },
+      {
+       "uid": "978",
+       "name": "Kuialnytska terytorialna hromada"
+      },
+      {
+       "uid": "979",
+       "name": "Liubashivska terytorialna hromada"
+      },
+      {
+       "uid": "980",
+       "name": "Oknianska terytorialna hromada"
+      },
+      {
+       "uid": "981",
+       "name": "Pishchanska terytorialna hromada"
+      },
+      {
+       "uid": "982",
+       "name": "Podilska terytorialna hromada"
+      },
+      {
+       "uid": "983",
+       "name": "Savranska terytorialna hromada"
+      },
+      {
+       "uid": "984",
+       "name": "Slobidska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "103",
+     "name": "Rozdilnianskyi raion",
+     "hromadas": [
+      {
+       "uid": "1027",
+       "name": "Velykomykhailivska terytorialna hromada"
+      },
+      {
+       "uid": "1028",
+       "name": "Velykoploskivska terytorialna hromada"
+      },
+      {
+       "uid": "1029",
+       "name": "Zatyshanska terytorialna hromada"
+      },
+      {
+       "uid": "1030",
+       "name": "Zakharivska terytorialna hromada"
+      },
+      {
+       "uid": "1031",
+       "name": "Lymanska terytorialna hromada"
+      },
+      {
+       "uid": "1032",
+       "name": "Novoborysivska terytorialna hromada"
+      },
+      {
+       "uid": "1033",
+       "name": "Rozdilnianska terytorialna hromada"
+      },
+      {
+       "uid": "1034",
+       "name": "Stepanivska terytorialna hromada"
+      },
+      {
+       "uid": "1035",
+       "name": "Tsebrykivska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "19",
+   "name": "Poltavska oblast",
+   "raions": [
+    {
+     "uid": "107",
+     "name": "Kremenchutskyi raion",
+     "hromadas": [
+      {
+       "uid": "1083",
+       "name": "Hlobynska terytorialna hromada"
+      },
+      {
+       "uid": "1085",
+       "name": "Hradyzka terytorialna hromada"
+      },
+      {
+       "uid": "1086",
+       "name": "Kamianopotokivska terytorialna hromada"
+      },
+      {
+       "uid": "1087",
+       "name": "Kozelshchynska terytorialna hromada"
+      },
+      {
+       "uid": "1084",
+       "name": "m. Horishni plavni ta Horishnoplavnivska terytorialna hromada"
+      },
+      {
+       "uid": "1088",
+       "name": "m. Kremenchuk ta Kremenchutska terytorialna hromada"
+      },
+      {
+       "uid": "1089",
+       "name": "Novohaleshchynska terytorialna hromada"
+      },
+      {
+       "uid": "1090",
+       "name": "Obolonska terytorialna hromada"
+      },
+      {
+       "uid": "1091",
+       "name": "Omelnytska terytorialna hromada"
+      },
+      {
+       "uid": "1092",
+       "name": "Pishchanska terytorialna hromada"
+      },
+      {
+       "uid": "1093",
+       "name": "Pryshybska terytorialna hromada"
+      },
+      {
+       "uid": "1094",
+       "name": "Semenivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "106",
+     "name": "Lubenskyi raion",
+     "hromadas": [
+      {
+       "uid": "1095",
+       "name": "Hrebinkivska terytorialna hromada"
+      },
+      {
+       "uid": "1096",
+       "name": "m. Lubny ta Lubenska terytorialna hromada"
+      },
+      {
+       "uid": "1099",
+       "name": "m. Pyriatyn ta Pyriatynska terytorialna hromada"
+      },
+      {
+       "uid": "1097",
+       "name": "Novoorzhytska terytorialna hromada"
+      },
+      {
+       "uid": "1098",
+       "name": "Orzhytska terytorialna hromada"
+      },
+      {
+       "uid": "1100",
+       "name": "Khorolska terytorialna hromada"
+      },
+      {
+       "uid": "1101",
+       "name": "Chornukhynska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "108",
+     "name": "Myrhorodskyi raion",
+     "hromadas": [
+      {
+       "uid": "1066",
+       "name": "Bilotserkivska terytorialna hromada"
+      },
+      {
+       "uid": "1067",
+       "name": "Velykobahachanska terytorialna hromada"
+      },
+      {
+       "uid": "1068",
+       "name": "Velykobudyshchanska terytorialna hromada"
+      },
+      {
+       "uid": "1069",
+       "name": "Velykosorochynska terytorialna hromada"
+      },
+      {
+       "uid": "1070",
+       "name": "Hadiatska terytorialna hromada"
+      },
+      {
+       "uid": "1071",
+       "name": "Hoholivska terytorialna hromada"
+      },
+      {
+       "uid": "1072",
+       "name": "Zavodska terytorialna hromada"
+      },
+      {
+       "uid": "1073",
+       "name": "Komyshnianska terytorialna hromada"
+      },
+      {
+       "uid": "1074",
+       "name": "Krasnolutska terytorialna hromada"
+      },
+      {
+       "uid": "1076",
+       "name": "Liutenska terytorialna hromada"
+      },
+      {
+       "uid": "1075",
+       "name": "m. Lokhvytsia ta Lokhvytska terytorialna hromada"
+      },
+      {
+       "uid": "1077",
+       "name": "m. Myrhorod ta Myrhorodska terytorialna hromada"
+      },
+      {
+       "uid": "1078",
+       "name": "Petrivsko-Romenska terytorialna hromada"
+      },
+      {
+       "uid": "1079",
+       "name": "Romodanivska terytorialna hromada"
+      },
+      {
+       "uid": "1080",
+       "name": "Senchanska terytorialna hromada"
+      },
+      {
+       "uid": "1081",
+       "name": "Serhiivska terytorialna hromada"
+      },
+      {
+       "uid": "1082",
+       "name": "Shyshatska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "109",
+     "name": "Poltavskyi raion",
+     "hromadas": [
+      {
+       "uid": "1042",
+       "name": "Bilytska terytorialna hromada"
+      },
+      {
+       "uid": "1043",
+       "name": "Velykorublivska terytorialna hromada"
+      },
+      {
+       "uid": "1044",
+       "name": "Dykanska terytorialna hromada"
+      },
+      {
+       "uid": "1045",
+       "name": "Drabynivska terytorialna hromada"
+      },
+      {
+       "uid": "1046",
+       "name": "Zinkivska terytorialna hromada"
+      },
+      {
+       "uid": "1047",
+       "name": "Karlivska terytorialna hromada"
+      },
+      {
+       "uid": "1048",
+       "name": "Kobeliatska terytorialna hromada"
+      },
+      {
+       "uid": "1049",
+       "name": "Kolomatska terytorialna hromada"
+      },
+      {
+       "uid": "1050",
+       "name": "Kotelevska terytorialna hromada"
+      },
+      {
+       "uid": "1051",
+       "name": "Lannivska terytorialna hromada"
+      },
+      {
+       "uid": "1060",
+       "name": "m. Poltava ta Poltavska terytorialna hromada"
+      },
+      {
+       "uid": "1052",
+       "name": "Martynivska terytorialna hromada"
+      },
+      {
+       "uid": "1053",
+       "name": "Machukhivska terytorialna hromada"
+      },
+      {
+       "uid": "1054",
+       "name": "Mashivska terytorialna hromada"
+      },
+      {
+       "uid": "1055",
+       "name": "Mykhailivska terytorialna hromada"
+      },
+      {
+       "uid": "1056",
+       "name": "Nekhvoroshchanska terytorialna hromada"
+      },
+      {
+       "uid": "1057",
+       "name": "Novosanzharska terytorialna hromada"
+      },
+      {
+       "uid": "1058",
+       "name": "Novoselivska terytorialna hromada"
+      },
+      {
+       "uid": "1059",
+       "name": "Opishnianska terytorialna hromada"
+      },
+      {
+       "uid": "1061",
+       "name": "Reshetylivska terytorialna hromada"
+      },
+      {
+       "uid": "1062",
+       "name": "Skorokhodivska terytorialna hromada"
+      },
+      {
+       "uid": "1063",
+       "name": "Tereshkivska terytorialna hromada"
+      },
+      {
+       "uid": "1064",
+       "name": "Chutivska terytorialna hromada"
+      },
+      {
+       "uid": "1065",
+       "name": "Shcherbanivska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "5",
+   "name": "Rivnenska oblast",
+   "raions": [
+    {
+     "uid": "110",
+     "name": "Varaskyi raion",
+     "hromadas": [
+      {
+       "uid": "1102",
+       "name": "Antonivska terytorialna hromada"
+      },
+      {
+       "uid": "1104",
+       "name": "Volodymyretska terytorialna hromada"
+      },
+      {
+       "uid": "1105",
+       "name": "Zarichnenska terytorialna hromada"
+      },
+      {
+       "uid": "1106",
+       "name": "Kanonytska terytorialna hromada"
+      },
+      {
+       "uid": "1107",
+       "name": "Loknytska terytorialna hromada"
+      },
+      {
+       "uid": "1103",
+       "name": "m. Varash ta Varaska terytorialna hromada"
+      },
+      {
+       "uid": "1108",
+       "name": "Polytska terytorialna hromada"
+      },
+      {
+       "uid": "1109",
+       "name": "Rafalivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "111",
+     "name": "Dubenskyi raion",
+     "hromadas": [
+      {
+       "uid": "1147",
+       "name": "Bokiimivska terytorialna hromada"
+      },
+      {
+       "uid": "1148",
+       "name": "Boremelska terytorialna hromada"
+      },
+      {
+       "uid": "1149",
+       "name": "Varkovytska terytorialna hromada"
+      },
+      {
+       "uid": "1150",
+       "name": "Verbska terytorialna hromada"
+      },
+      {
+       "uid": "1151",
+       "name": "Demydivska terytorialna hromada"
+      },
+      {
+       "uid": "1153",
+       "name": "Kozynska terytorialna hromada"
+      },
+      {
+       "uid": "1154",
+       "name": "Krupetska terytorialna hromada"
+      },
+      {
+       "uid": "1152",
+       "name": "m. Dubno ta Dubenska terytorialna hromada"
+      },
+      {
+       "uid": "1155",
+       "name": "Myrohoshchanska terytorialna hromada"
+      },
+      {
+       "uid": "1156",
+       "name": "Mlynivska terytorialna hromada"
+      },
+      {
+       "uid": "1157",
+       "name": "Ostrozhetska terytorialna hromada"
+      },
+      {
+       "uid": "1158",
+       "name": "Pidloztsivska terytorialna hromada"
+      },
+      {
+       "uid": "1159",
+       "name": "Povchanska terytorialna hromada"
+      },
+      {
+       "uid": "1160",
+       "name": "Pryvilnenska terytorialna hromada"
+      },
+      {
+       "uid": "1161",
+       "name": "Radyvylivska terytorialna hromada"
+      },
+      {
+       "uid": "1162",
+       "name": "Semydubska terytorialna hromada"
+      },
+      {
+       "uid": "1163",
+       "name": "Smyzka terytorialna hromada"
+      },
+      {
+       "uid": "1164",
+       "name": "Tarakanivska terytorialna hromada"
+      },
+      {
+       "uid": "1165",
+       "name": "Yaroslavytska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "112",
+     "name": "Rivnenskyi raion",
+     "hromadas": [
+      {
+       "uid": "1110",
+       "name": "Babynska terytorialna hromada"
+      },
+      {
+       "uid": "1111",
+       "name": "Bereznivska terytorialna hromada"
+      },
+      {
+       "uid": "1112",
+       "name": "Bilokrynytska terytorialna hromada"
+      },
+      {
+       "uid": "1113",
+       "name": "Buhrynska terytorialna hromada"
+      },
+      {
+       "uid": "1114",
+       "name": "Velykomezhyritska terytorialna hromada"
+      },
+      {
+       "uid": "1115",
+       "name": "Velykoomelianska terytorialna hromada"
+      },
+      {
+       "uid": "1116",
+       "name": "Holovynska terytorialna hromada"
+      },
+      {
+       "uid": "1117",
+       "name": "Horodotska terytorialna hromada"
+      },
+      {
+       "uid": "1118",
+       "name": "Hoshchanska terytorialna hromada"
+      },
+      {
+       "uid": "1119",
+       "name": "Derazhnenska terytorialna hromada"
+      },
+      {
+       "uid": "1120",
+       "name": "Diadkovytska terytorialna hromada"
+      },
+      {
+       "uid": "1121",
+       "name": "Zdovbytska terytorialna hromada"
+      },
+      {
+       "uid": "1122",
+       "name": "Zdolbunivska terytorialna hromada"
+      },
+      {
+       "uid": "1123",
+       "name": "Zorianska terytorialna hromada"
+      },
+      {
+       "uid": "1124",
+       "name": "Klevanska terytorialna hromada"
+      },
+      {
+       "uid": "1125",
+       "name": "Koretska terytorialna hromada"
+      },
+      {
+       "uid": "1126",
+       "name": "Kornynska terytorialna hromada"
+      },
+      {
+       "uid": "1127",
+       "name": "Kostopilska terytorialna hromada"
+      },
+      {
+       "uid": "1132",
+       "name": "m. Ostroh ta Ostrozka terytorialna hromada"
+      },
+      {
+       "uid": "1133",
+       "name": "m. Rivne ta Rivnenska terytorialna hromada"
+      },
+      {
+       "uid": "1128",
+       "name": "Malynska terytorialna hromada"
+      },
+      {
+       "uid": "1129",
+       "name": "Maloliubashanska terytorialna hromada"
+      },
+      {
+       "uid": "1130",
+       "name": "Mizotska terytorialna hromada"
+      },
+      {
+       "uid": "1131",
+       "name": "Oleksandriiska terytorialna hromada"
+      },
+      {
+       "uid": "1134",
+       "name": "Sosnivska terytorialna hromada"
+      },
+      {
+       "uid": "1135",
+       "name": "Shpanivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "113",
+     "name": "Sarnenskyi raion",
+     "hromadas": [
+      {
+       "uid": "1136",
+       "name": "Berezivska terytorialna hromada"
+      },
+      {
+       "uid": "1137",
+       "name": "Vyrivska terytorialna hromada"
+      },
+      {
+       "uid": "1138",
+       "name": "Vysotska terytorialna hromada"
+      },
+      {
+       "uid": "1139",
+       "name": "Dubrovytska terytorialna hromada"
+      },
+      {
+       "uid": "1140",
+       "name": "Klesivska terytorialna hromada"
+      },
+      {
+       "uid": "1144",
+       "name": "m. Sarny ta Sarnenska terytorialna hromada"
+      },
+      {
+       "uid": "1141",
+       "name": "Myliatska terytorialna hromada"
+      },
+      {
+       "uid": "1142",
+       "name": "Nemovytska terytorialna hromada"
+      },
+      {
+       "uid": "1143",
+       "name": "Rokytnivska terytorialna hromada"
+      },
+      {
+       "uid": "1145",
+       "name": "Starosilska terytorialna hromada"
+      },
+      {
+       "uid": "1146",
+       "name": "Stepanska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "20",
+   "name": "Sumska oblast",
+   "raions": [
+    {
+     "uid": "117",
+     "name": "Konotopskyi raion",
+     "hromadas": [
+      {
+       "uid": "1209",
+       "name": "Bochechkivska terytorialna hromada"
+      },
+      {
+       "uid": "1211",
+       "name": "Duboviazivska terytorialna hromada"
+      },
+      {
+       "uid": "1210",
+       "name": "m. Buryn ta Burynska terytorialna hromada"
+      },
+      {
+       "uid": "1212",
+       "name": "m. Konotop ta Konotopska terytorialna hromada"
+      },
+      {
+       "uid": "1213",
+       "name": "m. Krolevets ta Krolevetska terytorialna hromada"
+      },
+      {
+       "uid": "1216",
+       "name": "m. Putyvl ta Putyvlska terytorialna hromada"
+      },
+      {
+       "uid": "1214",
+       "name": "Novoslobidska terytorialna hromada"
+      },
+      {
+       "uid": "1215",
+       "name": "Popivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "118",
+     "name": "Okhtyrskyi raion",
+     "hromadas": [
+      {
+       "uid": "1200",
+       "name": "Boromlianska terytorialna hromada"
+      },
+      {
+       "uid": "1202",
+       "name": "Hrunska terytorialna hromada"
+      },
+      {
+       "uid": "1203",
+       "name": "Kyrykivska terytorialna hromada"
+      },
+      {
+       "uid": "1204",
+       "name": "Komyshanska terytorialna hromada"
+      },
+      {
+       "uid": "1201",
+       "name": "m. Velyka Pysarivka ta Velykopysarivska terytorialna hromada"
+      },
+      {
+       "uid": "1205",
+       "name": "m. Okhtyrka ta Okhtyrska terytorialna hromada"
+      },
+      {
+       "uid": "1206",
+       "name": "m. Trostianets ta Trostianetska terytorialna hromada"
+      },
+      {
+       "uid": "1207",
+       "name": "Chernechchynska terytorialna hromada"
+      },
+      {
+       "uid": "1208",
+       "name": "Chupakhivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "116",
+     "name": "Romenskyi raion",
+     "hromadas": [
+      {
+       "uid": "1166",
+       "name": "Andriiashivska terytorialna hromada"
+      },
+      {
+       "uid": "1167",
+       "name": "Vilshanska terytorialna hromada"
+      },
+      {
+       "uid": "1168",
+       "name": "Korovynska terytorialna hromada"
+      },
+      {
+       "uid": "1169",
+       "name": "m. Lypova Dolyna ta Lypovodolynska terytorialna hromada"
+      },
+      {
+       "uid": "1170",
+       "name": "m. Nedryhailiv ta Nedryhailivska terytorialna hromada"
+      },
+      {
+       "uid": "1171",
+       "name": "m. Romny ta Romenska terytorialna hromada"
+      },
+      {
+       "uid": "1172",
+       "name": "Synivska terytorialna hromada"
+      },
+      {
+       "uid": "1173",
+       "name": "Khmelivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "114",
+     "name": "Sumskyi raion",
+     "hromadas": [
+      {
+       "uid": "1174",
+       "name": "Bezdrytska terytorialna hromada"
+      },
+      {
+       "uid": "1176",
+       "name": "Verkhnosyrovatska terytorialna hromada"
+      },
+      {
+       "uid": "1177",
+       "name": "Vorozhbianska terytorialna hromada"
+      },
+      {
+       "uid": "1175",
+       "name": "m. Bilopillia ta Bilopilska terytorialna hromada"
+      },
+      {
+       "uid": "1178",
+       "name": "m. Krasnopillia ta Krasnopilska terytorialna hromada"
+      },
+      {
+       "uid": "1179",
+       "name": "m. Lebedyn ta Lebedynska terytorialna hromada"
+      },
+      {
+       "uid": "1187",
+       "name": "m. Sumy ta Sumska terytorialna hromada"
+      },
+      {
+       "uid": "1180",
+       "name": "Mykolaivska terytorialna hromada"
+      },
+      {
+       "uid": "1182",
+       "name": "Myropilska terytorialna hromada"
+      },
+      {
+       "uid": "1183",
+       "name": "Nyzhnosyrovatska terytorialna hromada"
+      },
+      {
+       "uid": "1184",
+       "name": "Richkivska terytorialna hromada"
+      },
+      {
+       "uid": "1185",
+       "name": "Sadivska terytorialna hromada"
+      },
+      {
+       "uid": "1186",
+       "name": "Stepanivska terytorialna hromada"
+      },
+      {
+       "uid": "1188",
+       "name": "Khotinska terytorialna hromada"
+      },
+      {
+       "uid": "1189",
+       "name": "Yunakivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "115",
+     "name": "Shostkynskyi raion",
+     "hromadas": [
+      {
+       "uid": "1190",
+       "name": "Berezivska terytorialna hromada"
+      },
+      {
+       "uid": "1192",
+       "name": "Druzhbivska terytorialna hromada"
+      },
+      {
+       "uid": "1193",
+       "name": "Esmanska terytorialna hromada"
+      },
+      {
+       "uid": "1194",
+       "name": "Znob-Novhorodska terytorialna hromada"
+      },
+      {
+       "uid": "1191",
+       "name": "m. Hlukhiv ta Hlukhivska terytorialna hromada"
+      },
+      {
+       "uid": "1196",
+       "name": "m. Seredyna-Buda ta Seredyno-Budska terytorialna hromada"
+      },
+      {
+       "uid": "1198",
+       "name": "m. Shostka ta Shostkynska terytorialna hromada"
+      },
+      {
+       "uid": "1199",
+       "name": "m. Yampil ta Yampilska terytorialna hromada"
+      },
+      {
+       "uid": "1195",
+       "name": "Sveska terytorialna hromada"
+      },
+      {
+       "uid": "1197",
+       "name": "Shalyhynska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "21",
+   "name": "Ternopilska oblast",
+   "raions": [
+    {
+     "uid": "120",
+     "name": "Kremenetskyi raion",
+     "hromadas": [
+      {
+       "uid": "1264",
+       "name": "Borsukivska terytorialna hromada"
+      },
+      {
+       "uid": "1265",
+       "name": "Velykodederkalska terytorialna hromada"
+      },
+      {
+       "uid": "1266",
+       "name": "Vyshnivetska terytorialna hromada"
+      },
+      {
+       "uid": "1268",
+       "name": "Lanovetska terytorialna hromada"
+      },
+      {
+       "uid": "1269",
+       "name": "Lopushnenska terytorialna hromada"
+      },
+      {
+       "uid": "1267",
+       "name": "m. Kremenets ta Kremenetska terytorialna hromada"
+      },
+      {
+       "uid": "1270",
+       "name": "Pochaivska terytorialna hromada"
+      },
+      {
+       "uid": "1271",
+       "name": "Shumska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "119",
+     "name": "Ternopilskyi raion",
+     "hromadas": [
+      {
+       "uid": "1217",
+       "name": "Baikovetska terytorialna hromada"
+      },
+      {
+       "uid": "1219",
+       "name": "Biletska terytorialna hromada"
+      },
+      {
+       "uid": "1220",
+       "name": "Velykoberezovytska terytorialna hromada"
+      },
+      {
+       "uid": "1221",
+       "name": "Velykobirkivska terytorialna hromada"
+      },
+      {
+       "uid": "1222",
+       "name": "Velykohaivska terytorialna hromada"
+      },
+      {
+       "uid": "1223",
+       "name": "Zalozetska terytorialna hromada"
+      },
+      {
+       "uid": "1224",
+       "name": "Zbarazka terytorialna hromada"
+      },
+      {
+       "uid": "1225",
+       "name": "Zborivska terytorialna hromada"
+      },
+      {
+       "uid": "1226",
+       "name": "Zolotnykivska terytorialna hromada"
+      },
+      {
+       "uid": "1227",
+       "name": "Ivanivska terytorialna hromada"
+      },
+      {
+       "uid": "1228",
+       "name": "Kozivska terytorialna hromada"
+      },
+      {
+       "uid": "1229",
+       "name": "Kozlivska terytorialna hromada"
+      },
+      {
+       "uid": "1230",
+       "name": "Kupchynetska terytorialna hromada"
+      },
+      {
+       "uid": "1218",
+       "name": "m. Berezhany ta Berezhanska terytorialna hromada"
+      },
+      {
+       "uid": "1241",
+       "name": "m. Ternopil ta Ternopilska terytorialna hromada"
+      },
+      {
+       "uid": "1231",
+       "name": "Mykulynetska terytorialna hromada"
+      },
+      {
+       "uid": "1232",
+       "name": "Naraivska terytorialna hromada"
+      },
+      {
+       "uid": "1233",
+       "name": "Ozernianska terytorialna hromada"
+      },
+      {
+       "uid": "1234",
+       "name": "Pidvolochyska terytorialna hromada"
+      },
+      {
+       "uid": "1235",
+       "name": "Pidhaietska terytorialna hromada"
+      },
+      {
+       "uid": "1236",
+       "name": "Pidhorodnianska terytorialna hromada"
+      },
+      {
+       "uid": "1237",
+       "name": "Saranchukivska terytorialna hromada"
+      },
+      {
+       "uid": "1238",
+       "name": "Skalatska terytorialna hromada"
+      },
+      {
+       "uid": "1239",
+       "name": "Skorykivska terytorialna hromada"
+      },
+      {
+       "uid": "1240",
+       "name": "Terebovlianska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "121",
+     "name": "Chortkivskyi raion",
+     "hromadas": [
+      {
+       "uid": "1242",
+       "name": "Bilobozhnytska terytorialna hromada"
+      },
+      {
+       "uid": "1243",
+       "name": "Bilche-Zolotetska terytorialna hromada"
+      },
+      {
+       "uid": "1244",
+       "name": "Borshchivska terytorialna hromada"
+      },
+      {
+       "uid": "1245",
+       "name": "Buchatska terytorialna hromada"
+      },
+      {
+       "uid": "1246",
+       "name": "Vasylkovetska terytorialna hromada"
+      },
+      {
+       "uid": "1247",
+       "name": "Hrymailivska terytorialna hromada"
+      },
+      {
+       "uid": "1248",
+       "name": "Husiatynska terytorialna hromada"
+      },
+      {
+       "uid": "1249",
+       "name": "Zavodska terytorialna hromada"
+      },
+      {
+       "uid": "1250",
+       "name": "Zalishchytska terytorialna hromada"
+      },
+      {
+       "uid": "1251",
+       "name": "Zolotopotitska terytorialna hromada"
+      },
+      {
+       "uid": "1252",
+       "name": "Ivane-Pustenska terytorialna hromada"
+      },
+      {
+       "uid": "1253",
+       "name": "Kolyndianska terytorialna hromada"
+      },
+      {
+       "uid": "1254",
+       "name": "Kopychynetska terytorialna hromada"
+      },
+      {
+       "uid": "1255",
+       "name": "Koropetska terytorialna hromada"
+      },
+      {
+       "uid": "1263",
+       "name": "m. Chortkiv ta Chortkivska terytorialna hromada"
+      },
+      {
+       "uid": "1256",
+       "name": "Melnytse-Podilska terytorialna hromada"
+      },
+      {
+       "uid": "1257",
+       "name": "Monastyryska terytorialna hromada"
+      },
+      {
+       "uid": "1258",
+       "name": "Nahirianska terytorialna hromada"
+      },
+      {
+       "uid": "1259",
+       "name": "Skala-Podilska terytorialna hromada"
+      },
+      {
+       "uid": "1260",
+       "name": "Tovstenska terytorialna hromada"
+      },
+      {
+       "uid": "1261",
+       "name": "Trybukhivska terytorialna hromada"
+      },
+      {
+       "uid": "1262",
+       "name": "Khorostkivska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "22",
+   "name": "Kharkivska oblast",
+   "raions": [
+    {
+     "uid": "127",
+     "name": "Krasnohradskyi raion",
+     "hromadas": [
+      {
+       "uid": "1324",
+       "name": "Berestynska terytorialna hromada"
+      },
+      {
+       "uid": "1322",
+       "name": "Zachepylivska terytorialna hromada"
+      },
+      {
+       "uid": "1323",
+       "name": "Kehychivska terytorialna hromada"
+      },
+      {
+       "uid": "1325",
+       "name": "Natalynska terytorialna hromada"
+      },
+      {
+       "uid": "1326",
+       "name": "Sakhnovshchynska terytorialna hromada"
+      },
+      {
+       "uid": "1327",
+       "name": "Starovirivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "126",
+     "name": "Bohodukhivskyi raion",
+     "hromadas": [
+      {
+       "uid": "1301",
+       "name": "Valkivska terytorialna hromada"
+      },
+      {
+       "uid": "1302",
+       "name": "Zolochivska terytorialna hromada"
+      },
+      {
+       "uid": "1303",
+       "name": "Kolomatska terytorialna hromada"
+      },
+      {
+       "uid": "1304",
+       "name": "Krasnokutska terytorialna hromada"
+      },
+      {
+       "uid": "1300",
+       "name": "m. Bohodukhiv ta Bohodukhivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "125",
+     "name": "Iziumskyi raion",
+     "hromadas": [
+      {
+       "uid": "1272",
+       "name": "Balakliiska terytorialna hromada"
+      },
+      {
+       "uid": "1273",
+       "name": "Barvinkivska terytorialna hromada"
+      },
+      {
+       "uid": "1274",
+       "name": "Borivska terytorialna hromada"
+      },
+      {
+       "uid": "1275",
+       "name": "Donetska terytorialna hromada"
+      },
+      {
+       "uid": "1277",
+       "name": "Kunievska terytorialna hromada"
+      },
+      {
+       "uid": "1276",
+       "name": "m. Izium ta Iziumska terytorialna hromada"
+      },
+      {
+       "uid": "1278",
+       "name": "Oskilska terytorialna hromada"
+      },
+      {
+       "uid": "1279",
+       "name": "Savynska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "123",
+     "name": "Kupianskyi raion",
+     "hromadas": [
+      {
+       "uid": "1305",
+       "name": "Velykoburlutska terytorialna hromada"
+      },
+      {
+       "uid": "1306",
+       "name": "Vilkhuvatska terytorialna hromada"
+      },
+      {
+       "uid": "1307",
+       "name": "Dvorichanska terytorialna hromada"
+      },
+      {
+       "uid": "1308",
+       "name": "Kindrashivska terytorialna hromada"
+      },
+      {
+       "uid": "1310",
+       "name": "Kurylivska terytorialna hromada"
+      },
+      {
+       "uid": "1309",
+       "name": "m. Kupiansk ta Kupianska terytorialna hromada"
+      },
+      {
+       "uid": "1311",
+       "name": "Petropavlivska terytorialna hromada"
+      },
+      {
+       "uid": "1312",
+       "name": "Shevchenkivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "128",
+     "name": "Lozivskyi raion",
+     "hromadas": [
+      {
+       "uid": "1295",
+       "name": "Biliaivska terytorialna hromada"
+      },
+      {
+       "uid": "1296",
+       "name": "Blyzniukivska terytorialna hromada"
+      },
+      {
+       "uid": "1299",
+       "name": "m. Zlatopil ta Zlatopilska terytorialna hromada"
+      },
+      {
+       "uid": "1297",
+       "name": "m. Lozova ta Lozivska terytorialna hromada"
+      },
+      {
+       "uid": "1298",
+       "name": "Oleksiivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "124",
+     "name": "Kharkivskyi raion",
+     "hromadas": [
+      {
+       "uid": "1280",
+       "name": "Bezliudivska terytorialna hromada"
+      },
+      {
+       "uid": "1281",
+       "name": "Vysochanska terytorialna hromada"
+      },
+      {
+       "uid": "1282",
+       "name": "Vilkhivska terytorialna hromada"
+      },
+      {
+       "uid": "1283",
+       "name": "Derhachivska terytorialna hromada"
+      },
+      {
+       "uid": "1284",
+       "name": "Lypetska terytorialna hromada"
+      },
+      {
+       "uid": "1285",
+       "name": "m. Liubotyn ta Liubotynska terytorialna hromada"
+      },
+      {
+       "uid": "1293",
+       "name": "m. Kharkiv ta Kharkivska terytorialna hromada"
+      },
+      {
+       "uid": "1286",
+       "name": "Malodanylivska terytorialna hromada"
+      },
+      {
+       "uid": "1287",
+       "name": "Merefianska terytorialna hromada"
+      },
+      {
+       "uid": "1288",
+       "name": "Novovodolazka terytorialna hromada"
+      },
+      {
+       "uid": "1289",
+       "name": "Pivdennomiska terytorialna hromada"
+      },
+      {
+       "uid": "1290",
+       "name": "Pisochynska terytorialna hromada"
+      },
+      {
+       "uid": "1291",
+       "name": "Rohanska terytorialna hromada"
+      },
+      {
+       "uid": "1292",
+       "name": "Solonytsivska terytorialna hromada"
+      },
+      {
+       "uid": "1294",
+       "name": "Tsyrkunivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "122",
+     "name": "Chuhuivskyi raion",
+     "hromadas": [
+      {
+       "uid": "1313",
+       "name": "Vovchanska terytorialna hromada"
+      },
+      {
+       "uid": "1314",
+       "name": "Zmiivska terytorialna hromada"
+      },
+      {
+       "uid": "1321",
+       "name": "m. Chuhuiv ta Chuhuivska terytorialna hromada"
+      },
+      {
+       "uid": "1315",
+       "name": "Malynivska terytorialna hromada"
+      },
+      {
+       "uid": "1316",
+       "name": "Novopokrovska terytorialna hromada"
+      },
+      {
+       "uid": "1317",
+       "name": "Pechenizka terytorialna hromada"
+      },
+      {
+       "uid": "1318",
+       "name": "Slobozhanska terytorialna hromada"
+      },
+      {
+       "uid": "1319",
+       "name": "Starosaltivska terytorialna hromada"
+      },
+      {
+       "uid": "1320",
+       "name": "Chkalovska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "23",
+   "name": "Khersonska oblast",
+   "raions": [
+    {
+     "uid": "129",
+     "name": "Beryslavskyi raion",
+     "hromadas": [
+      {
+       "uid": "1343",
+       "name": "Beryslavska terytorialna hromada"
+      },
+      {
+       "uid": "1344",
+       "name": "Borozenska terytorialna hromada"
+      },
+      {
+       "uid": "1345",
+       "name": "Velykooleksandrivska terytorialna hromada"
+      },
+      {
+       "uid": "1346",
+       "name": "Vysokopilska terytorialna hromada"
+      },
+      {
+       "uid": "1347",
+       "name": "Kalynivska terytorialna hromada"
+      },
+      {
+       "uid": "1348",
+       "name": "Kochubeivska terytorialna hromada"
+      },
+      {
+       "uid": "1349",
+       "name": "Mylivska terytorialna hromada"
+      },
+      {
+       "uid": "1350",
+       "name": "Novovorontsovska terytorialna hromada"
+      },
+      {
+       "uid": "1351",
+       "name": "Novooleksandrivska terytorialna hromada"
+      },
+      {
+       "uid": "1352",
+       "name": "Novoraiska terytorialna hromada"
+      },
+      {
+       "uid": "1353",
+       "name": "Tiahynska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "133",
+     "name": "Henicheskyi raion",
+     "hromadas": [
+      {
+       "uid": "1373",
+       "name": "Henicheska terytorialna hromada"
+      },
+      {
+       "uid": "1374",
+       "name": "Ivanivska terytorialna hromada"
+      },
+      {
+       "uid": "1375",
+       "name": "Nyzhnosirohozka terytorialna hromada"
+      },
+      {
+       "uid": "1376",
+       "name": "Novotroitska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "131",
+     "name": "Kakhovskyi raion",
+     "hromadas": [
+      {
+       "uid": "1328",
+       "name": "Askaniia-Nova terytorialna hromada"
+      },
+      {
+       "uid": "1329",
+       "name": "Velykolepetyska terytorialna hromada"
+      },
+      {
+       "uid": "1330",
+       "name": "Verkhnorohachytska terytorialna hromada"
+      },
+      {
+       "uid": "1331",
+       "name": "Hornostaivska terytorialna hromada"
+      },
+      {
+       "uid": "1332",
+       "name": "Zelenopidska terytorialna hromada"
+      },
+      {
+       "uid": "1334",
+       "name": "Kostiantynivska terytorialna hromada"
+      },
+      {
+       "uid": "1335",
+       "name": "Liubymivska terytorialna hromada"
+      },
+      {
+       "uid": "1333",
+       "name": "m. Kakhovka ta Kakhovska terytorialna hromada"
+      },
+      {
+       "uid": "1336",
+       "name": "m. Nova Kakhovka ta Novokakhovska terytorialna hromada"
+      },
+      {
+       "uid": "1337",
+       "name": "Prysyvaska terytorialna hromada"
+      },
+      {
+       "uid": "1338",
+       "name": "Rubanivska terytorialna hromada"
+      },
+      {
+       "uid": "1339",
+       "name": "Tavrychanska terytorialna hromada"
+      },
+      {
+       "uid": "1340",
+       "name": "Tavriiska terytorialna hromada"
+      },
+      {
+       "uid": "1341",
+       "name": "Khrestivska terytorialna hromada"
+      },
+      {
+       "uid": "1342",
+       "name": "Chaplynska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "130",
+     "name": "Skadovskyi raion",
+     "hromadas": [
+      {
+       "uid": "1354",
+       "name": "Bekhterska terytorialna hromada"
+      },
+      {
+       "uid": "1356",
+       "name": "Dolmativska terytorialna hromada"
+      },
+      {
+       "uid": "1357",
+       "name": "Kalanchatska terytorialna hromada"
+      },
+      {
+       "uid": "1358",
+       "name": "Lazurnenska terytorialna hromada"
+      },
+      {
+       "uid": "1355",
+       "name": "m. Hola Prystan ta Holoprystanska terytorialna hromada"
+      },
+      {
+       "uid": "1359",
+       "name": "Myrnenska terytorialna hromada"
+      },
+      {
+       "uid": "1360",
+       "name": "Novomykolaivska terytorialna hromada"
+      },
+      {
+       "uid": "1361",
+       "name": "Skadovska terytorialna hromada"
+      },
+      {
+       "uid": "1362",
+       "name": "Chulakivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "132",
+     "name": "Khersonskyi raion",
+     "hromadas": [
+      {
+       "uid": "1363",
+       "name": "Bilozerska terytorialna hromada"
+      },
+      {
+       "uid": "1364",
+       "name": "Velykokopanivska terytorialna hromada"
+      },
+      {
+       "uid": "1365",
+       "name": "Vynohradivska terytorialna hromada"
+      },
+      {
+       "uid": "1366",
+       "name": "Darivska terytorialna hromada"
+      },
+      {
+       "uid": "1370",
+       "name": "m. Kherson ta Khersonska terytorialna hromada"
+      },
+      {
+       "uid": "1367",
+       "name": "Muzykivska terytorialna hromada"
+      },
+      {
+       "uid": "1368",
+       "name": "Oleshkivska terytorialna hromada"
+      },
+      {
+       "uid": "1369",
+       "name": "Stanislavska terytorialna hromada"
+      },
+      {
+       "uid": "1371",
+       "name": "Chornobaivska terytorialna hromada"
+      },
+      {
+       "uid": "1372",
+       "name": "Yuvileina terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "3",
+   "name": "Khmelnytska oblast",
+   "raions": [
+    {
+     "uid": "135",
+     "name": "Kamianets-Podilskyi raion",
+     "hromadas": [
+      {
+       "uid": "1422",
+       "name": "Hukivska terytorialna hromada"
+      },
+      {
+       "uid": "1423",
+       "name": "Humenetska terytorialna hromada"
+      },
+      {
+       "uid": "1424",
+       "name": "Dunaievetska terytorialna hromada"
+      },
+      {
+       "uid": "1425",
+       "name": "Zhvanetska terytorialna hromada"
+      },
+      {
+       "uid": "1426",
+       "name": "Zakupnenska terytorialna hromada"
+      },
+      {
+       "uid": "1428",
+       "name": "Kytaihorodska terytorialna hromada"
+      },
+      {
+       "uid": "1427",
+       "name": "m. Kamianets-Podilskyi ta Kamianets-Podilska terytorialna hromada"
+      },
+      {
+       "uid": "1429",
+       "name": "Makivska terytorialna hromada"
+      },
+      {
+       "uid": "1430",
+       "name": "Novodunaievetska terytorialna hromada"
+      },
+      {
+       "uid": "1431",
+       "name": "Novoushytska terytorialna hromada"
+      },
+      {
+       "uid": "1432",
+       "name": "Orynynska terytorialna hromada"
+      },
+      {
+       "uid": "1433",
+       "name": "Slobidsko-Kulchiievetsk terytorialna hromada"
+      },
+      {
+       "uid": "1434",
+       "name": "Smotrytska terytorialna hromada"
+      },
+      {
+       "uid": "1435",
+       "name": "Staroushytska terytorialna hromada"
+      },
+      {
+       "uid": "1436",
+       "name": "Chemerovetska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "134",
+     "name": "Khmelnytskyi raion",
+     "hromadas": [
+      {
+       "uid": "1377",
+       "name": "Antoninska terytorialna hromada"
+      },
+      {
+       "uid": "1378",
+       "name": "Viitovetska terytorialna hromada"
+      },
+      {
+       "uid": "1379",
+       "name": "Vinkovetska terytorialna hromada"
+      },
+      {
+       "uid": "1380",
+       "name": "Vovkovynetska terytorialna hromada"
+      },
+      {
+       "uid": "1381",
+       "name": "Volochyska terytorialna hromada"
+      },
+      {
+       "uid": "1382",
+       "name": "Hvardiiska terytorialna hromada"
+      },
+      {
+       "uid": "1383",
+       "name": "Horodotska terytorialna hromada"
+      },
+      {
+       "uid": "1384",
+       "name": "Derazhnianska terytorialna hromada"
+      },
+      {
+       "uid": "1385",
+       "name": "Zasluchnenska terytorialna hromada"
+      },
+      {
+       "uid": "1386",
+       "name": "Zinkivska terytorialna hromada"
+      },
+      {
+       "uid": "1387",
+       "name": "Krasylivska terytorialna hromada"
+      },
+      {
+       "uid": "1388",
+       "name": "Letychivska terytorialna hromada"
+      },
+      {
+       "uid": "1389",
+       "name": "Lisovohrynivetska terytorialna hromada"
+      },
+      {
+       "uid": "1396",
+       "name": "m. Starokostiantyniv ta Starokostiantynivska terytorialna hromada"
+      },
+      {
+       "uid": "1400",
+       "name": "m. Khmelnytskyi ta Khmelnytska terytorialna hromada"
+      },
+      {
+       "uid": "1390",
+       "name": "Medzhybizka terytorialna hromada"
+      },
+      {
+       "uid": "1391",
+       "name": "Myroliubnenska terytorialna hromada"
+      },
+      {
+       "uid": "1392",
+       "name": "Narkevytska terytorialna hromada"
+      },
+      {
+       "uid": "1393",
+       "name": "Rozsoshanska terytorialna hromada"
+      },
+      {
+       "uid": "1394",
+       "name": "Satanivska terytorialna hromada"
+      },
+      {
+       "uid": "1395",
+       "name": "Solobkovetska terytorialna hromada"
+      },
+      {
+       "uid": "1397",
+       "name": "Staroostropilska terytorialna hromada"
+      },
+      {
+       "uid": "1398",
+       "name": "Starosyniavska terytorialna hromada"
+      },
+      {
+       "uid": "1399",
+       "name": "Teofipolska terytorialna hromada"
+      },
+      {
+       "uid": "1401",
+       "name": "Chornoostrivska terytorialna hromada"
+      },
+      {
+       "uid": "1402",
+       "name": "Shchyborivska terytorialna hromada"
+      },
+      {
+       "uid": "1403",
+       "name": "Yarmolynetska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "136",
+     "name": "Shepetivskyi raion",
+     "hromadas": [
+      {
+       "uid": "1404",
+       "name": "Berezdivska terytorialna hromada"
+      },
+      {
+       "uid": "1405",
+       "name": "Bilohirska terytorialna hromada"
+      },
+      {
+       "uid": "1406",
+       "name": "Hannopilska terytorialna hromada"
+      },
+      {
+       "uid": "1407",
+       "name": "Hrytsivska terytorialna hromada"
+      },
+      {
+       "uid": "1408",
+       "name": "Iziaslavska terytorialna hromada"
+      },
+      {
+       "uid": "1409",
+       "name": "Krupetska terytorialna hromada"
+      },
+      {
+       "uid": "1410",
+       "name": "Lenkovetska terytorialna hromada"
+      },
+      {
+       "uid": "1412",
+       "name": "m. Netishyn ta Netishynska terytorialna hromada"
+      },
+      {
+       "uid": "1417",
+       "name": "m. Slavuta ta Slavutska terytorialna hromada"
+      },
+      {
+       "uid": "1420",
+       "name": "m. Shepetivka ta Shepetivska terytorialna hromada"
+      },
+      {
+       "uid": "1411",
+       "name": "Mykhailiutska terytorialna hromada"
+      },
+      {
+       "uid": "1413",
+       "name": "Pluzhnenska terytorialna hromada"
+      },
+      {
+       "uid": "1414",
+       "name": "Polonska terytorialna hromada"
+      },
+      {
+       "uid": "1415",
+       "name": "Poninkivska terytorialna hromada"
+      },
+      {
+       "uid": "1416",
+       "name": "Sakhnovetska terytorialna hromada"
+      },
+      {
+       "uid": "1418",
+       "name": "Sudylkivska terytorialna hromada"
+      },
+      {
+       "uid": "1419",
+       "name": "Ulashanivska terytorialna hromada"
+      },
+      {
+       "uid": "1421",
+       "name": "Yampilska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "24",
+   "name": "Cherkaska oblast",
+   "raions": [
+    {
+     "uid": "150",
+     "name": "Zvenyhorodskyi raion",
+     "hromadas": [
+      {
+       "uid": "1475",
+       "name": "Buzhanska terytorialna hromada"
+      },
+      {
+       "uid": "1477",
+       "name": "Vynohradska terytorialna hromada"
+      },
+      {
+       "uid": "1478",
+       "name": "Vilshanska terytorialna hromada"
+      },
+      {
+       "uid": "1479",
+       "name": "Vodianytska terytorialna hromada"
+      },
+      {
+       "uid": "1480",
+       "name": "Yerkivska terytorialna hromada"
+      },
+      {
+       "uid": "1481",
+       "name": "Zvenyhorodska terytorialna hromada"
+      },
+      {
+       "uid": "1482",
+       "name": "Katerynopilska terytorialna hromada"
+      },
+      {
+       "uid": "1483",
+       "name": "Lypianska terytorialna hromada"
+      },
+      {
+       "uid": "1484",
+       "name": "Lysianska terytorialna hromada"
+      },
+      {
+       "uid": "1476",
+       "name": "m. Vatutine ta Vatutinska terytorialna hromada"
+      },
+      {
+       "uid": "1489",
+       "name": "m. Talne ta Talnivska terytorialna hromada"
+      },
+      {
+       "uid": "1491",
+       "name": "m. Shpola ta Shpolianska terytorialna hromada"
+      },
+      {
+       "uid": "1485",
+       "name": "Matusivska terytorialna hromada"
+      },
+      {
+       "uid": "1486",
+       "name": "Mokrokalyhirska terytorialna hromada"
+      },
+      {
+       "uid": "1487",
+       "name": "Selyshchenska terytorialna hromada"
+      },
+      {
+       "uid": "1488",
+       "name": "Steblivska terytorialna hromada"
+      },
+      {
+       "uid": "1490",
+       "name": "Shevchenkivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "153",
+     "name": "Zolotoniskyi raion",
+     "hromadas": [
+      {
+       "uid": "1492",
+       "name": "Velykokhutirska terytorialna hromada"
+      },
+      {
+       "uid": "1493",
+       "name": "Voznesenska terytorialna hromada"
+      },
+      {
+       "uid": "1494",
+       "name": "Helmiazivska terytorialna hromada"
+      },
+      {
+       "uid": "1495",
+       "name": "Drabivska terytorialna hromada"
+      },
+      {
+       "uid": "1496",
+       "name": "Zolotoniska terytorialna hromada"
+      },
+      {
+       "uid": "1497",
+       "name": "Zorivska terytorialna hromada"
+      },
+      {
+       "uid": "1498",
+       "name": "Irkliivska terytorialna hromada"
+      },
+      {
+       "uid": "1499",
+       "name": "Novodmytrivska terytorialna hromada"
+      },
+      {
+       "uid": "1500",
+       "name": "Pishchanska terytorialna hromada"
+      },
+      {
+       "uid": "1501",
+       "name": "Chornobaivska terytorialna hromada"
+      },
+      {
+       "uid": "1502",
+       "name": "Shramkivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "151",
+     "name": "Umanskyi raion",
+     "hromadas": [
+      {
+       "uid": "1437",
+       "name": "Babanska terytorialna hromada"
+      },
+      {
+       "uid": "1438",
+       "name": "Bashtechkivska terytorialna hromada"
+      },
+      {
+       "uid": "1439",
+       "name": "Butska terytorialna hromada"
+      },
+      {
+       "uid": "1440",
+       "name": "Dmytrushkivska terytorialna hromada"
+      },
+      {
+       "uid": "1441",
+       "name": "Zhashkivska terytorialna hromada"
+      },
+      {
+       "uid": "1442",
+       "name": "Ivankivska terytorialna hromada"
+      },
+      {
+       "uid": "1443",
+       "name": "Ladyzhynska terytorialna hromada"
+      },
+      {
+       "uid": "1445",
+       "name": "m. Monastyryshche ta Monastryshchenska terytorialna hromada"
+      },
+      {
+       "uid": "1448",
+       "name": "m. Khrystynivka ta Khrystynivska terytorialna hromada"
+      },
+      {
+       "uid": "1444",
+       "name": "Mankivska terytorialna hromada"
+      },
+      {
+       "uid": "1446",
+       "name": "Palanska terytorialna hromada"
+      },
+      {
+       "uid": "1447",
+       "name": "Umanska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "152",
+     "name": "Cherkaskyi raion",
+     "hromadas": [
+      {
+       "uid": "1449",
+       "name": "Balakleivska terytorialna hromada"
+      },
+      {
+       "uid": "1450",
+       "name": "Berezniakivska terytorialna hromada"
+      },
+      {
+       "uid": "1451",
+       "name": "Bilozirska terytorialna hromada"
+      },
+      {
+       "uid": "1452",
+       "name": "Bobrytska terytorialna hromada"
+      },
+      {
+       "uid": "1453",
+       "name": "Budyshchenska terytorialna hromada"
+      },
+      {
+       "uid": "1454",
+       "name": "Horodyshchenska terytorialna hromada"
+      },
+      {
+       "uid": "1455",
+       "name": "Kamianska terytorialna hromada"
+      },
+      {
+       "uid": "1456",
+       "name": "Kanivska terytorialna hromada"
+      },
+      {
+       "uid": "1458",
+       "name": "Leskivska terytorialna hromada"
+      },
+      {
+       "uid": "1459",
+       "name": "Lipliavska terytorialna hromada"
+      },
+      {
+       "uid": "1457",
+       "name": "m. Korsun-Shevchenkivskyi ta Korsun-Shevchenkivska terytorialna hromada"
+      },
+      {
+       "uid": "1473",
+       "name": "m. Cherkasy ta Cherkaska terytorialna hromada"
+      },
+      {
+       "uid": "1474",
+       "name": "m. Chyhyryn ta Chyhyrynska terytorialna hromada"
+      },
+      {
+       "uid": "1460",
+       "name": "Medvedivska terytorialna hromada"
+      },
+      {
+       "uid": "1461",
+       "name": "Mykhailivska terytorialna hromada"
+      },
+      {
+       "uid": "1462",
+       "name": "Mliivska terytorialna hromada"
+      },
+      {
+       "uid": "1463",
+       "name": "Moshnivska terytorialna hromada"
+      },
+      {
+       "uid": "1464",
+       "name": "Nabutivska terytorialna hromada"
+      },
+      {
+       "uid": "1465",
+       "name": "Rotmistrivska terytorialna hromada"
+      },
+      {
+       "uid": "1466",
+       "name": "Rusko-Polianska terytorialna hromada"
+      },
+      {
+       "uid": "1467",
+       "name": "Sahunivska terytorialna hromada"
+      },
+      {
+       "uid": "1468",
+       "name": "Smilianska terytorialna hromada"
+      },
+      {
+       "uid": "1469",
+       "name": "Stepanetska terytorialna hromada"
+      },
+      {
+       "uid": "1470",
+       "name": "Stepankivska terytorialna hromada"
+      },
+      {
+       "uid": "1471",
+       "name": "Ternivska terytorialna hromada"
+      },
+      {
+       "uid": "1472",
+       "name": "Chervonoslobidska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "26",
+   "name": "Chernivetska oblast",
+   "raions": [
+    {
+     "uid": "138",
+     "name": "Vyzhnytskyi raion",
+     "hromadas": [
+      {
+       "uid": "1503",
+       "name": "Banylivska terytorialna hromada"
+      },
+      {
+       "uid": "1504",
+       "name": "Berehometska terytorialna hromada"
+      },
+      {
+       "uid": "1505",
+       "name": "Brusnytska terytorialna hromada"
+      },
+      {
+       "uid": "1506",
+       "name": "Vashkivetska terytorialna hromada"
+      },
+      {
+       "uid": "1507",
+       "name": "Vyzhnytska terytorialna hromada"
+      },
+      {
+       "uid": "1508",
+       "name": "Koniatynska terytorialna hromada"
+      },
+      {
+       "uid": "1509",
+       "name": "Putylska terytorialna hromada"
+      },
+      {
+       "uid": "1510",
+       "name": "Seliatynska terytorialna hromada"
+      },
+      {
+       "uid": "1511",
+       "name": "Ust-Putylska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "139",
+     "name": "Dnistrovskyi raion",
+     "hromadas": [
+      {
+       "uid": "1545",
+       "name": "Vashkovetska terytorialna hromada"
+      },
+      {
+       "uid": "1546",
+       "name": "Kelmenetska terytorialna hromada"
+      },
+      {
+       "uid": "1547",
+       "name": "Klishkovetska terytorialna hromada"
+      },
+      {
+       "uid": "1548",
+       "name": "Livynetska terytorialna hromada"
+      },
+      {
+       "uid": "1551",
+       "name": "m. Novodnistrovsk ta Novodnistrovska terytorialna hromada"
+      },
+      {
+       "uid": "1549",
+       "name": "Mamalyhivska terytorialna hromada"
+      },
+      {
+       "uid": "1550",
+       "name": "Nedoboivska terytorialna hromada"
+      },
+      {
+       "uid": "1552",
+       "name": "Rukshynska terytorialna hromada"
+      },
+      {
+       "uid": "1553",
+       "name": "Sokyrianska terytorialna hromada"
+      },
+      {
+       "uid": "1554",
+       "name": "Khotynska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "137",
+     "name": "Chernivetskyi raion",
+     "hromadas": [
+      {
+       "uid": "1512",
+       "name": "Boianska terytorialna hromada"
+      },
+      {
+       "uid": "1513",
+       "name": "Vanchykovetska terytorialna hromada"
+      },
+      {
+       "uid": "1514",
+       "name": "Velykokuchurivska terytorialna hromada"
+      },
+      {
+       "uid": "1515",
+       "name": "Verenchatska terytorialna hromada"
+      },
+      {
+       "uid": "1516",
+       "name": "Viknianska terytorialna hromada"
+      },
+      {
+       "uid": "1517",
+       "name": "Volokivska terytorialna hromada"
+      },
+      {
+       "uid": "1518",
+       "name": "Hertsaivska terytorialna hromada"
+      },
+      {
+       "uid": "1519",
+       "name": "Hlybotska terytorialna hromada"
+      },
+      {
+       "uid": "1520",
+       "name": "Horishnosherovetska terytorialna hromada"
+      },
+      {
+       "uid": "1521",
+       "name": "Zastavnivska terytorialna hromada"
+      },
+      {
+       "uid": "1522",
+       "name": "Kadubovetska terytorialna hromada"
+      },
+      {
+       "uid": "1523",
+       "name": "Kamianetska terytorialna hromada"
+      },
+      {
+       "uid": "1524",
+       "name": "Kamianska terytorialna hromada"
+      },
+      {
+       "uid": "1525",
+       "name": "Karapachivska terytorialna hromada"
+      },
+      {
+       "uid": "1526",
+       "name": "Kitsmanska terytorialna hromada"
+      },
+      {
+       "uid": "1527",
+       "name": "Kostryzhivska terytorialna hromada"
+      },
+      {
+       "uid": "1528",
+       "name": "Krasnoilska terytorialna hromada"
+      },
+      {
+       "uid": "1542",
+       "name": "m. Chernivtsi ta Chernivetska terytorialna hromada"
+      },
+      {
+       "uid": "1529",
+       "name": "Mahalska terytorialna hromada"
+      },
+      {
+       "uid": "1530",
+       "name": "Mamaivska terytorialna hromada"
+      },
+      {
+       "uid": "1531",
+       "name": "Nepolokovetska terytorialna hromada"
+      },
+      {
+       "uid": "1532",
+       "name": "Novoselytska terytorialna hromada"
+      },
+      {
+       "uid": "1533",
+       "name": "Ostrytska terytorialna hromada"
+      },
+      {
+       "uid": "1534",
+       "name": "Petrovetska terytorialna hromada"
+      },
+      {
+       "uid": "1535",
+       "name": "Stavchanska terytorialna hromada"
+      },
+      {
+       "uid": "1536",
+       "name": "Storozhynetska terytorialna hromada"
+      },
+      {
+       "uid": "1537",
+       "name": "Suchevenska terytorialna hromada"
+      },
+      {
+       "uid": "1538",
+       "name": "Tarashanska terytorialna hromada"
+      },
+      {
+       "uid": "1539",
+       "name": "Tereblechenska terytorialna hromada"
+      },
+      {
+       "uid": "1540",
+       "name": "Toporivska terytorialna hromada"
+      },
+      {
+       "uid": "1541",
+       "name": "Chahorska terytorialna hromada"
+      },
+      {
+       "uid": "1543",
+       "name": "Chudeiska terytorialna hromada"
+      },
+      {
+       "uid": "1544",
+       "name": "Yurkovetska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "uid": "25",
+   "name": "Chernihivska oblast",
+   "raions": [
+    {
+     "uid": "144",
+     "name": "Koriukivskyi raion",
+     "hromadas": [
+      {
+       "uid": "1607",
+       "name": "Koriukivska terytorialna hromada"
+      },
+      {
+       "uid": "1608",
+       "name": "Menska terytorialna hromada"
+      },
+      {
+       "uid": "1609",
+       "name": "Snovska terytorialna hromada"
+      },
+      {
+       "uid": "1610",
+       "name": "Sosnytska terytorialna hromada"
+      },
+      {
+       "uid": "1611",
+       "name": "Kholmynska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "142",
+     "name": "Nizhynskyi raion",
+     "hromadas": [
+      {
+       "uid": "1555",
+       "name": "Baturynska terytorialna hromada"
+      },
+      {
+       "uid": "1556",
+       "name": "Bakhmatska terytorialna hromada"
+      },
+      {
+       "uid": "1557",
+       "name": "Bobrovytska terytorialna hromada"
+      },
+      {
+       "uid": "1558",
+       "name": "Borznianska terytorialna hromada"
+      },
+      {
+       "uid": "1559",
+       "name": "Vertiivska terytorialna hromada"
+      },
+      {
+       "uid": "1560",
+       "name": "Vysochanska terytorialna hromada"
+      },
+      {
+       "uid": "1561",
+       "name": "Dmytrivska terytorialna hromada"
+      },
+      {
+       "uid": "1562",
+       "name": "Komarivska terytorialna hromada"
+      },
+      {
+       "uid": "1563",
+       "name": "Krutivska terytorialna hromada"
+      },
+      {
+       "uid": "1564",
+       "name": "Losynivska terytorialna hromada"
+      },
+      {
+       "uid": "1567",
+       "name": "m. Nizhyn ta Nizhynska terytorialna hromada"
+      },
+      {
+       "uid": "1565",
+       "name": "Makiivska terytorialna hromada"
+      },
+      {
+       "uid": "1566",
+       "name": "Mrynska terytorialna hromada"
+      },
+      {
+       "uid": "1568",
+       "name": "Novobasanska terytorialna hromada"
+      },
+      {
+       "uid": "1569",
+       "name": "Nosivska terytorialna hromada"
+      },
+      {
+       "uid": "1570",
+       "name": "Plyskivska terytorialna hromada"
+      },
+      {
+       "uid": "1571",
+       "name": "Talalaivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "141",
+     "name": "Novhorod-Siverskyi raion",
+     "hromadas": [
+      {
+       "uid": "1603",
+       "name": "Koropska terytorialna hromada"
+      },
+      {
+       "uid": "1604",
+       "name": "m. Novhorod-Siverskyi ta Novhorod-Siverska terytorialna hromada"
+      },
+      {
+       "uid": "1605",
+       "name": "Ponornytska terytorialna hromada"
+      },
+      {
+       "uid": "1606",
+       "name": "Semenivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "143",
+     "name": "Prylutskyi raion",
+     "hromadas": [
+      {
+       "uid": "1592",
+       "name": "Varvynska terytorialna hromada"
+      },
+      {
+       "uid": "1593",
+       "name": "Ichnianska terytorialna hromada"
+      },
+      {
+       "uid": "1594",
+       "name": "Ladanska terytorialna hromada"
+      },
+      {
+       "uid": "1595",
+       "name": "Lynovytska terytorialna hromada"
+      },
+      {
+       "uid": "1598",
+       "name": "m. Pryluky ta Prylutska terytorialna hromada"
+      },
+      {
+       "uid": "1596",
+       "name": "Malodivytska terytorialna hromada"
+      },
+      {
+       "uid": "1597",
+       "name": "Parafiivska terytorialna hromada"
+      },
+      {
+       "uid": "1599",
+       "name": "Sribnianska terytorialna hromada"
+      },
+      {
+       "uid": "1600",
+       "name": "Sukhopolovianska terytorialna hromada"
+      },
+      {
+       "uid": "1601",
+       "name": "Talalaivska terytorialna hromada"
+      },
+      {
+       "uid": "1602",
+       "name": "Yablunivska terytorialna hromada"
+      }
+     ]
+    },
+    {
+     "uid": "140",
+     "name": "Chernihivskyi raion",
+     "hromadas": [
+      {
+       "uid": "1572",
+       "name": "Bereznianska terytorialna hromada"
+      },
+      {
+       "uid": "1573",
+       "name": "Honcharivska terytorialna hromada"
+      },
+      {
+       "uid": "1574",
+       "name": "Horodnianska terytorialna hromada"
+      },
+      {
+       "uid": "1575",
+       "name": "Desnianska terytorialna hromada"
+      },
+      {
+       "uid": "1576",
+       "name": "Dobrianska terytorialna hromada"
+      },
+      {
+       "uid": "1577",
+       "name": "Ivanivska terytorialna hromada"
+      },
+      {
+       "uid": "1578",
+       "name": "Kyinska terytorialna hromada"
+      },
+      {
+       "uid": "1579",
+       "name": "Kyselivska terytorialna hromada"
+      },
+      {
+       "uid": "1580",
+       "name": "Kiptivska terytorialna hromada"
+      },
+      {
+       "uid": "1581",
+       "name": "Kozeletska terytorialna hromada"
+      },
+      {
+       "uid": "1582",
+       "name": "Kulykivska terytorialna hromada"
+      },
+      {
+       "uid": "1583",
+       "name": "Liubetska terytorialna hromada"
+      },
+      {
+       "uid": "1591",
+       "name": "m. Chernihiv ta Chernihivska terytorialna hromada"
+      },
+      {
+       "uid": "1584",
+       "name": "Mykhailo-Kotsiubynska terytorialna hromada"
+      },
+      {
+       "uid": "1585",
+       "name": "Novobilouska terytorialna hromada"
+      },
+      {
+       "uid": "1586",
+       "name": "Olyshivska terytorialna hromada"
+      },
+      {
+       "uid": "1587",
+       "name": "Osterska terytorialna hromada"
+      },
+      {
+       "uid": "1588",
+       "name": "Ripkynska terytorialna hromada"
+      },
+      {
+       "uid": "1589",
+       "name": "Sednivska terytorialna hromada"
+      },
+      {
+       "uid": "1590",
+       "name": "Tupychivska terytorialna hromada"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

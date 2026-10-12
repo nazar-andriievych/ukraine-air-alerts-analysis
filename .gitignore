@@ -1,0 +1,11 @@
+# Downloaded and generated data (rebuilt by the pipeline)
+data/bronze/
+data/silver/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.idea/
