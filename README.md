@@ -26,6 +26,7 @@ python -m pipeline              # all steps
 python -m pipeline gold         # one step
 python -m pipeline --force      # also re-download the dataset
 python -m pipeline.baselines test   # score the baselines on the test split (default: validation)
+python -m pipeline.models --calendar utc   # the models with UTC instead of Kyiv calendar features
 ```
 
 The download is skipped when the file is already there at the pinned commit. Silver and gold take a few seconds and are always rebuilt.
@@ -39,6 +40,7 @@ The download is skipped when the file is already there at the pinned commit. Sil
 |  | `data/gold/raion_intervals.parquet` | Merged alert intervals per raion (no overlaps). |
 | `features` | `data/features/origins.parquet` | One row per raion per forecast origin (every UTC hour) with features computed only from data before it, and its split (train / validation / test). |
 | `baselines` | `reports/baselines_validation*.csv` | Brier score of the baselines per horizon, and skill against the 28-day rate overall and per alert-rate band. |
+| `models` | `reports/models_validation*.csv`, `reports/*.png` | Trains logistic regression (one per horizon) and LightGBM on train origins (about 2 minutes) and scores them on validation with the baselines; writes the charts. |
 
 Silver cleaning:
 - removes exact duplicates (38% of rows)

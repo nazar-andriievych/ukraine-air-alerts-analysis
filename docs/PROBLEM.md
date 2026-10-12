@@ -95,3 +95,19 @@ Measured on the hourly labels before modelling, to pick the baseline and feature
 - Persistence beats the 28-day rate only at +1 h. With the exact alert state at the origin it does better at +1 h (0.081) than in the earlier quick check (0.108), which used the whole-hour flag of the hour before.
 - The hour of day adds nothing on top of the 28-day rate.
 - Validation bands (12 weeks before 2026-05-18): 48 raions <10%, 18 at 10–20%, 27 at 20–60%, 26 ≥60%. Brier of the 28-day rate: 0.044, 0.123, 0.215 and 0.077. The 20–60% band is where most of the error is.
+
+## Models on validation (2026-10-12)
+`python -m pipeline models`. Training rows: a random third of training origins (11,960 origins × 119 raions), each with one random horizon from 1–8, 9–16 and 17–24 h: 4.27M rows, the same rows for both models. Training on all 24 horizons would be about 34M rows and does not fit in memory on this machine. LightGBM stopped at 203 trees (early stopping on validation rows, so its validation score is slightly optimistic; the test split is untouched).
+
+| Forecast | Brier +1 h | +3 h | +6 h | +24 h | Skill vs 28-day rate (95% interval) |
+|---|---|---|---|---|---|
+| 28-day rate | 0.102 | 0.102 | 0.102 | 0.102 | 0 |
+| Logistic regression | 0.058 | 0.097 | 0.100 | 0.101 | 3.3% (2.3 … 4.4%) |
+| LightGBM | 0.058 | 0.096 | 0.100 | 0.101 | 3.7% (2.1 … 5.3%) |
+
+- Logistic regression beats the 28-day rate in every alert-rate band, with the whole interval above 0 (skill 2.9–3.6%). LightGBM does too, except in the <10% band, where its interval touches 0 (2.6%, −0.1 … 5.0%).
+- Almost all of the gain is in the first hours: 43% lower Brier at +1 h, 8% at +2 h, about 1% from +8 h on. The models mostly learn that an alert in progress tends to continue; they rarely foresee when a new alert starts (`reports/examples.png`).
+- Both models are well calibrated (`reports/reliability.png`).
+- **LightGBM vs logistic regression:** skill 0.4% (−0.5 … 1.2%). The interval includes 0, so by the choice rule **logistic regression is the final model**.
+- **Kyiv vs UTC calendar:** skill 3.3% vs 3.1% (logistic regression) and 3.7% vs 3.4% (LightGBM). Kyiv time is kept. The difference is small.
+- LightGBM relies mostly on the 28-day and 7-day shares (59% and 20% of the gain), then the target hour (7%).
