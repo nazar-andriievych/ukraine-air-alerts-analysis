@@ -3,7 +3,7 @@
 ## Target
 Forecast the **probability that a raion is under an air raid alert in each of the next 24 hours**.
 
-- **Unit:** raion × UTC hour. Data: `data/gold/raion_hourly.parquet` (to be built).
+- **Unit:** raion × UTC hour. Data: `data/gold/raion_hourly.parquet` (4.67M rows, 24% of hours under alert overall).
 - **Label:** 1 if the raion was under alert at any moment in that hour, else 0. An oblast alert puts all of its raions under alert; a hromada alert puts its whole raion under alert.
 - **Forecast origin:** the end of hour t (UTC), i.e. the full hour t is known. Only data available by then may be used, for features as well as training.
 - **Horizon:** hours t+1 … t+24, the 24 hours right after the origin.

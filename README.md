@@ -33,7 +33,8 @@ The download is skipped when the file is already there at the pinned commit. Sil
 |---|---|---|
 | `download` (bronze) | `data/bronze/official_data_en.csv` | Downloads the raw dataset at the pinned commit, unchanged, and records a checksum. |
 | `silver` | `data/silver/alerts.parquet` | Cleans the alerts. One row per source alert, with oblast/raion/hromada uids. |
-| `gold` | `data/gold/raion_daily.parquet` | Alert hours per raion per UTC day (the earlier target; the hourly table is next). |
+| `gold` | `data/gold/raion_daily.parquet` | Alert hours per raion per UTC day. |
+|  | `data/gold/raion_hourly.parquet` | 1 if the raion was under alert at any moment in the UTC hour, else 0: the forecasting target. |
 
 Silver cleaning:
 - removes exact duplicates (38% of rows)
@@ -49,7 +50,7 @@ Gold spreads each alert across the raions it covered:
 - raion alert → that raion
 - hromada alert → its whole raion
 
-Kyiv City has no raions, so it is treated as a single unit. Overlapping alerts of a raion are merged so no time is counted twice, then split at UTC midnight. Gold has every raion for every day from 2022-03-16 (the first complete day) to 2026-09-06, with 0 on days without alerts.
+Kyiv City has no raions, so it is treated as a single unit. Overlapping alerts of a raion are merged so no time is counted twice, then split at UTC midnight (daily table) or at each UTC hour (hourly table). Gold has every raion for every day and every hour from 2022-03-16 (the first complete day) to 2026-09-06, with 0 where there was no alert.
 
 `data/bronze/`, `data/silver/` and `data/gold/` are not committed; run the pipeline to rebuild them.
 
@@ -65,7 +66,7 @@ To regenerate the English regions file: `python scripts/translate_regions.py`.
 data/reference/   regions.json, regions_uk.json   (committed)
 data/bronze/      raw downloaded data              (generated)
 data/silver/      cleaned alerts                   (generated)
-data/gold/        daily alert hours per raion      (generated)
+data/gold/        daily and hourly alerts per raion (generated)
 docs/             task and problem statement
 pipeline/         pipeline steps and config
 scripts/          one-off helper scripts

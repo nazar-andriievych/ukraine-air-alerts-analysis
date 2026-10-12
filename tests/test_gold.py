@@ -1,6 +1,6 @@
 import pandas as pd
 
-from pipeline.gold import daily_table, expand_to_raions, merge_intervals, split_by_day
+from pipeline.gold import daily_table, expand_to_raions, hourly_table, merge_intervals, split_by_day
 
 
 def ts(text: str) -> pd.Timestamp:
@@ -18,6 +18,14 @@ def alerts(*rows) -> pd.DataFrame:
 def gold(raions, *rows, start="2024-01-01", end="2024-01-04") -> pd.DataFrame:
     intervals = merge_intervals(expand_to_raions(alerts(*rows), raions))
     return daily_table(split_by_day(intervals), raions, start + "T00:00:00Z", end + "T00:00:00Z")
+
+
+def hourly(raions, *rows, start="2024-01-01T00:00:00Z", end="2024-01-01T06:00:00Z") -> pd.DataFrame:
+    return hourly_table(merge_intervals(expand_to_raions(alerts(*rows), raions)), raions, start, end)
+
+
+def flags(table: pd.DataFrame, raion_uid: str) -> list[int]:
+    return list(table[table["raion_uid"] == raion_uid].sort_values("hour")["alert"])
 
 
 def hours(table: pd.DataFrame, raion_uid: str) -> list[float]:
@@ -68,3 +76,31 @@ def test_table_has_every_raion_for_every_day(raions):
 def test_days_outside_the_table_range_are_dropped(raions):
     table = gold(raions, ("raion", "1", "11", "2023-12-31 20:00", "2024-01-01 02:00"))
     assert hours(table, "11") == [2, 0, 0]
+
+
+def test_hour_counts_if_under_alert_at_any_moment(raions):
+    table = hourly(raions, ("raion", "1", "11", "2024-01-01 01:50", "2024-01-01 02:10"))
+    assert flags(table, "11") == [0, 1, 1, 0, 0, 0]
+
+
+def test_alert_ending_on_the_hour_does_not_flag_the_next_hour(raions):
+    table = hourly(raions, ("raion", "1", "11", "2024-01-01 01:00", "2024-01-01 03:00"))
+    assert flags(table, "11") == [0, 1, 1, 0, 0, 0]
+
+
+def test_hourly_spreads_oblast_and_hromada_alerts_like_daily(raions):
+    table = hourly(raions,
+                   ("oblast", "1", None, "2024-01-01 00:00", "2024-01-01 01:00"),
+                   ("hromada", "1", "12", "2024-01-01 04:30", "2024-01-01 04:40"),
+                   ("oblast", "2", None, "2024-01-01 05:00", "2024-01-01 07:00"))
+    assert flags(table, "11") == [1, 0, 0, 0, 0, 0]
+    assert flags(table, "12") == [1, 0, 0, 0, 1, 0]
+    assert flags(table, "2") == [0, 0, 0, 0, 0, 1]  # cut at the table end
+
+
+def test_hourly_table_has_every_raion_for_every_hour(raions):
+    table = hourly(raions, ("raion", "1", "11", "2023-12-31 20:00", "2024-01-01 01:30"))
+    assert len(table) == len(raions) * 6
+    assert not table.duplicated(["raion_uid", "hour"]).any()
+    assert list(table.columns) == ["raion_uid", "oblast_uid", "hour", "alert"]
+    assert flags(table, "11") == [1, 1, 0, 0, 0, 0]
