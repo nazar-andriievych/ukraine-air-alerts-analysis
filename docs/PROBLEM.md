@@ -81,7 +81,7 @@ Measured on the hourly labels before modelling, to pick the baseline and feature
 - In the test weeks (2026-07-13 → 2026-09-06), raions are under alert **34% of all hours**. The share barely depends on the hour of day (30–38%).
 - Baselines on the test weeks (Brier, origins every 3 h): persistence 0.108 at +1 h but 0.183 on average; 28-day rate 0.107 on average; hour-of-day rate 0.109. Alerts switch on and off often, so persistence is only useful for the first hour or so.
 - Alert start times (2025–2026) line up better between winter and summer on the **Kyiv clock** (correlation 0.81) than on the UTC clock (0.73). This is why calendar features use Kyiv time.
-- Raions by share of time under alert in the 12 weeks before the test start: 69 under 10%, 14 at 10–20%, 17 at 20–60%, 19 over 60%. Most raions are quiet, which is why skill is reported per band.
+- Raions by share of time under alert in the 12 weeks before the test start: 69 under 10%, 14 at 10–20%, 17 at 20–60%, 19 over 60%. Most raions are quiet, which is why skill is reported per band. (This counts the share of *time* under alert. The scoring bands count the share of *hours with any alert*, which is higher, so on test the bands hold 44 / 26 / 23 / 26 raions.)
 
 ## Baselines on validation (2026-10-12)
 `python -m pipeline baselines`: 1,321 origins × 119 raions × 24 horizons = 3.77M forecasts. Results in `reports/`.
@@ -111,3 +111,24 @@ Measured on the hourly labels before modelling, to pick the baseline and feature
 - **LightGBM vs logistic regression:** skill 0.4% (−0.5 … 1.2%). The interval includes 0, so by the choice rule **logistic regression is the final model**.
 - **Kyiv vs UTC calendar:** skill 3.3% vs 3.1% (logistic regression) and 3.7% vs 3.4% (LightGBM). Kyiv time is kept. The difference is small.
 - LightGBM relies mostly on the 28-day and 7-day shares (59% and 20% of the gain), then the target hour (7%).
+
+## Final test result (2026-10-12)
+`python -m pipeline final`, run once. The code was committed and pushed before the run (`1a87ca9`). Fitting on train and scoring validation with that code reproduced the validation result exactly, so the step was checked without looking at test.
+
+- **Model:** logistic regression, one per horizon, Kyiv-time calendar features, no weather.
+- **Training:** train + validation origins (2022-04-13 → 2026-07-11), sampled the same way as before: 4.43M rows.
+- **Scored:** test, 1,321 origins × 119 raions × 24 horizons = 3.77M forecasts.
+- Only this model and the baselines were scored on test.
+
+| Forecast | Brier +1 h | +3 h | +6 h | +24 h | Skill vs 28-day rate (95% interval) |
+|---|---|---|---|---|---|
+| Persistence | 0.087 | 0.174 | 0.183 | 0.192 | −71% (−82 … −58%) |
+| 28-day rate | 0.107 | 0.107 | 0.107 | 0.107 | 0 |
+| Hour-of-day rate | 0.109 | 0.109 | 0.109 | 0.109 | −1.3% (−2.1 … −0.4%) |
+| **Logistic regression** | **0.061** | **0.101** | **0.104** | **0.107** | **3.6% (1.5 … 6.5%)** |
+
+- The test result matches validation (3.3%): the model was not tuned to the validation weeks.
+- The skill per horizon has the same shape: 43% at +1 h, 9% at +2 h, 2.5% at +6 h, 0.7% at +24 h.
+- Positive skill in every alert-rate band, with all intervals above 0: <10% 1.9%, 10–20% 4.7%, 20–60% 2.3%, ≥60% 5.7%.
+- The interval is wider than on validation: test weeks were more uneven, with quiet days followed by intense ones (`reports/final_test_examples.png`).
+- **Limitation:** almost all of the gain comes from knowing that an alert in progress tends to continue. Beyond a few hours the model is barely better than the 28-day rate, because the alert history alone cannot tell when a new attack starts.

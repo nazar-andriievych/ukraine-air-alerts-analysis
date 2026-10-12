@@ -41,6 +41,7 @@ The download is skipped when the file is already there at the pinned commit. Sil
 | `features` | `data/features/origins.parquet` | One row per raion per forecast origin (every UTC hour) with features computed only from data before it, and its split (train / validation / test). |
 | `baselines` | `reports/baselines_validation*.csv` | Brier score of the baselines per horizon, and skill against the 28-day rate overall and per alert-rate band. |
 | `models` | `reports/models_validation*.csv`, `reports/*.png` | Trains logistic regression (one per horizon) and LightGBM on train origins (about 2 minutes) and scores them on validation with the baselines; writes the charts. |
+| `final` | `reports/final_test*.csv`, `reports/final_test_*.png` | Retrains the chosen model (logistic regression) on train + validation and scores it and the baselines on the test split, once. |
 
 Silver cleaning:
 - removes exact duplicates (38% of rows)
