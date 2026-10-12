@@ -1,6 +1,6 @@
 # Ukraine air alerts analysis
 
-Time series analysis of air raid alerts in Ukraine. The goal is to forecast **daily air raid alert hours per raion for the next 7 days**.
+Time series analysis of air raid alerts in Ukraine. The goal is to forecast the **probability of an air raid alert per raion in each of the next 24 hours**.
 
 - Task description: [`docs/TASK.md`](docs/TASK.md)
 - Problem statement, decisions and data findings: [`docs/PROBLEM.md`](docs/PROBLEM.md)
@@ -33,7 +33,7 @@ The download is skipped when the file is already there at the pinned commit. Sil
 |---|---|---|
 | `download` (bronze) | `data/bronze/official_data_en.csv` | Downloads the raw dataset at the pinned commit, unchanged, and records a checksum. |
 | `silver` | `data/silver/alerts.parquet` | Cleans the alerts. One row per source alert, with oblast/raion/hromada uids. |
-| `gold` | `data/gold/raion_daily.parquet` | Alert hours per raion per UTC day: the forecasting target. |
+| `gold` | `data/gold/raion_daily.parquet` | Alert hours per raion per UTC day (the earlier target; the hourly table is next). |
 
 Silver cleaning:
 - removes exact duplicates (38% of rows)
