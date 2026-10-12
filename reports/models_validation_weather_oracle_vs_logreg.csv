@@ -1,0 +1,6 @@
+group,raions,forecast,brier,skill,skill_low,skill_high
+all,119,logreg_oracle,0.09844,-0.00018,-0.00215,0.00206
+<10%,48,logreg_oracle,0.04228,0.00098,-0.00181,0.00383
+10-20%,18,logreg_oracle,0.11913,-0.00031,-0.00329,0.00282
+20-60%,27,logreg_oracle,0.20704,-0.00068,-0.00339,0.00229
+>=60%,26,logreg_oracle,0.075,0.00018,-0.00343,0.00388

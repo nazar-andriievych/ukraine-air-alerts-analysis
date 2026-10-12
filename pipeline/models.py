@@ -1,6 +1,6 @@
 """Train logistic regression and LightGBM on train origins, score them on validation with the baselines.
 
-Usage: python -m pipeline.models [--calendar utc]
+Usage: python -m pipeline.models [--calendar utc] [--weather oracle|forecast]
 
 Input:  data/features/origins.parquet, data/gold/raion_hourly.parquet
 Output: reports/models_validation.csv             Brier and skill against the 28-day rate,
@@ -11,6 +11,8 @@ Output: reports/models_validation.csv             Brier and skill against the 28
         reports/*.png                             charts (see pipeline/plots.py)
 With --calendar utc the calendar features use UTC instead of Kyiv time and only the two summary
 tables are written, with a _utc suffix, to compare the two on validation.
+With --weather the weather experiment runs instead (pipeline/weather_models.py); without it nothing
+changes.
 
 Training rows: a random third of the training origins (all raions), and for each (origin, raion)
 one random horizon from each of 1-8, 9-16 and 17-24 h, about 4.3M rows. Forecasts from neighbouring
@@ -81,21 +83,22 @@ def as_categories(rows: pd.DataFrame, categories: dict[str, list]) -> pd.DataFra
     return rows.assign(**{c: pd.Categorical(rows[c], categories=categories[c]) for c in CATEGORICAL})
 
 
-def logreg_inputs(rows: pd.DataFrame) -> pd.DataFrame:
+def logreg_inputs(rows: pd.DataFrame, extra: list[str] = ()) -> pd.DataFrame:
+    """Logistic regression inputs; `extra` numeric columns (e.g. weather) are passed through as they are."""
     rate = rows["share_672h"].clip(1 / 672, 1 - 1 / 672)
     return rows.assign(spell_hours=rows["spell_hours"].clip(upper=SPELL_CAP),
-                       logit_rate_28d=np.log(rate / (1 - rate)))[[*LOGREG_NUMERIC, *LOGREG_ONE_HOT]]
+                       logit_rate_28d=np.log(rate / (1 - rate)))[[*LOGREG_NUMERIC, *extra, *LOGREG_ONE_HOT]]
 
 
-def fit_logreg(train: pd.DataFrame) -> dict[int, object]:
-    """One scaled + one-hot logistic regression per horizon."""
+def fit_logreg(train: pd.DataFrame, extra: list[str] = ()) -> dict[int, object]:
+    """One scaled + one-hot logistic regression per horizon; `extra` numeric columns are scaled too."""
     models = {}
     for h, rows in train.groupby("horizon"):
         model = make_pipeline(
-            ColumnTransformer([("numeric", StandardScaler(), LOGREG_NUMERIC),
+            ColumnTransformer([("numeric", StandardScaler(), [*LOGREG_NUMERIC, *extra]),
                                ("one_hot", OneHotEncoder(handle_unknown="ignore"), LOGREG_ONE_HOT)]),
             LogisticRegression(max_iter=2000))
-        models[h] = model.fit(logreg_inputs(rows), rows["alert"])
+        models[h] = model.fit(logreg_inputs(rows, extra), rows["alert"])
     return models
 
 
@@ -118,7 +121,10 @@ def score(origins: pd.DataFrame, flags: pd.DataFrame, tz: str, logreg: dict, lig
     return scored
 
 
-def run(calendar: str = "kyiv") -> None:
+def run(calendar: str = "kyiv", weather: str | None = None) -> None:
+    if weather is not None:  # the weather experiment: logistic regression with and without weather
+        from pipeline import weather_models
+        return weather_models.run(weather, calendar)
     if not features.OUTPUT.exists():
         raise SystemExit(f"{features.OUTPUT} not found; run `python -m pipeline features` first")
     tz, suffix = TIMEZONES[calendar], "" if calendar == "kyiv" else f"_{calendar}"
@@ -171,4 +177,7 @@ def run(calendar: str = "kyiv") -> None:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train and score the models on validation.")
     parser.add_argument("--calendar", choices=list(TIMEZONES), default="kyiv")
-    run(parser.parse_args().calendar)
+    parser.add_argument("--weather", choices=["oracle", "forecast"], default=None,
+                        help="weather experiment (see pipeline/weather_models.py); oracle is leaky, an upper bound")
+    args = parser.parse_args()
+    run(args.calendar, args.weather)
