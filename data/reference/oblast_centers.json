@@ -1,0 +1,194 @@
+[
+ {
+  "oblast_uid": "4",
+  "oblast": "Vinnytska oblast",
+  "name": "Vinnytsia",
+  "lat": 49.2322,
+  "lon": 28.46871,
+  "geonames_id": 689558
+ },
+ {
+  "oblast_uid": "8",
+  "oblast": "Volynska oblast",
+  "name": "Lutsk",
+  "lat": 50.75784,
+  "lon": 25.35024,
+  "geonames_id": 702569
+ },
+ {
+  "oblast_uid": "9",
+  "oblast": "Dnipropetrovska oblast",
+  "name": "Dnipro",
+  "lat": 48.46664,
+  "lon": 35.04066,
+  "geonames_id": 709930
+ },
+ {
+  "oblast_uid": "28",
+  "oblast": "Donetska oblast",
+  "name": "Kramatorsk",
+  "lat": 48.73106,
+  "lon": 37.56779,
+  "geonames_id": 704508
+ },
+ {
+  "oblast_uid": "10",
+  "oblast": "Zhytomyrska oblast",
+  "name": "Zhytomyr",
+  "lat": 50.26235,
+  "lon": 28.67913,
+  "geonames_id": 686967
+ },
+ {
+  "oblast_uid": "11",
+  "oblast": "Zakarpatska oblast",
+  "name": "Uzhhorod",
+  "lat": 48.6242,
+  "lon": 22.2947,
+  "geonames_id": 690548
+ },
+ {
+  "oblast_uid": "12",
+  "oblast": "Zaporizka oblast",
+  "name": "Zaporizhzhya",
+  "lat": 47.85167,
+  "lon": 35.11714,
+  "geonames_id": 687700
+ },
+ {
+  "oblast_uid": "13",
+  "oblast": "Ivano-Frankivska oblast",
+  "name": "Ivano-Frankivsk",
+  "lat": 48.92312,
+  "lon": 24.71248,
+  "geonames_id": 707471
+ },
+ {
+  "oblast_uid": "14",
+  "oblast": "Kyivska oblast",
+  "name": "Kyiv",
+  "lat": 50.45466,
+  "lon": 30.5238,
+  "geonames_id": 703448
+ },
+ {
+  "oblast_uid": "15",
+  "oblast": "Kirovohradska oblast",
+  "name": "Kropyvnytskyi",
+  "lat": 48.50834,
+  "lon": 32.26618,
+  "geonames_id": 705812
+ },
+ {
+  "oblast_uid": "27",
+  "oblast": "Lvivska oblast",
+  "name": "Lviv",
+  "lat": 49.83826,
+  "lon": 24.02324,
+  "geonames_id": 702550
+ },
+ {
+  "oblast_uid": "31",
+  "oblast": "Kyiv City",
+  "name": "Kyiv",
+  "lat": 50.45466,
+  "lon": 30.5238,
+  "geonames_id": 703448
+ },
+ {
+  "oblast_uid": "17",
+  "oblast": "Mykolaivska oblast",
+  "name": "Mykolayiv",
+  "lat": 46.97625,
+  "lon": 31.99296,
+  "geonames_id": 700569
+ },
+ {
+  "oblast_uid": "18",
+  "oblast": "Odeska oblast",
+  "name": "Odesa",
+  "lat": 46.48572,
+  "lon": 30.74383,
+  "geonames_id": 698740
+ },
+ {
+  "oblast_uid": "19",
+  "oblast": "Poltavska oblast",
+  "name": "Poltava",
+  "lat": 49.58925,
+  "lon": 34.55367,
+  "geonames_id": 696643
+ },
+ {
+  "oblast_uid": "5",
+  "oblast": "Rivnenska oblast",
+  "name": "Rivne",
+  "lat": 50.62036,
+  "lon": 26.23695,
+  "geonames_id": 695594
+ },
+ {
+  "oblast_uid": "20",
+  "oblast": "Sumska oblast",
+  "name": "Sumy",
+  "lat": 50.91741,
+  "lon": 34.79906,
+  "geonames_id": 692194
+ },
+ {
+  "oblast_uid": "21",
+  "oblast": "Ternopilska oblast",
+  "name": "Ternopil",
+  "lat": 49.55404,
+  "lon": 25.59067,
+  "geonames_id": 691650
+ },
+ {
+  "oblast_uid": "22",
+  "oblast": "Kharkivska oblast",
+  "name": "Kharkiv",
+  "lat": 49.98177,
+  "lon": 36.25475,
+  "geonames_id": 706483
+ },
+ {
+  "oblast_uid": "23",
+  "oblast": "Khersonska oblast",
+  "name": "Kherson",
+  "lat": 46.63695,
+  "lon": 32.61458,
+  "geonames_id": 706448
+ },
+ {
+  "oblast_uid": "3",
+  "oblast": "Khmelnytska oblast",
+  "name": "Khmelnytskyi",
+  "lat": 49.41835,
+  "lon": 26.97936,
+  "geonames_id": 706369
+ },
+ {
+  "oblast_uid": "24",
+  "oblast": "Cherkaska oblast",
+  "name": "Cherkasy",
+  "lat": 49.44452,
+  "lon": 32.05738,
+  "geonames_id": 710791
+ },
+ {
+  "oblast_uid": "26",
+  "oblast": "Chernivetska oblast",
+  "name": "Chernivtsi",
+  "lat": 48.29045,
+  "lon": 25.93241,
+  "geonames_id": 710719
+ },
+ {
+  "oblast_uid": "25",
+  "oblast": "Chernihivska oblast",
+  "name": "Chernihiv",
+  "lat": 51.50541,
+  "lon": 31.28656,
+  "geonames_id": 710735
+ }
+]
