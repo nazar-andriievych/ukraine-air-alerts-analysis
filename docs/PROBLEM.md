@@ -61,7 +61,7 @@ Libraries: pandas, numpy, scikit-learn, lightgbm, matplotlib.
 - **Data start: 2022-03-16** (the first complete day). The dataset starts at 2022-03-15 16:10 UTC.
 - **Alert type (drones vs missiles) is not used.** Neither public dataset records it. Both store only the alert start and end.
 - **The private 48h UkraineAlarm log is not used.**
-- **Source: official dataset only** (`official_data_en.csv`). No other sources. It ends on 2026-09-07, so "the latest period" for evaluation means the weeks just before that date.
+- **Source: official alerts dataset only** (`official_data_en.csv`) for alerts. It ends on 2026-09-07, so "the latest period" for evaluation means the weeks just before that date. Weather from Open-Meteo was tested as an extra source and **not adopted** (see "Weather experiment"): the final model uses no weather.
 - **Oblasts: 24** (23 oblasts plus Kyiv City). Luhansk has no rows in 2026 because its alert is permanent, so it is excluded. Crimea is not in the dataset.
 
 ## Data findings that affect the target (2026-10-12)
@@ -111,3 +111,36 @@ Measured on the hourly labels before modelling, to pick the baseline and feature
 - **LightGBM vs logistic regression:** skill 0.4% (−0.5 … 1.2%). The interval includes 0, so by the choice rule **logistic regression is the final model**.
 - **Kyiv vs UTC calendar:** skill 3.3% vs 3.1% (logistic regression) and 3.7% vs 3.4% (LightGBM). Kyiv time is kept. The difference is small.
 - LightGBM relies mostly on the 28-day and 7-day shares (59% and 20% of the gain), then the target hour (7%).
+
+## Weather experiment (2026-10-12)
+Question: does weather (wind, gusts, precipitation, cloud, temperature) improve the hourly alert forecast? Drones and missiles are thought to be launched less in strong wind and storms. Branch `weather`; code in `pipeline/weather.py` and `pipeline/weather_models.py`.
+
+**Data sources and coverage.** Open-Meteo (free, no key), hourly, UTC, one point per oblast: its administrative centre (`data/reference/oblast_centers.json`, looked up with the Open-Meteo geocoding API by `scripts/oblast_centers.py`; Donetska oblast uses Kramatorsk, Kyivska oblast and Kyiv City share Kyiv). Raions use their oblast's weather. Raw responses are cached in `data/bronze/weather/`, tables in `data/silver/weather_*.parquet` (`python -m pipeline weather`). Open-Meteo stamps an hour by its end, so a value stamped 01:00 describes our hour 00:00–01:00.
+- *Actual weather*: ERA5 reanalysis (`archive-api.open-meteo.com/v1/archive`). Temperature, precipitation, low cloud cover, wind speed and gusts at 10 m: complete for every oblast and hour, 2022-03-16 → 2026-09-06. Visibility is not available.
+- *Day-ahead forecasts*: Previous Runs API (`previous-runs-api.open-meteo.com/v1/forecast`) with the `_previous_day2` suffix. Wind speed, gusts, precipitation and total cloud cover exist from 2024-01-20 11:00 UTC (hour start) and are complete from then on. Temperature exists from 2023-11-30 but has gaps before 2024-01-20. Low cloud cover and visibility are not available, so total cloud cover would replace low cloud. Usable period for a clean weather model: origins from **2024-01-21** (about 2.3 of the 4.2 training years).
+
+**Leakage reasoning.** A forecast made at origin T may use only what was known at T.
+- Actual (ERA5) weather at a target hour is in the future at T. It is used only in the deliberately leaky upper bound (stage 1). It would be allowed for hours before T, but ERA5 itself is published about 5 days late, so even that would not be available in real use; it was not needed.
+- `_previous_day2` is the value from a model run started at least 48 h before the hour. Target hours end at most 24 h after T, so the run started at least 24 h before T and was published well before it (runs are out within a few hours; the code allows up to 12 h and checks every row, `weather_models.check_published`). `_previous_day1` (run started ≥ 24 h before the hour) is not safe: at horizon 24 that run starts about at T and is published after it.
+- The Historical Forecast API is not used: it joins the newest run for every hour, so most horizons would get forecasts made after T.
+- Test `test_weather_features_do_not_change_when_the_future_changes`: changing all actual weather from T on and every forecast published after T leaves T's forecast-mode features unchanged; the same change does move the oracle features, so the test can see leakage.
+
+**Stage 1: upper bound, uses future weather, not a result.** `python -m pipeline models --weather oracle`: logistic regression with and without the *actual* ERA5 weather of the oblast at the target hour (wind speed, gusts, log(1 + precipitation), low cloud, temperature; scaled numeric features), on the same 4.27M training rows as the current model (same seed), scored on validation. Reports: `reports/models_validation_weather_oracle*.csv`.
+
+| Validation | Skill +1 h | +6 h | +24 h | Skill vs 28-day rate (95% interval) |
+|---|---|---|---|---|
+| Logistic regression, no weather | 43.4% | 1.65% | 0.94% | 3.35% (2.31 … 4.36%) |
+| + actual weather at the target hour (**upper bound, uses future weather, not a result**) | 43.5% | 1.68% | 0.85% | 3.33% (2.26 … 4.40%) |
+
+- Skill of "with" against "without" (day-block bootstrap): **−0.02% (−0.21 … +0.21%)**. Per alert-rate band it is between −0.07% and +0.10%; every interval includes 0.
+- The no-weather row reproduces the current model exactly (3.35%), so the comparison is on the same rows and settings.
+- **Stop rule:** the gain is under 1% and its interval includes 0. Even perfectly known weather does not help this model, so **stage 2 (clean day2 forecasts) was not run**: a forecast cannot carry more information about the target hour than the actual weather. The code for it is in place (`--weather forecast`), untried.
+
+**Decision: weather is not adopted.** The final model stays logistic regression without weather (validation skill 3.3%, 2.3 … 4.4%).
+
+**Weather model for the test run: none.** Weather was not adopted, so there is no weather test run; the no-weather model is tested on `main`. The test split was not scored on this branch.
+
+Caveats:
+- The check is for this model: weather enters the logistic regression linearly (per horizon). A strong non-linear effect (e.g. launches only below some gust speed) could be missed. LightGBM, which can find thresholds, was not tried with weather: the stop rule is defined on logistic regression, and LightGBM did not beat it without weather.
+- One point per oblast is coarse: the weather at the oblast centre is not the weather along drone routes or at launch sites, many of which are outside Ukraine.
+- Most of the skill is at +1–2 h and comes from alerts in progress; from +8 h on the models are only about 1% better than the 28-day rate, and weather does not change that.

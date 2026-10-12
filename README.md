@@ -27,6 +27,8 @@ python -m pipeline gold         # one step
 python -m pipeline --force      # also re-download the dataset
 python -m pipeline.baselines test   # score the baselines on the test split (default: validation)
 python -m pipeline.models --calendar utc   # the models with UTC instead of Kyiv calendar features
+python -m pipeline weather                  # download weather (Open-Meteo) for the weather experiment
+python -m pipeline models --weather oracle  # weather experiment: upper bound with actual (future) weather
 ```
 
 The download is skipped when the file is already there at the pinned commit. Silver and gold take a few seconds and are always rebuilt.
@@ -41,6 +43,8 @@ The download is skipped when the file is already there at the pinned commit. Sil
 | `features` | `data/features/origins.parquet` | One row per raion per forecast origin (every UTC hour) with features computed only from data before it, and its split (train / validation / test). |
 | `baselines` | `reports/baselines_validation*.csv` | Brier score of the baselines per horizon, and skill against the 28-day rate overall and per alert-rate band. |
 | `models` | `reports/models_validation*.csv`, `reports/*.png` | Trains logistic regression (one per horizon) and LightGBM on train origins (about 2 minutes) and scores them on validation with the baselines; writes the charts. |
+| `weather` (not in `all`) | `data/bronze/weather/*.json`, `data/silver/weather_actual.parquet`, `data/silver/weather_forecast.parquet` | Downloads hourly weather per oblast centre from Open-Meteo (ERA5 actual weather and day-ahead `_previous_day2` forecasts; points from `data/reference/oblast_centers.json`) and builds one row per hour and oblast. Used only by the weather experiment. |
+| `models --weather oracle` / `forecast` | `reports/models_validation_weather_*.csv` | Weather experiment: logistic regression with and without weather at the target hour, on validation. `oracle` uses the actual weather (leaky, an upper bound). Weather was **not adopted** (see `docs/PROBLEM.md`, "Weather experiment"). |
 
 Silver cleaning:
 - removes exact duplicates (38% of rows)
@@ -69,7 +73,7 @@ To regenerate the English regions file: `python scripts/translate_regions.py`.
 
 ## Layout
 ```
-data/reference/   regions.json, regions_uk.json   (committed)
+data/reference/   regions.json, regions_uk.json, oblast_centers.json   (committed)
 data/bronze/      raw downloaded data              (generated)
 data/silver/      cleaned alerts                   (generated)
 data/gold/        daily and hourly alerts per raion (generated)
