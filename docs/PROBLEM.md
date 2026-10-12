@@ -35,15 +35,15 @@ This replaces the earlier target (daily alert hours per raion for the next 7 day
 - **Choice rule:** LightGBM is kept as the final model only if it beats logistic regression by more than the bootstrap uncertainty. Otherwise logistic regression is the final model.
 
 **Features** (all computed at the origin):
-- Current state: under alert now; how long the current alert or quiet spell has lasted.
-- Recent history: share of the last 1, 3, 6, 24 and 168 hours under alert; number of alerts in the last 24 hours.
+- Current state: under alert at the origin (an alert started before it and not yet ended); how long the current alert or quiet spell has lasted (since the data start if the raion had no alert yet).
+- Recent history: share of the last 1, 3, 6, 24, 168 and 672 hours under alert (672 h is the 28-day rate baseline, so the models can start from it); number of alerts started in the last 24 hours.
 - Context: share of the raion's oblast and of the whole country under alert now.
 - Calendar: hour of day and day of week of the target hour in **Kyiv local time**; horizon. Labels, splits and storage stay in UTC. UTC calendar features are tried once on validation, and Kyiv time is kept only if it is at least as good.
 - IDs: raion and oblast as categories.
 
 ## Metrics
 - **Brier score** (main): mean of (probability − outcome)², overall and per horizon 1–24.
-- **Brier skill score** against the 28-day rate: overall and **per alert-rate band** (<10%, 10–20%, 20–60%, >60% of time under alert). Bands are fixed from the 12 weeks before the test start (2026-04-20 → 2026-07-12), never from the test period.
+- **Brier skill score** against the 28-day rate: overall and **per alert-rate band** (<10%, 10–20%, 20–60%, >60% of time under alert). Bands are measured over the 12 weeks before the start of the evaluated split (for test: 2026-04-20 → 2026-07-12), never from the split itself.
 - **Log loss**, **calibration** (reliability diagram) and **ROC-AUC** (secondary).
 
 Plots: Brier by horizon (models vs baselines), reliability diagram, probability vs actual alerts for 2–3 example raions, feature importance.
@@ -82,3 +82,16 @@ Measured on the hourly labels before modelling, to pick the baseline and feature
 - Baselines on the test weeks (Brier, origins every 3 h): persistence 0.108 at +1 h but 0.183 on average; 28-day rate 0.107 on average; hour-of-day rate 0.109. Alerts switch on and off often, so persistence is only useful for the first hour or so.
 - Alert start times (2025–2026) line up better between winter and summer on the **Kyiv clock** (correlation 0.81) than on the UTC clock (0.73). This is why calendar features use Kyiv time.
 - Raions by share of time under alert in the 12 weeks before the test start: 69 under 10%, 14 at 10–20%, 17 at 20–60%, 19 over 60%. Most raions are quiet, which is why skill is reported per band.
+
+## Baselines on validation (2026-10-12)
+`python -m pipeline baselines`: 1,321 origins × 119 raions × 24 horizons = 3.77M forecasts. Results in `reports/`.
+
+| Baseline | Brier +1 h | Brier +6 h | Brier +24 h | Skill vs 28-day rate (95% interval) |
+|---|---|---|---|---|
+| Persistence | 0.081 | 0.182 | 0.189 | −0.78 (−0.83 … −0.74) |
+| 28-day rate | 0.102 | 0.102 | 0.102 | 0 (reference) |
+| Hour-of-day rate | 0.103 | 0.102 | 0.102 | −0.005 (−0.015 … 0.004) |
+
+- Persistence beats the 28-day rate only at +1 h. With the exact alert state at the origin it does better at +1 h (0.081) than in the earlier quick check (0.108), which used the whole-hour flag of the hour before.
+- The hour of day adds nothing on top of the 28-day rate.
+- Validation bands (12 weeks before 2026-05-18): 48 raions <10%, 18 at 10–20%, 27 at 20–60%, 26 ≥60%. Brier of the 28-day rate: 0.044, 0.123, 0.215 and 0.077. The 20–60% band is where most of the error is.

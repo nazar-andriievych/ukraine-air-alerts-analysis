@@ -2,6 +2,7 @@
 data/bronze/
 data/silver/
 data/gold/
+data/features/
 
 # Python
 __pycache__/

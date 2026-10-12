@@ -25,6 +25,7 @@ python -m venv .venv
 python -m pipeline              # all steps
 python -m pipeline gold         # one step
 python -m pipeline --force      # also re-download the dataset
+python -m pipeline.baselines test   # score the baselines on the test split (default: validation)
 ```
 
 The download is skipped when the file is already there at the pinned commit. Silver and gold take a few seconds and are always rebuilt.
@@ -35,6 +36,9 @@ The download is skipped when the file is already there at the pinned commit. Sil
 | `silver` | `data/silver/alerts.parquet` | Cleans the alerts. One row per source alert, with oblast/raion/hromada uids. |
 | `gold` | `data/gold/raion_daily.parquet` | Alert hours per raion per UTC day. |
 |  | `data/gold/raion_hourly.parquet` | 1 if the raion was under alert at any moment in the UTC hour, else 0: the forecasting target. |
+|  | `data/gold/raion_intervals.parquet` | Merged alert intervals per raion (no overlaps). |
+| `features` | `data/features/origins.parquet` | One row per raion per forecast origin (every UTC hour) with features computed only from data before it, and its split (train / validation / test). |
+| `baselines` | `reports/baselines_validation*.csv` | Brier score of the baselines per horizon, and skill against the 28-day rate overall and per alert-rate band. |
 
 Silver cleaning:
 - removes exact duplicates (38% of rows)
@@ -67,8 +71,10 @@ data/reference/   regions.json, regions_uk.json   (committed)
 data/bronze/      raw downloaded data              (generated)
 data/silver/      cleaned alerts                   (generated)
 data/gold/        daily and hourly alerts per raion (generated)
+data/features/    features per raion and origin    (generated)
 docs/             task and problem statement
 pipeline/         pipeline steps and config
+reports/          evaluation results
 scripts/          one-off helper scripts
-tests/            pytest tests for silver and gold
+tests/            pytest tests for every step
 ```

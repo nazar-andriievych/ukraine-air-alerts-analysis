@@ -3,7 +3,8 @@
 Usage: python -m pipeline.gold
 
 Input:  data/silver/alerts.parquet, data/reference/regions.json
-Output: data/gold/raion_daily.parquet   alert hours per raion per day
+Output: data/gold/raion_intervals.parquet  merged alert intervals per raion
+        data/gold/raion_daily.parquet   alert hours per raion per day
         data/gold/raion_hourly.parquet  1 if the raion was under alert at any moment in the hour
                                         (the forecasting target)
 
@@ -25,6 +26,7 @@ from pipeline.regions import load_raions
 
 OUTPUT = GOLD / "raion_daily.parquet"
 HOURLY_OUTPUT = GOLD / "raion_hourly.parquet"
+INTERVALS_OUTPUT = GOLD / "raion_intervals.parquet"
 COLUMNS = ["raion_uid", "raion", "oblast_uid", "oblast", "day", "alert_hours"]
 HOURLY_COLUMNS = ["raion_uid", "oblast_uid", "hour", "alert"]
 DAY = pd.Timedelta(days=1)
@@ -104,6 +106,7 @@ def build() -> None:
     hourly = hourly_table(intervals, raions, DATA_START, DATA_END)
 
     GOLD.mkdir(parents=True, exist_ok=True)
+    intervals.to_parquet(INTERVALS_OUTPUT, index=False)
     table.to_parquet(OUTPUT, index=False)
     hourly.to_parquet(HOURLY_OUTPUT, index=False)
     print(json.dumps({
